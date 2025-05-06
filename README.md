@@ -5,7 +5,7 @@
 ![Question Answering](https://img.shields.io/badge/Task-Question_Answering-red) 
 ![MCQA](https://img.shields.io/badge/Task-Multi--Choice--QA-red) 
 ![Industrial](https://img.shields.io/badge/Domain-Industrial--Assets-red) 
-![OpenAI](https://img.shields.io/badge/Model-Llama--3-21C2A4)
+![OpenAI](https://img.shields.io/badge/Model-Llama-21C2A4)
 ![Llama](https://img.shields.io/badge/Model-Llama-21C2A4)
 ![Mistral](https://img.shields.io/badge/Model-Mistral-21C2A4) 
 ![Granite](https://img.shields.io/badge/Model-Granite-21C2A4)
@@ -25,6 +25,15 @@ assets. Failure modes, rooted in the theoretical framework of reliability engine
 We introduce FailureSensorIQ, a multiple-choice QA dataset that explores the relationships between sensors and failure modes for 10 industrial assets. By only leveraging the information found in ISO documents, we developed a data generation pipeline that creates questions in two formats: (i) row-centric (FM2Sensor) and (ii) column-centric (Sensor2FM). Additionally, we designed questions
 in a selection vs. elimination format, taking advantage of the fact that the absence of an ✓ in a cell (as shown in Table 1) indicates irrelevant information. The FailureSensorIQ dataset consists of 8,296
 questions across 10 assets, with 2,667 single-correct-answer questions and 5,629 multi-correct-answer questions.
+
+### Asset Distribution: 
+Electric Motor (234), Steam Turbine (171), Aero Gas Turbine (336), Industrial Gas Turbine (240), Pump (152), Compressor (220), Reciprocating IC Engine (336), Electric Generator (234), Fan (200), Power Transformer (544)
+
+### Option Distribution: 
+Option A: 752, Option B: 729, Option C: 491, Option D: 408, Option E: 208
+
+### Distribution of Questions
+2-options: 487, 3-options: 266, 4-options: 389, 5-options: 1525
 
 ## 3. PertEval
 Recent literature highlights concerns about LLMs’ ability to reliably select the correct answer in multiple-choice questions, raising the question of whether models select an answer first and then generate reasoning or reason before choosing. The tendency to favor specific options introduces biases that vary across models and are hard to quantify. To address these challenges, we evaluate model performance on both the original (ST-MCQA) and a perturbed dataset, which underwent rigorous modifications. We adopted the [PertEval toolkit](https://github.com/aigc-apps/PertEval) enabled us to create a copy of the perturbed dataset. We developed two versions of the perturbed dataset: (i) SimplePert, which modifies the formatting of the questions by reordering the options, adding a right parenthesis to each option, and changing the option labels from A, B, C, etc., to P, Q, R, and so on. (ii) ComplexPert, apply all the question permutation as well as use LLM (llama-3-70b in this case) to change the questions also.
