@@ -1,48 +1,44 @@
 <div align="center">
 
-# Benchmarking LLMs via Uncertainty Quantification
+# FailureSensorIQ: A Multi-Choice QA Dataset for Understanding Sensor Relationships and Failure Modes
 
 ![Question Answering](https://img.shields.io/badge/Task-Question_Answering-red) 
-![RC](https://img.shields.io/badge/Task-Reading_Comprehension-red) 
-![CI](https://img.shields.io/badge/Task-Commonsense_Inference-red) 
-![DRS](https://img.shields.io/badge/Task-Dialogue_Response_Selection-red)
-![DS](https://img.shields.io/badge/Task-Document_Summarization-red)  
-![Llama-2](https://img.shields.io/badge/Model-Llama--2-21C2A4) 
+![MCQA](https://img.shields.io/badge/Task-Multi--Choice--QA-red) 
+![Industrial](https://img.shields.io/badge/Domain-Industrial--Assets-red) 
+![OpenAI](https://img.shields.io/badge/Model-OpenAI-21C2A4)
+![Llama](https://img.shields.io/badge/Model-Llama-21C2A4)
+![Gemma](https://img.shields.io/badge/Model-Gemma-21C2A4)
+![Phi](https://img.shields.io/badge/Model-Phi-21C2A4)
 ![Mistral](https://img.shields.io/badge/Model-Mistral-21C2A4) 
-![Falcon](https://img.shields.io/badge/Model-Falcon-21C2A4) 
-![MPT](https://img.shields.io/badge/Model-MPT-21C2A4)
-![Yi](https://img.shields.io/badge/Model-Yi-21C2A4)
+![Granite](https://img.shields.io/badge/Model-Granite-21C2A4)
 ![Qwen](https://img.shields.io/badge/Model-Qwen-21C2A4)
 ![DeepSeek](https://img.shields.io/badge/Model-DeepSeek-21C2A4)
-![InternLM](https://img.shields.io/badge/Model-InternLM-21C2A4)
 
-📰 [Paper](https://arxiv.org/abs/2401.12794), :card_file_box: [Datasets](https://huggingface.co/datasets/ErikYip/LLM-Uncertainty-Bench/tree/main)
+📰 [Paper](https://arxiv.org/abs/), 🤗 [Leaderboard](https://huggingface.co/spaces/cc4718/FailureSensorIQ)
 
 </div>
 
 ## 1. Introduction
-The proliferation of open-source Large Language Models (LLMs) from various institutions has highlighted the urgent need for comprehensive evaluation methods. However, current evaluation platforms, such as the widely recognized HuggingFace open LLM leaderboard, neglect a crucial aspect -- **uncertainty**, which is vital for thoroughly assessing LLMs. 
-
-<p align="center">
-  <img src="images/intro_exp.jpg" width="45%" />
-  <p align="center">Two LLMs can achieve the same accuracy score but demonstrate different levels of uncertainty.</p>
-</p>
-
-To bridge this gap, we introduce a new benchmarking approach for LLMs that integrates uncertainty quantification. Our examination involves eight LLMs (LLM series) spanning five representative natural language processing tasks. Additionally, we introduce an uncertainty-aware evaluation metric, UAcc, which takes into account both prediction accuracy and prediction uncertainty. Our findings reveal that: 
-
-* **LLMs with higher accuracy may exhibit lower certainty**;
-* **Larger-scale LLMs may display greater uncertainty compared to their smaller counterparts**;
-* **Instruction-finetuning tends to increase the uncertainty of LLMs**.
-  
-By taking uncertainty into account, our new UAcc metric can either amplify or diminish the relative improvement of one LLM over another and may even change the relative ranking of two LLMs, thus underscoring the significance of incorporating uncertainty in the evaluation of LLMs.
+As industries increasingly adopt autonomous AI agents, the need for models that can not only recall facts but also demonstrate a deep understanding of operational contexts—such as sensor relevance, fault prediction, and diagnostic reasoning—is paramount. Unlike traditional QA datasets, our dataset focuses on multiple aspects of reasoning through failure modes, sensor data, and the relationships between them across various industrial
+assets. Failure modes, rooted in the theoretical framework of reliability engineering, represent potential points of failure within an asset or system. In contrast, sensors are physical manifestations that collect real-time data from operational systems. By combining these two concepts, our proposed dataset offers an opportunity to assess an LLM’s ability to reason across both theoretical and real-world domains, providing insights into their capacity to understand complex industrial processes. 
 
 
-## 2. Uncertainty Quantification
-We propose the utilization of [conformal prediction](https://arxiv.org/abs/2107.07511) for uncertainty quantification in LLMs. Compared to other methods, conformal prediction offers multiple advantages including ease of implementation, high efficiency, and a statistically **rigorous** estimation of uncertainty rather than a heuristic approximation.
+## 2. Dataset
+We introduce FailureSensorIQ, a multiple-choice QA dataset that explores the relationships between sensors and failure modes for 10 industrial assets. By only leveraging the information found in ISO documents, we developed a data generation pipeline that creates questions in two formats: (i) row-centric (FM2Sensor) and (ii) column-centric (Sensor2FM). Additionally, we designed questions
+in a selection vs. elimination format, taking advantage of the fact that the absence of an ✓ in a cell (as shown in Table 1) indicates irrelevant information. The FailureSensorIQ dataset consists of 8,296
+questions across 10 assets, with 2,667 single-correct-answer questions and 5,629 multi-correct-answer questions.
 
-<p align="center">
-  <img src="images/diagram.png" width="90%" />
-  <p align="center">The overall process of applying conformal prediction for uncertainty quantification in LLMs.</p>
-</p>
+### Asset Distribution: 
+Electric Motor (234), Steam Turbine (171), Aero Gas Turbine (336), Industrial Gas Turbine (240), Pump (152), Compressor (220), Reciprocating IC Engine (336), Electric Generator (234), Fan (200), Power Transformer (544)
 
+### Option Distribution: 
+Option A: 752, Option B: 729, Option C: 491, Option D: 408, Option E: 208
 
+### Distribution of Questions
+2-options: 487, 3-options: 266, 4-options: 389, 5-options: 1525
+
+## 3. PertEval
+Recent literature highlights concerns about LLMs’ ability to reliably select the correct answer in multiple-choice questions, raising the question of whether models select an answer first and then generate reasoning or reason before choosing. The tendency to favor specific options introduces biases that vary across models and are hard to quantify. To address these challenges, we evaluate model performance on both the original (ST-MCQA) and a perturbed dataset, which underwent rigorous modifications. We adopted the [PertEval toolkit](https://github.com/aigc-apps/PertEval) enabled us to create a copy of the perturbed dataset. We developed two versions of the perturbed dataset: (i) SimplePert, which modifies the formatting of the questions by reordering the options, adding a right parenthesis to each option, and changing the option labels from A, B, C, etc., to P, Q, R, and so on. (ii) ComplexPert, apply all the question permutation as well as use LLM (llama-3-70b in this case) to change the questions also.
+
+## 4. Uncertainty Quantification
+We adopt the [LLM Uncertainty Bench framework](https://github.com/smartyfh/LLM-Uncertainty-Bench) to assess model uncertainty in multi-choice question answering. Each LLM is prompted with their Base Prompting method to output prediction probabilities for all answer options. To calibrate uncertainty estimates, we partition the dataset by asset type into a calibration set and a test set. Using the calibration set, we compute conformal scores that define a confidence threshold ˆq. For the test set, any answer option with a probability exceeding ˆq is selected as a prediction. This approach allows a variable number of predicted options per question, ranging from zero to all available choices.
