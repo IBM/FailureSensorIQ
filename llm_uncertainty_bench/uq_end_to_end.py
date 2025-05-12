@@ -1,16 +1,18 @@
 import subprocess
 
-def run_uq_benchmark(model_name):
-    command = f'cd llm_uncertainty_bench && ./run.sh {model_name}'
+def run_uq_benchmark(model_name, prompt_type='chat'):
+    command = f'cd llm_uncertainty_bench && ./run.sh {model_name} {prompt_type}'
     result = subprocess.run(
         command,
         capture_output = True, # Python >= 3.7 only
         text = True, # Python >= 3.7 only
         shell=True
     )
-    keyword = 'Average UAcc'
+    result_dict = {}
+    print(result.stdout)
     for line in result.stdout.split('\n'):
-        if keyword in line:
-            uq_score = float(line.split(':')[-1])
-            break
-    return uq_score
+        if ':' in line:
+            k, v = [item.lower().strip().replace(' ', '_') for item in line.split(':')]
+            v = float(v) / 100
+            result_dict[k] = v
+    return result_dict
