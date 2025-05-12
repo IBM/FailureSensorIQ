@@ -302,7 +302,7 @@ def knowledge_invariance_analysis(original_data_path, perturbed_data_path,
         print(f'Edit distance = {np.median(subject_edit_distances).round(2)} +- {np.std(subject_edit_distances).round(2)}')
         print(f'Knowledge invariance score = {np.mean(subject_scores).round(2)} +- {np.std(subject_scores).round(2)}\n')
 
-def get_record_id_for_correct_answer(log_path: str, dimention="asset_name", fdata_path="data/fmsr_filtered_data_all.jsonl"):
+def get_record_id_for_correct_answer(log_path: str, dimention="asset_name", fdata_path="eval_data/industrial_mcp_original.jsonl"):
     data = load_from_jsonl(log_path)
     data = sorted(data, key=lambda x: x["id"])
     fdata = load_from_jsonl(fdata_path)
