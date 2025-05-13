@@ -1,0 +1,853 @@
+[
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "Which component is most likely to fail in a centrifugal pump handling high-viscosity fluids?",
+        "choices": {
+            "A": "Impeller",
+            "B": "Bearings",
+            "C": "Piston",
+            "D": "Seal"
+        },
+        "answer": "D",
+        "id": 0,
+        "asset_name": "centrifugal pump"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "What would happen if the impeller of a positive displacement pump breaks?",
+        "choices": {
+            "A": "Fluid flow increases",
+            "B": "Pump will stop moving fluid",
+            "C": "Impeller will keep rotating",
+            "D": "None of the above"
+        },
+        "answer": "D",
+        "id": 1,
+        "asset_name": "impeller"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "A burnt rotor winding in an electric motor is likely to cause what symptom?",
+        "choices": {
+            "A": "Overheating",
+            "B": "Decrease in voltage supply",
+            "C": "Higher vibration",
+            "D": "Reduced noise"
+        },
+        "answer": "A",
+        "id": 2,
+        "asset_name": "electric motor"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "Which sensor is most useful to detect a bearing failure in an electric motor?",
+        "choices": {
+            "A": "Pressure sensor",
+            "B": "Vibration sensor",
+            "C": "Current sensor",
+            "D": "Temperature sensor"
+        },
+        "answer": "B",
+        "id": 3,
+        "asset_name": "electric motor"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "Which sensor is NOT useful to detect knocking in an internal combustion engine?",
+        "choices": {
+            "A": "Vibration sensor",
+            "B": "Microphone sensor",
+            "C": "Speed sensor",
+            "D": "Oxygen sensor"
+        },
+        "answer": "D",
+        "id": 4,
+        "asset_name": "internal combustion engine"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "What happens if the screw mechanism fails in a reciprocating compressor?",
+        "choices": {
+            "A": "Pressure drops",
+            "B": "Increased temperature",
+            "C": "No change",
+            "D": "there is no screw in this type of compressor"
+        },
+        "answer": "D",
+        "id": 5,
+        "asset_name": "reciprocating compressor"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "Which sensor can best detect a valve leakage in a reciprocating compressor?",
+        "choices": {
+            "A": "Speed sensor",
+            "B": "Temperature sensor",
+            "C": "Acoustic sensor",
+            "D": "Light sensor"
+        },
+        "answer": "C",
+        "id": 6,
+        "asset_name": "generator"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "A generator that shows power fluctuation but normal voltage likely has issues in:",
+        "choices": {
+            "A": "Bearings",
+            "B": "Load control system",
+            "C": "Rotor cooling",
+            "D": "Voltage regulator"
+        },
+        "answer": "B",
+        "id": 7,
+        "asset_name": "industrial pump"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "Which of the following components would NEVER be found in any industrial pump?",
+        "choices": {
+            "A": "Impeller",
+            "B": "Shaft",
+            "C": "Spark plug",
+            "D": "Seal"
+        },
+        "answer": "C",
+        "id": 8,
+        "asset_name": "centrifugal pump"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "What symptom is most likely if a centrifugal pump operates without liquid (dry run)?",
+        "choices": {
+            "A": "Cavitation",
+            "B": "Seal gets damaged",
+            "C": "Reduced noise",
+            "D": "Increased flow"
+        },
+        "answer": "B",
+        "id": 9,
+        "asset_name": "gearbox"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "Which sensor is LEAST effective in detecting an early stage gearbox failure?",
+        "choices": {
+            "A": "Vibration sensor",
+            "B": "Acoustic sensor",
+            "C": "Speed sensor",
+            "D": "Temperature sensor"
+        },
+        "answer": "D",
+        "id": 10,
+        "asset_name": "hydraulic system"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "In a hydraulic system, a drop in pressure with no visible leaks likely indicates:",
+        "choices": {
+            "A": "Sensor fault",
+            "B": "Pump cavitation",
+            "C": "Air in the system",
+            "D": "Valve failure"
+        },
+        "answer": "C",
+        "id": 11,
+        "asset_name": "electric motor"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "Which component would most likely cause a sudden spike in current in an electric motor?",
+        "choices": {
+            "A": "Shaft misalignment",
+            "B": "Rotor imbalance",
+            "C": "Stuck rotor",
+            "D": "Bearing wear"
+        },
+        "answer": "C",
+        "id": 12,
+        "asset_name": "pump"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "Which sensor would most reliably detect early cavitation in a pump?",
+        "choices": {
+            "A": "Pressure sensor",
+            "B": "Acoustic sensor",
+            "C": "Vibration sensor",
+            "D": "Temperature sensor"
+        },
+        "answer": "B",
+        "id": 13,
+        "asset_name": "piston compressor"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "A piston compressor starts vibrating excessively; which is the most likely cause?",
+        "choices": {
+            "A": "Rotor imbalance",
+            "B": "Valve wear",
+            "C": "Broken crankshaft",
+            "D": "Cooling fan misalignment"
+        },
+        "answer": "C",
+        "id": 14,
+        "asset_name": "rotor"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "Which sensor would NOT help identify an unbalanced rotor?",
+        "choices": {
+            "A": "Vibration sensor",
+            "B": "Speed sensor",
+            "C": "Acoustic sensor",
+            "D": "Voltage sensor"
+        },
+        "answer": "D",
+        "id": 15,
+        "asset_name": "centrifugal pump"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "What happens if a mechanical seal fails in a centrifugal pump?",
+        "choices": {
+            "A": "Pressure increases",
+            "B": "The impeller breaks",
+            "C": "Fluid leakage occurs",
+            "D": "The shaft stops rotating"
+        },
+        "answer": "C",
+        "id": 16,
+        "asset_name": "screw compressor"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "A screw compressor is producing lower pressure than normal; what is the LEAST likely cause?",
+        "choices": {
+            "A": "Suction valve stuck open",
+            "B": "Internal leakage",
+            "C": "Worn rotor lobes",
+            "D": "Crankshaft failure"
+        },
+        "answer": "D",
+        "id": 17,
+        "asset_name": "motor"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "Which of the following is NOT a typical symptom of bearing failure in a motor?",
+        "choices": {
+            "A": "Increased vibration",
+            "B": "Audible noise",
+            "C": "Overheating",
+            "D": "Lower voltage output"
+        },
+        "answer": "D",
+        "id": 18,
+        "asset_name": "hydraulic piston actuator"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "What sensor would MOST EFFECTIVELY detect internal leakage in a hydraulic piston actuator?",
+        "choices": {
+            "A": "Temperature sensor",
+            "B": "Position sensor",
+            "C": "Pressure sensor",
+            "D": "None of the above"
+        },
+        "answer": "B",
+        "id": 19,
+        "asset_name": "other"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "A vibration sensor detects a consistent spike at the same RPM; this most likely indicates:",
+        "choices": {
+            "A": "Voltage issue",
+            "B": "Shaft misalignment",
+            "C": "Seal wear",
+            "D": "Oil contamination"
+        },
+        "answer": "B",
+        "id": 20,
+        "asset_name": "lobe pump"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "If a lobe pump starts overheating, what is the most likely cause?",
+        "choices": {
+            "A": "Excessive flow",
+            "B": "Dry run",
+            "C": "Suction blockage",
+            "D": "High pressure"
+        },
+        "answer": "B",
+        "id": 21,
+        "asset_name": "motor-coupled pump"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "Which sensor combination is most effective for diagnosing misalignment in motor-coupled pumps?",
+        "choices": {
+            "A": "Vibration + Temperature",
+            "B": "Speed + Voltage",
+            "C": "Pressure + Flow",
+            "D": "Light + Sound"
+        },
+        "answer": "A",
+        "id": 22,
+        "asset_name": "piezoelectric sensors"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "Which is a FALSE statement about piezoelectric sensors?",
+        "choices": {
+            "A": "They detect high-frequency vibrations",
+            "B": "They are useful for cavitation detection",
+            "C": "They require external power to function",
+            "D": "They are commonly used in rotating machinery"
+        },
+        "answer": "C",
+        "id": 23,
+        "asset_name": "other"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "Which failure would likely produce a sudden and sharp increase in vibration?",
+        "choices": {
+            "A": "Gradual wear",
+            "B": "Rotor crack",
+            "C": "Shaft misalignment",
+            "D": "Motor overheating"
+        },
+        "answer": "B",
+        "id": 24,
+        "asset_name": "internal combustion engine"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "In an internal combustion engine, high-frequency knock is BEST detected by:",
+        "choices": {
+            "A": "Oxygen sensor",
+            "B": "Accelerometer",
+            "C": "Thermocouple",
+            "D": "Pressure switch"
+        },
+        "answer": "B",
+        "id": 25,
+        "asset_name": "centrifugal pump"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "A centrifugal pump is producing low flow but pressure is high; what\u2019s the most likely reason?",
+        "choices": {
+            "A": "Air in the suction line",
+            "B": "Blocked discharge valve",
+            "C": "Seal failure",
+            "D": "Motor failure"
+        },
+        "answer": "B",
+        "id": 26,
+        "asset_name": "other"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "If a vibration sensor shows rhythmic oscillations at low frequency, the likely issue is:",
+        "choices": {
+            "A": "Cavitation",
+            "B": "Motor short",
+            "C": "Misalignment",
+            "D": "Electrical noise"
+        },
+        "answer": "C",
+        "id": 27,
+        "asset_name": "other"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "What is the role of a Hall effect sensor in an electric motor?",
+        "choices": {
+            "A": "Detect temperature",
+            "B": "Measure shaft speed",
+            "C": "Sense vibration",
+            "D": "Track oil condition"
+        },
+        "answer": "B",
+        "id": 28,
+        "asset_name": "electric motor"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "A thermal sensor detects rapid heating in a transformer; likely cause?",
+        "choices": {
+            "A": "External vibration",
+            "B": "Electric Overload",
+            "C": "Fluid leak",
+            "D": "Fan misalignment",
+            "E": "a failure in the cooling system (C or D) will also cause a temperature rise, but it will not be as rapid unless the failure is catastrophic (much less common)"
+        },
+        "answer": "B",
+        "id": 29,
+        "asset_name": "transformer"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "Which sensor is LEAST helpful in diagnosing fluid leakage in a closed system?",
+        "choices": {
+            "A": "Pressure sensor",
+            "B": "Flow meter",
+            "C": "Acoustic sensor",
+            "D": "Voltage sensor"
+        },
+        "answer": "D",
+        "id": 30,
+        "asset_name": "other"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "Which failure is most likely if both vibration and temperature rise steadily over days?",
+        "choices": {
+            "A": "Electrical short",
+            "B": "Gradual bearing wear",
+            "C": "Oil contamination",
+            "D": "Sensor fault"
+        },
+        "answer": "B",
+        "id": 31,
+        "asset_name": "other"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "Which device is used to detect rotational imbalance in fans and blowers?",
+        "choices": {
+            "A": "Thermocouple",
+            "B": "Optical tachometer",
+            "C": "RTD sensor",
+            "D": "Pressure switch"
+        },
+        "answer": "B",
+        "id": 32,
+        "asset_name": "fan and blower"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "Which component failure is most associated with abnormal acoustic patterns in reciprocating compressors?",
+        "choices": {
+            "A": "Piston ring wear",
+            "B": "Electrical short",
+            "C": "Motor insulation failure",
+            "D": "Voltage drop"
+        },
+        "answer": "A",
+        "id": 33,
+        "asset_name": "reciprocating compressor"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "A pump produces abnormal noise only under high load; the likely issue is:",
+        "choices": {
+            "A": "Motor undersizing",
+            "B": "Suction blockage",
+            "C": "Cavitation",
+            "D": "Shaft seal misalignment"
+        },
+        "answer": "C",
+        "id": 34,
+        "asset_name": "pump"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "A motor shows a sudden drop in RPM without load change; suspect:",
+        "choices": {
+            "A": "Thermal overload",
+            "B": "Misalignment",
+            "C": "Rotor winding issue",
+            "D": "Seal wear"
+        },
+        "answer": "C",
+        "id": 35,
+        "asset_name": "motor"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "Which sensor type detects change in magnetic field due to component movement?",
+        "choices": {
+            "A": "RTD",
+            "B": "Hall sensor",
+            "C": "Ultrasonic",
+            "D": "Thermocouple"
+        },
+        "answer": "B",
+        "id": 36,
+        "asset_name": "other"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "An acoustic sensor identifies irregular pulses in a piston pump; most likely cause?",
+        "choices": {
+            "A": "Air in fluid",
+            "B": "Motor overheating",
+            "C": "Vibration sensor failure",
+            "D": "Worn seal"
+        },
+        "answer": "A",
+        "id": 37,
+        "asset_name": "piston pump"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "What component is NOT present in a diaphragm pump?",
+        "choices": {
+            "A": "Diaphragm",
+            "B": "Solenoid",
+            "C": "Piston",
+            "D": "Check valve"
+        },
+        "answer": "C",
+        "id": 38,
+        "asset_name": "diaphragm pump"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "Which sensor would best confirm a blocked discharge line in a pump system?",
+        "choices": {
+            "A": "Pressure sensor",
+            "B": "Temperature sensor",
+            "C": "Vibration sensor",
+            "D": "Hall sensor"
+        },
+        "answer": "A",
+        "id": 39,
+        "asset_name": "pump"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "What happens if a lube oil line is clogged in a turbine system?",
+        "choices": {
+            "A": "RPM increases",
+            "B": "Bearings fail",
+            "C": "Temperature drops",
+            "D": "Voltage spikes"
+        },
+        "answer": "B",
+        "id": 40,
+        "asset_name": "turbine"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "Which sensor would help detect water contamination in oil?",
+        "choices": {
+            "A": "Acoustic",
+            "B": "Dielectric",
+            "C": "Optical",
+            "D": "Thermocouple"
+        },
+        "answer": "B",
+        "id": 41,
+        "asset_name": "other"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "What is the most likely symptom of insulation breakdown in a motor stator?",
+        "choices": {
+            "A": "Voltage drop",
+            "B": "Excessive noise",
+            "C": "High temperature",
+            "D": "Current imbalance"
+        },
+        "answer": "D",
+        "id": 42,
+        "asset_name": "motor"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "If the suction line of a pump has a small crack, the pressure sensor may show:",
+        "choices": {
+            "A": "Steady high pressure",
+            "B": "Irregular low pressure",
+            "C": "Normal pressure",
+            "D": "No change"
+        },
+        "answer": "B",
+        "id": 43,
+        "asset_name": "pump"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "What would an increase in current and decrease in RPM suggest in a motor-pump assembly?",
+        "choices": {
+            "A": "Worn bearings",
+            "B": "Seal failure",
+            "C": "Rotor jam",
+            "D": "Oil contamination"
+        },
+        "answer": "C",
+        "id": 44,
+        "asset_name": "motor-pump"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "Which component in a pump is most prone to erosion when handling abrasive fluids?",
+        "choices": {
+            "A": "Shaft",
+            "B": "Impeller",
+            "C": "Bearings",
+            "D": "None of the above"
+        },
+        "answer": "B",
+        "id": 45,
+        "asset_name": "pump"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "A drop in both current and pressure likely means:",
+        "choices": {
+            "A": "Flow increase",
+            "B": "Pump off",
+            "C": "Sensor fault",
+            "D": "Air lock"
+        },
+        "answer": "B",
+        "id": 46,
+        "asset_name": "other"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "Which failure is MOST likely to generate high-frequency vibration only?",
+        "choices": {
+            "A": "Loose foundation",
+            "B": "Cavitation",
+            "C": "Shaft imbalance",
+            "D": "Misalignment"
+        },
+        "answer": "B",
+        "id": 47,
+        "asset_name": "other"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "What\u2019s the best sensor combo to detect shaft wear and misalignment?",
+        "choices": {
+            "A": "Vibration + Speed",
+            "B": "Vibration + Acoustic",
+            "C": "Acoustic + Temperature",
+            "D": "Speed + Voltage"
+        },
+        "answer": "A",
+        "id": 48,
+        "asset_name": "shaft"
+    },
+    {
+        "source": "FMSR",
+        "task": "QA",
+        "subject": "miscellaneous",
+        "subcategory": "other",
+        "supcategory": "industrial",
+        "question": "What is the most likely failure mode of the stator in a diesel engine?",
+        "choices": {
+            "A": "Overheating due to load",
+            "B": "Insulation breakdown",
+            "C": "Shorted windings",
+            "D": "A diesel engine has no stator"
+        },
+        "answer": "D",
+        "id": 49,
+        "asset_name": "diesel engine"
+    }
+]

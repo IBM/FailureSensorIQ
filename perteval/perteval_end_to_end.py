@@ -17,16 +17,16 @@ def get_perteval_results(model_name, mode='original', cot='cot_standard'):
                 break
         except:
             pass
-        print(f'error retrying in 10 seconds')
+        print(f'waiting for vllm to launch. Retrying in 10 seconds')
         time.sleep(10)
         n_retries -= 1
     model = ChatGPT(base_url="http://localhost:8003/v1", model=model_name, api_key='empty')
     test_subjects = ['failure_mode_sensor_analysis']
     if mode == 'original':
-        test_data_path = "./eval_data/fmsr_processed/fmsr_filtered_data_all.jsonl"
+        test_data_path = "./eval_data/industrial_mcp_original.jsonl"
         log_path_prefix = "./log/fmsr_filtered_data_all_"
     elif mode == 'perturb':
-        test_data_path = "./eval_data/fmsr_processed/fmsr_filtered_perturbed_data_all_llama.jsonl"
+        test_data_path = "./eval_data/industrial_mcp_perturbed.jsonl"
         log_path_prefix = "./log/fmsr_filtered_perturbed_data_all_llama_"
     else:
         raise ValueError(f'Invalid perteval mode {mode}')
