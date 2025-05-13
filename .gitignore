@@ -115,7 +115,6 @@ ipython_config.py
 llm_uncertainty_bench/outputs_chat_v1/*
 llm_uncertainty_bench/outputs_chat_v2/*
 llm_uncertainty_bench/outputs_base/*
-run_eval.ipynb
 .pdm.toml
 .pdm-python
 .pdm-build/
