@@ -9,7 +9,7 @@ import signal
 import requests
 def get_perteval_results(model_name, mode='original', cot='cot_standard'):
     proc = subprocess.Popen(["vllm", "serve", model_name, "--port", "8003"], preexec_fn=os.setsid)
-    n_retries = 20
+    n_retries = 150
     while n_retries > 0:
         try:
             response = requests.get('http://localhost:8003/v1/models')
