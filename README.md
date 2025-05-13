@@ -24,7 +24,7 @@ assets. Failure modes, rooted in the theoretical framework of reliability engine
 
 
 ## 2. Dataset
-We introduce FailureSensorIQ, a multiple-choice QA dataset that explores the relationships between sensors and failure modes for 10 industrial assets. By only leveraging the information found in ISO documents, we developed a data generation pipeline that creates questions in two formats: (i) row-centric (FM2Sensor) and (ii) column-centric (Sensor2FM). Additionally, we designed questions
+We introduce FailureSensorIQ, a Multi-Choice QA (MCQA) dataset that explores the relationships between sensors and failure modes for 10 industrial assets. By only leveraging the information found in ISO documents, we developed a data generation pipeline that creates questions in two formats: (i) row-centric (FM2Sensor) and (ii) column-centric (Sensor2FM). Additionally, we designed questions
 in a selection vs. elimination format, taking advantage of the fact that the absence of an ✓ in a cell (as shown in Table 1) indicates irrelevant information. The FailureSensorIQ dataset consists of 8,296
 questions across 10 assets, with 2,667 single-correct-answer questions and 5,629 multi-correct-answer questions.
 
@@ -37,8 +37,24 @@ Option A: 752, Option B: 729, Option C: 491, Option D: 408, Option E: 208
 ### Distribution of Questions
 2-options: 487, 3-options: 266, 4-options: 389, 5-options: 1525
 
+### Eval and test set
+In this repo, we release 50 expert curated MCQA for different assets as a validation set to be able to run the pipeline and see the results. We keep the 2667 MCQA private and we use this same pipeline to update the scores on Hugging Face leaderboard.
+
 ## 3. PertEval
 Recent literature highlights concerns about LLMs’ ability to reliably select the correct answer in multiple-choice questions, raising the question of whether models select an answer first and then generate reasoning or reason before choosing. The tendency to favor specific options introduces biases that vary across models and are hard to quantify. To address these challenges, we evaluate model performance on both the original (ST-MCQA) and a perturbed dataset, which underwent rigorous modifications. We adopted the [PertEval toolkit](https://github.com/aigc-apps/PertEval) enabled us to create a copy of the perturbed dataset. We developed two versions of the perturbed dataset: (i) SimplePert, which modifies the formatting of the questions by reordering the options, adding a right parenthesis to each option, and changing the option labels from A, B, C, etc., to P, Q, R, and so on. (ii) ComplexPert, apply all the question permutation as well as use LLM (llama-3-70b in this case) to change the questions also.
 
 ## 4. Uncertainty Quantification
-We adopt the [LLM Uncertainty Bench framework](https://github.com/smartyfh/LLM-Uncertainty-Bench) to assess model uncertainty in multi-choice question answering. Each LLM is prompted with their Base Prompting method to output prediction probabilities for all answer options. To calibrate uncertainty estimates, we partition the dataset by asset type into a calibration set and a test set. Using the calibration set, we compute conformal scores that define a confidence threshold ˆq. For the test set, any answer option with a probability exceeding ˆq is selected as a prediction. This approach allows a variable number of predicted options per question, ranging from zero to all available choices.
+We adopt the [LLM Uncertainty Bench framework](https://github.com/smartyfh/LLM-Uncertainty-Bench) to assess model uncertainty in Multi-Choice Question Answering. Each LLM is prompted with their Base Prompting method to output prediction probabilities for all answer options. To calibrate uncertainty estimates, we partition the dataset by asset type into a calibration set and a test set. Using the calibration set, we compute conformal scores that define a confidence threshold ˆq. For the test set, any answer option with a probability exceeding ˆq is selected as a prediction. This approach allows a variable number of predicted options per question, ranging from zero to all available choices.
+
+## Getting started
+Tested with `python 3.10.4`
+```
+git clone --recurse-submodules https://github.com/IBM/FailureSensorIQ.git
+```
+## Running the evaluation pipeline
+```
+python run_eval.py <hf-model-id>
+```
+If no argument is given, the code will fetch all the pending models for evaluation from huggingface and run them on the 50 validation questions.  
+
+If everything ran successfully you should be able to see the performance metrics under `results/demo-leaderboard/gpt2-demo/results_<model-name>.json`
