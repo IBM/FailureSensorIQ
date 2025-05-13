@@ -58,3 +58,9 @@ python run_eval.py <hf-model-id>
 If no argument is given, the code will fetch all the pending models for evaluation from huggingface and run them on the 50 validation questions.  
 
 If everything ran successfully you should be able to see the performance metrics under `results/demo-leaderboard/gpt2-demo/results_<model-name>.json`
+
+## Troubleshooting
+Sometimes if something crashes the vllm child process may be still running occupying memory in the GPU. We use the following to kill any jobs occupying GPU memory:
+```
+nvidia-smi | grep 'python' | awk '{ print $5 }' | xargs -n1 kill -9
+```
