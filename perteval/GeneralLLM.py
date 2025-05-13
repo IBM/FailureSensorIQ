@@ -6,8 +6,8 @@ import google.generativeai as genai
 from http import HTTPStatus
 from openai import OpenAI
 from zhipuai import ZhipuAI
-from industrialqa_fmsr.wrapper.watsonx_llm import get_chat_response
-from industrialqa_fmsr.wrapper.model_inference import get_llm_response
+from watsonx_llm import get_chat_response
+from model_inference import get_llm_response
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 
