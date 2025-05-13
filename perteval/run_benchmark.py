@@ -65,8 +65,8 @@ def test_dataset(data: list, model: LargeLanguageModel, trigger_statement: Optio
         # --- END: Control response time ---
         if n_complete % 10 == 0:
             logging.info(f"One thread {n_complete} / {len(data)} samples completed.")
-        if n_complete == 2:
-            break
+        # if n_complete == 2:
+            # break
     return results
 
 
