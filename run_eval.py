@@ -60,7 +60,7 @@ else:
 print(models_todo)
 
 
-# In[5]:
+# In[14]:
 
 
 for model_name in models_todo:
@@ -91,10 +91,10 @@ for model_name in models_todo:
                 "acc": original
             },
             "acc_sel": {
-                "acc_sel": relevancy_scores['relevant_sensors_for_failure_mode']
+                "acc_sel": relevancy_scores['relevant_sensor_for_failure_mode']
             },
             "acc_el": {
-                "acc_el": relevancy_scores['irrelevant_sensors_for_failure_mode']
+                "acc_el": relevancy_scores['irrelevant_sensor_for_failure_mode']
             },
             "acc_perturb": {
                 "perturb_score": perturb
@@ -107,8 +107,8 @@ for model_name in models_todo:
     for k, v in uq_scores.items():
         result_dict['results'][k] = {k: v}
     for asset in asset_scores:
-        asset = asset.lower().replace(' ', '_')
-        result_dict['results'][f'acc_{asset}'] = asset_scores[asset]
+        asset_lower = asset.lower().replace(' ', '_')
+        result_dict['results'][f'acc_{asset_lower}'] = asset_scores[asset]
     out_model_name = model_name.replace('/', '--')
     out_fname = f'results/demo-leaderboard/gpt2-demo/results_{out_model_name}.json'
     with open(out_fname, 'w') as f:
