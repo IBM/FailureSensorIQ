@@ -1,4 +1,4 @@
-Minor modifications to split by assets, support more models and introduce our dataset. [Original Maintained Repo](https://github.com/smartyfh/LLM-Uncertainty-Bench)
+**Minor modifications to split by assets, support more models and introduce our dataset. [Original Maintained Repo](https://github.com/smartyfh/LLM-Uncertainty-Bench)**
 <div align="center">
 
 # Benchmarking LLMs via Uncertainty Quantification
