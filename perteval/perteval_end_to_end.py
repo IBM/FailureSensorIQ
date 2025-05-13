@@ -8,6 +8,8 @@ import time
 import signal
 import requests
 def get_perteval_results(model_name, mode='original', cot='cot_standard'):
+    if not os.path.exists('log'):
+        os.mkdir('log')
     proc = subprocess.Popen(["vllm", "serve", model_name, "--port", "8003"], preexec_fn=os.setsid)
     n_retries = 150
     while n_retries > 0:

@@ -31,12 +31,6 @@ import time
 import subprocess
 
 
-# In[5]:
-
-
-# !nvidia-smi | grep 'python' | awk '{ print $5 }' | xargs -n1 kill -9
-
-
 # In[3]:
 
 
@@ -60,7 +54,7 @@ else:
 print(models_todo)
 
 
-# In[14]:
+# In[5]:
 
 
 for model_name in models_todo:
@@ -78,7 +72,7 @@ for model_name in models_todo:
     # dataset_path = 'data/fmsr'
     # accuracy, nll_loss_avg, ece_score_avg = run_uq(model_name=model_name, dataset_path=dataset_path)
     # uq bench
-    print('Running  LLM Uncertainty Bench')
+    print('Running LLM Uncertainty Bench')
     uq_scores = run_uq_benchmark(model_name)
     result_dict = {
         "config": {
@@ -107,7 +101,10 @@ for model_name in models_todo:
     for k, v in uq_scores.items():
         result_dict['results'][k] = {k: v}
     for asset in asset_scores:
-        asset_lower = asset.lower().replace(' ', '_')
+        if not asset:
+            asset_lower = 'other'
+        else:
+            asset_lower = asset.lower().replace(' ', '_')
         result_dict['results'][f'acc_{asset_lower}'] = asset_scores[asset]
     out_model_name = model_name.replace('/', '--')
     out_fname = f'results/demo-leaderboard/gpt2-demo/results_{out_model_name}.json'
