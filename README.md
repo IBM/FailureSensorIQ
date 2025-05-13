@@ -51,9 +51,20 @@ We adopt the [LLM Uncertainty Bench framework](https://github.com/smartyfh/LLM-U
 `kaggle` folder contains the 3 dataset experiments we performed to evaluate the model's feature suggestions. It also contains `LLMFeatureSelector`, an sklearn pipeline for feature selection which uses and supports Hugging Face models. 
 
 ## Getting started
-Tested with `python 3.10.4`
+Tested with `python 3.10.4`  
+Clone repo and submodules
 ```
 git clone --recurse-submodules https://github.com/IBM/FailureSensorIQ.git
+cd FailureSensorIQ
+```
+Optional: create a new conda env
+```
+conda create -n failuresensoriq python=3.10.4
+conda activate failuresensoriq
+```
+Install requirements
+```
+pip install -r requirements.txt
 ```
 ## Running the evaluation pipeline
 ```
@@ -64,7 +75,8 @@ If no argument is given, the code will fetch all the pending models for evaluati
 If everything ran successfully you should be able to see the performance metrics under `results/demo-leaderboard/gpt2-demo/results_<model-name>.json`
 
 ## Troubleshooting
-Sometimes if something crashes the vllm child process may be still running occupying memory in the GPU. We use the following to kill any jobs occupying GPU memory:
+```all CUDA-capable devices are busy or unavailable```
+Sometimes if the execution crashes/interrupts before it finishes, the vllm child process may be still running occupying memory in the GPU. We use the following to kill any jobs occupying GPU memory:
 ```
 nvidia-smi | grep 'python' | awk '{ print $5 }' | xargs -n1 kill -9
 ```
