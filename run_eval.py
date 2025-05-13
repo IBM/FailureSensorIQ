@@ -105,7 +105,7 @@ for model_name in models_todo:
             asset_lower = 'other'
         else:
             asset_lower = asset.lower().replace(' ', '_')
-        result_dict['results'][f'acc_{asset_lower}'] = asset_scores[asset]
+        result_dict['results'][f'acc_{asset_lower}'] = {f'acc_{asset_lower}': asset_scores[asset]}
     out_model_name = model_name.replace('/', '--')
     out_fname = f'results/demo-leaderboard/gpt2-demo/results_{out_model_name}.json'
     with open(out_fname, 'w') as f:
