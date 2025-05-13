@@ -59,17 +59,17 @@ def joint_analysis(left_data: List[dict], right_data: List[dict]):
 
     score_x = merge_df['score_x'].mean()
     score_y = merge_df['score_y'].mean()
-    wilcoxon_result = wilcoxon(
-        merge_df['score_x'].values,
-        merge_df['score_y'].values,
-        alternative = 'greater'
-    )
+    # wilcoxon_result = wilcoxon(
+    #     merge_df['score_x'].values,
+    #     merge_df['score_y'].values,
+    #     alternative = 'greater'
+    # )
 
     print('MCQ Benchmark Performance:')
     print(f"score_1 = {score_x.round(4)} ({merge_df['score_x'].sum()}/{merge_df.shape[0]})")
     print(f"score_2 = {score_y.round(4)} ({merge_df['score_y'].sum()}/{merge_df.shape[0]})")
     print(f"performance_drop_rate = {((score_y-score_x)).round(4)}")
-    print(f"Wilcoxon hypothesis test = {wilcoxon_result}")
+    # print(f"Wilcoxon hypothesis test = {wilcoxon_result}")
     
     recall_c = recall_score(merge_df['score_x'], merge_df['score_y'])
     consist_c = consist_score(merge_df['score_x'], merge_df['score_y'])
@@ -302,7 +302,7 @@ def knowledge_invariance_analysis(original_data_path, perturbed_data_path,
         print(f'Edit distance = {np.median(subject_edit_distances).round(2)} +- {np.std(subject_edit_distances).round(2)}')
         print(f'Knowledge invariance score = {np.mean(subject_scores).round(2)} +- {np.std(subject_scores).round(2)}\n')
 
-def get_record_id_for_correct_answer(log_path: str, dimention="asset_name", fdata_path="data/fmsr_filtered_data_all.jsonl"):
+def get_record_id_for_correct_answer(log_path: str, dimention="asset_name", fdata_path="eval_data/industrial_mcp_original.jsonl"):
     data = load_from_jsonl(log_path)
     data = sorted(data, key=lambda x: x["id"])
     fdata = load_from_jsonl(fdata_path)
