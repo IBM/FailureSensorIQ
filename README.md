@@ -46,6 +46,10 @@ Recent literature highlights concerns about LLMs’ ability to reliably select t
 ## 4. Uncertainty Quantification
 We adopt the [LLM Uncertainty Bench framework](https://github.com/smartyfh/LLM-Uncertainty-Bench) to assess model uncertainty in Multi-Choice Question Answering. Each LLM is prompted with their Base Prompting method to output prediction probabilities for all answer options. To calibrate uncertainty estimates, we partition the dataset by asset type into a calibration set and a test set. Using the calibration set, we compute conformal scores that define a confidence threshold ˆq. For the test set, any answer option with a probability exceeding ˆq is selected as a prediction. This approach allows a variable number of predicted options per question, ranging from zero to all available choices.
 
+
+## LLMFeatureSelect and Kaggle experiments
+`kaggle` folder contains the 3 dataset experiments we performed to evaluate the model's feature suggestions. It also contains `LLMFeatureSelector`, an sklearn pipeline for feature selection which uses and supports Hugging Face models. 
+
 ## Getting started
 Tested with `python 3.10.4`
 ```
