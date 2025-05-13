@@ -64,6 +64,7 @@ conda activate failuresensoriq
 ```
 Install requirements
 ```
+pip install vllm==0.8.5.post1
 pip install -r requirements.txt
 ```
 ## Running the evaluation pipeline
