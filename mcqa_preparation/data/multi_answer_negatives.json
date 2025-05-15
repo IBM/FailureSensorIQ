@@ -1,0 +1,4518 @@
+ [
+    {
+        "asset_class": "electric motor",
+        "failure_mode": "rotor windings fault",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "voltage": 1,
+            "resistance": 1,
+            "partial discharge": 1,
+            "coast down time": 1,
+            "oil debris": 1,
+            "current": 0,
+            "power": 0,
+            "torque": 0,
+            "speed": 0,
+            "vibration": 0,
+            "temperature": 0,
+            "axial flux": 0,
+            "cooling gas": 0
+        }
+    },
+    {
+        "asset_class": "electric motor",
+        "failure_mode": "stator windings fault",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "voltage": 1,
+            "resistance": 1,
+            "partial discharge": 1,
+            "power": 1,
+            "torque": 1,
+            "speed": 1,
+            "coast down time": 1,
+            "oil debris": 1,
+            "current": 0,
+            "vibration": 0,
+            "temperature": 0,
+            "axial flux": 0,
+            "cooling gas": 0
+        }
+    },
+    {
+        "asset_class": "electric motor",
+        "failure_mode": "eccentric rotor fault",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "voltage": 1,
+            "resistance": 1,
+            "partial discharge": 1,
+            "power": 1,
+            "torque": 1,
+            "speed": 1,
+            "temperature": 1,
+            "coast down time": 1,
+            "oil debris": 1,
+            "cooling gas": 1,
+            "current": 0,
+            "vibration": 0,
+            "axial flux": 0
+        }
+    },
+    {
+        "asset_class": "electric motor",
+        "failure_mode": "brush(es) fault",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "resistance": 1,
+            "partial discharge": 1,
+            "speed": 1,
+            "vibration": 1,
+            "coast down time": 1,
+            "axial flux": 1,
+            "oil debris": 1,
+            "cooling gas": 1,
+            "current": 0,
+            "voltage": 0,
+            "power": 0,
+            "torque": 0,
+            "temperature": 0
+        }
+    },
+    {
+        "asset_class": "electric motor",
+        "failure_mode": "bearing damage",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "voltage": 1,
+            "resistance": 1,
+            "partial discharge": 1,
+            "power": 1,
+            "speed": 1,
+            "axial flux": 1,
+            "cooling gas": 1,
+            "current": 0,
+            "torque": 0,
+            "vibration": 0,
+            "temperature": 0,
+            "coast down time": 0,
+            "oil debris": 0
+        }
+    },
+    {
+        "asset_class": "electric motor",
+        "failure_mode": "insulation deterioration",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "power": 1,
+            "torque": 1,
+            "speed": 1,
+            "vibration": 1,
+            "temperature": 1,
+            "coast down time": 1,
+            "axial flux": 1,
+            "oil debris": 1,
+            "current": 0,
+            "voltage": 0,
+            "resistance": 0,
+            "partial discharge": 0,
+            "cooling gas": 0
+        }
+    },
+    {
+        "asset_class": "electric motor",
+        "failure_mode": "loss of input power phase",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "resistance": 1,
+            "partial discharge": 1,
+            "power": 1,
+            "torque": 1,
+            "speed": 1,
+            "temperature": 1,
+            "coast down time": 1,
+            "oil debris": 1,
+            "cooling gas": 1,
+            "current": 0,
+            "voltage": 0,
+            "vibration": 0,
+            "axial flux": 0
+        }
+    },
+    {
+        "asset_class": "electric motor",
+        "failure_mode": "unbalance",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "current": 1,
+            "voltage": 1,
+            "resistance": 1,
+            "partial discharge": 1,
+            "power": 1,
+            "torque": 1,
+            "speed": 1,
+            "temperature": 1,
+            "coast down time": 1,
+            "axial flux": 1,
+            "oil debris": 1,
+            "cooling gas": 1,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "electric motor",
+        "failure_mode": "misalignment",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "current": 1,
+            "voltage": 1,
+            "resistance": 1,
+            "partial discharge": 1,
+            "power": 1,
+            "torque": 1,
+            "speed": 1,
+            "temperature": 1,
+            "coast down time": 1,
+            "axial flux": 1,
+            "oil debris": 1,
+            "cooling gas": 1,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "steam turbine",
+        "failure_mode": "damaged rotor blade",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "length measurement": 1,
+            "pressure or vacuum": 1,
+            "speed": 1,
+            "oil leakage": 1,
+            "steam leakage": 0,
+            "power": 0,
+            "vibration": 0,
+            "temperature": 0,
+            "coast down time": 0,
+            "oil debris": 0
+        }
+    },
+    {
+        "asset_class": "steam turbine",
+        "failure_mode": "damaged labyrinth",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "length measurement": 1,
+            "oil debris": 1,
+            "oil leakage": 1,
+            "steam leakage": 0,
+            "power": 0,
+            "pressure or vacuum": 0,
+            "speed": 0,
+            "vibration": 0,
+            "temperature": 0,
+            "coast down time": 0
+        }
+    },
+    {
+        "asset_class": "steam turbine",
+        "failure_mode": "eccentric rotor",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "length measurement": 1,
+            "power": 1,
+            "pressure or vacuum": 1,
+            "speed": 1,
+            "temperature": 1,
+            "oil debris": 1,
+            "oil leakage": 1,
+            "steam leakage": 0,
+            "vibration": 0,
+            "coast down time": 0
+        }
+    },
+    {
+        "asset_class": "steam turbine",
+        "failure_mode": "bearing damage",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "steam leakage": 1,
+            "speed": 1,
+            "length measurement": 0,
+            "power": 0,
+            "pressure or vacuum": 0,
+            "vibration": 0,
+            "temperature": 0,
+            "coast down time": 0,
+            "oil debris": 0,
+            "oil leakage": 0
+        }
+    },
+    {
+        "asset_class": "steam turbine",
+        "failure_mode": "bearing wear",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "power": 1,
+            "pressure or vacuum": 1,
+            "speed": 1,
+            "steam leakage": 0,
+            "length measurement": 0,
+            "vibration": 0,
+            "temperature": 0,
+            "coast down time": 0,
+            "oil debris": 0,
+            "oil leakage": 0
+        }
+    },
+    {
+        "asset_class": "steam turbine",
+        "failure_mode": "hogging or sagging rotor",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "length measurement": 1,
+            "power": 1,
+            "pressure or vacuum": 1,
+            "speed": 1,
+            "temperature": 1,
+            "oil leakage": 1,
+            "steam leakage": 0,
+            "vibration": 0,
+            "coast down time": 0,
+            "oil debris": 0
+        }
+    },
+    {
+        "asset_class": "steam turbine",
+        "failure_mode": "unequal expansion",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "power": 1,
+            "pressure or vacuum": 1,
+            "speed": 1,
+            "coast down time": 1,
+            "oil debris": 1,
+            "oil leakage": 1,
+            "steam leakage": 0,
+            "length measurement": 0,
+            "vibration": 0,
+            "temperature": 0
+        }
+    },
+    {
+        "asset_class": "steam turbine",
+        "failure_mode": "unbalance",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "steam leakage": 1,
+            "length measurement": 1,
+            "power": 1,
+            "pressure or vacuum": 1,
+            "speed": 1,
+            "temperature": 1,
+            "coast down time": 1,
+            "oil debris": 1,
+            "oil leakage": 1,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "steam turbine",
+        "failure_mode": "misalignment",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "steam leakage": 1,
+            "length measurement": 1,
+            "power": 1,
+            "pressure or vacuum": 1,
+            "speed": 1,
+            "temperature": 1,
+            "coast down time": 1,
+            "oil debris": 1,
+            "oil leakage": 1,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "aero gas turbine",
+        "failure_mode": "air inlet blockage",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "fuel pressure/ fuel flow": 1,
+            "gas generator temperature": 1,
+            "pressure/ pressure ratio": 1,
+            "power turbine temperature": 1,
+            "exhaust temperature": 1,
+            "vibration": 1,
+            "oil debris": 1,
+            "oil leakage/ consumption": 1,
+            "compressor temperature": 0,
+            "compresor pressure/ pressure ratio": 0,
+            "air flow": 0,
+            "speed": 0
+        }
+    },
+    {
+        "asset_class": "aero gas turbine",
+        "failure_mode": "compressor fouled",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "oil leakage/ consumption": 1,
+            "compressor temperature": 0,
+            "compresor pressure/ pressure ratio": 0,
+            "air flow": 0,
+            "fuel pressure/ fuel flow": 0,
+            "speed": 0,
+            "gas generator temperature": 0,
+            "pressure/ pressure ratio": 0,
+            "power turbine temperature": 0,
+            "exhaust temperature": 0,
+            "vibration": 0,
+            "oil debris": 0
+        }
+    },
+    {
+        "asset_class": "aero gas turbine",
+        "failure_mode": "compressor damaged",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air flow": 1,
+            "oil leakage/ consumption": 1,
+            "compressor temperature": 0,
+            "compresor pressure/ pressure ratio": 0,
+            "fuel pressure/ fuel flow": 0,
+            "speed": 0,
+            "gas generator temperature": 0,
+            "pressure/ pressure ratio": 0,
+            "power turbine temperature": 0,
+            "exhaust temperature": 0,
+            "vibration": 0,
+            "oil debris": 0
+        }
+    },
+    {
+        "asset_class": "aero gas turbine",
+        "failure_mode": "compressor stall",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "compressor temperature": 1,
+            "compresor pressure/ pressure ratio": 1,
+            "air flow": 1,
+            "fuel pressure/ fuel flow": 1,
+            "gas generator temperature": 1,
+            "power turbine temperature": 1,
+            "exhaust temperature": 1,
+            "oil debris": 1,
+            "oil leakage/ consumption": 1,
+            "speed": 0,
+            "pressure/ pressure ratio": 0,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "aero gas turbine",
+        "failure_mode": "fuel filter blockage",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "compressor temperature": 1,
+            "air flow": 1,
+            "gas generator temperature": 1,
+            "power turbine temperature": 1,
+            "exhaust temperature": 1,
+            "vibration": 1,
+            "oil debris": 1,
+            "oil leakage/ consumption": 1,
+            "compresor pressure/ pressure ratio": 0,
+            "fuel pressure/ fuel flow": 0,
+            "speed": 0,
+            "pressure/ pressure ratio": 0
+        }
+    },
+    {
+        "asset_class": "aero gas turbine",
+        "failure_mode": "seal leakage",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "compressor temperature": 1,
+            "compresor pressure/ pressure ratio": 1,
+            "air flow": 1,
+            "fuel pressure/ fuel flow": 1,
+            "speed": 1,
+            "power turbine temperature": 1,
+            "exhaust temperature": 1,
+            "vibration": 1,
+            "gas generator temperature": 0,
+            "pressure/ pressure ratio": 0,
+            "oil debris": 0,
+            "oil leakage/ consumption": 0
+        }
+    },
+    {
+        "asset_class": "aero gas turbine",
+        "failure_mode": "combustion chamber holed",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "compressor temperature": 1,
+            "compresor pressure/ pressure ratio": 1,
+            "air flow": 1,
+            "gas generator temperature": 1,
+            "pressure/ pressure ratio": 1,
+            "power turbine temperature": 1,
+            "vibration": 1,
+            "oil debris": 1,
+            "oil leakage/ consumption": 1,
+            "fuel pressure/ fuel flow": 0,
+            "speed": 0,
+            "exhaust temperature": 0
+        }
+    },
+    {
+        "asset_class": "aero gas turbine",
+        "failure_mode": "burner blocked",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "compressor temperature": 1,
+            "compresor pressure/ pressure ratio": 1,
+            "air flow": 1,
+            "gas generator temperature": 1,
+            "power turbine temperature": 1,
+            "exhaust temperature": 1,
+            "vibration": 1,
+            "oil debris": 1,
+            "oil leakage/ consumption": 1,
+            "fuel pressure/ fuel flow": 0,
+            "speed": 0,
+            "pressure/ pressure ratio": 0
+        }
+    },
+    {
+        "asset_class": "aero gas turbine",
+        "failure_mode": "power turbine dirty",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "fuel pressure/ fuel flow": 1,
+            "gas generator temperature": 1,
+            "exhaust temperature": 1,
+            "oil debris": 1,
+            "oil leakage/ consumption": 1,
+            "compressor temperature": 0,
+            "compresor pressure/ pressure ratio": 0,
+            "air flow": 0,
+            "speed": 0,
+            "pressure/ pressure ratio": 0,
+            "power turbine temperature": 0,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "aero gas turbine",
+        "failure_mode": "power turbine damage",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "fuel pressure/ fuel flow": 1,
+            "gas generator temperature": 1,
+            "power turbine temperature": 1,
+            "exhaust temperature": 1,
+            "oil leakage/ consumption": 1,
+            "compressor temperature": 0,
+            "compresor pressure/ pressure ratio": 0,
+            "air flow": 0,
+            "speed": 0,
+            "pressure/ pressure ratio": 0,
+            "vibration": 0,
+            "oil debris": 0
+        }
+    },
+    {
+        "asset_class": "aero gas turbine",
+        "failure_mode": "bearing wear/ damage",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "compressor temperature": 1,
+            "compresor pressure/ pressure ratio": 1,
+            "air flow": 1,
+            "fuel pressure/ fuel flow": 1,
+            "speed": 1,
+            "gas generator temperature": 1,
+            "pressure/ pressure ratio": 1,
+            "power turbine temperature": 1,
+            "exhaust temperature": 1,
+            "vibration": 0,
+            "oil debris": 0,
+            "oil leakage/ consumption": 0
+        }
+    },
+    {
+        "asset_class": "aero gas turbine",
+        "failure_mode": "gear defects",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "compressor temperature": 1,
+            "compresor pressure/ pressure ratio": 1,
+            "air flow": 1,
+            "fuel pressure/ fuel flow": 1,
+            "speed": 1,
+            "gas generator temperature": 1,
+            "pressure/ pressure ratio": 1,
+            "power turbine temperature": 1,
+            "exhaust temperature": 1,
+            "oil leakage/ consumption": 1,
+            "vibration": 0,
+            "oil debris": 0
+        }
+    },
+    {
+        "asset_class": "aero gas turbine",
+        "failure_mode": "unbalance",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "compressor temperature": 1,
+            "compresor pressure/ pressure ratio": 1,
+            "air flow": 1,
+            "fuel pressure/ fuel flow": 1,
+            "speed": 1,
+            "gas generator temperature": 1,
+            "pressure/ pressure ratio": 1,
+            "power turbine temperature": 1,
+            "exhaust temperature": 1,
+            "oil debris": 1,
+            "oil leakage/ consumption": 1,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "aero gas turbine",
+        "failure_mode": "misalignment",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "compressor temperature": 1,
+            "compresor pressure/ pressure ratio": 1,
+            "air flow": 1,
+            "fuel pressure/ fuel flow": 1,
+            "speed": 1,
+            "gas generator temperature": 1,
+            "pressure/ pressure ratio": 1,
+            "power turbine temperature": 1,
+            "exhaust temperature": 1,
+            "oil debris": 1,
+            "oil leakage/ consumption": 1,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "industrial gas turbine",
+        "failure_mode": "air inlet blockage",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "compressor temperature": 1,
+            "fuel pressure/ fuel flow": 1,
+            "exhaust temperature": 1,
+            "vibration": 1,
+            "compressor efficiency": 1,
+            "turbine efficiency": 1,
+            "oil debris/ contamination": 1,
+            "oil consumption": 1,
+            "compressor pressure": 0,
+            "air flow": 0,
+            "speed": 0,
+            "output power": 0
+        }
+    },
+    {
+        "asset_class": "industrial gas turbine",
+        "failure_mode": "compressor fouled",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "exhaust temperature": 1,
+            "vibration": 1,
+            "turbine efficiency": 1,
+            "oil debris/ contamination": 1,
+            "oil consumption": 1,
+            "compressor temperature": 0,
+            "compressor pressure": 0,
+            "air flow": 0,
+            "fuel pressure/ fuel flow": 0,
+            "speed": 0,
+            "output power": 0,
+            "compressor efficiency": 0
+        }
+    },
+    {
+        "asset_class": "industrial gas turbine",
+        "failure_mode": "compressor damaged",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "exhaust temperature": 1,
+            "turbine efficiency": 1,
+            "oil consumption": 1,
+            "compressor temperature": 0,
+            "compressor pressure": 0,
+            "air flow": 0,
+            "fuel pressure/ fuel flow": 0,
+            "speed": 0,
+            "vibration": 0,
+            "output power": 0,
+            "compressor efficiency": 0,
+            "oil debris/ contamination": 0
+        }
+    },
+    {
+        "asset_class": "industrial gas turbine",
+        "failure_mode": "fuel filter blockage",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "compressor temperature": 1,
+            "air flow": 1,
+            "exhaust temperature": 1,
+            "vibration": 1,
+            "compressor efficiency": 1,
+            "turbine efficiency": 1,
+            "oil debris/ contamination": 1,
+            "oil consumption": 1,
+            "compressor pressure": 0,
+            "fuel pressure/ fuel flow": 0,
+            "speed": 0,
+            "output power": 0
+        }
+    },
+    {
+        "asset_class": "industrial gas turbine",
+        "failure_mode": "combustion chamber holed",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "compressor temperature": 1,
+            "compressor pressure": 1,
+            "air flow": 1,
+            "exhaust temperature": 1,
+            "vibration": 1,
+            "compressor efficiency": 1,
+            "turbine efficiency": 1,
+            "oil debris/ contamination": 1,
+            "oil consumption": 1,
+            "fuel pressure/ fuel flow": 0,
+            "speed": 0,
+            "output power": 0
+        }
+    },
+    {
+        "asset_class": "industrial gas turbine",
+        "failure_mode": "burner blocked",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "compressor temperature": 1,
+            "compressor pressure": 1,
+            "air flow": 1,
+            "vibration": 1,
+            "compressor efficiency": 1,
+            "turbine efficiency": 1,
+            "oil debris/ contamination": 1,
+            "oil consumption": 1,
+            "fuel pressure/ fuel flow": 0,
+            "speed": 0,
+            "exhaust temperature": 0,
+            "output power": 0
+        }
+    },
+    {
+        "asset_class": "industrial gas turbine",
+        "failure_mode": "power turbine damaged",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "compressor temperature": 1,
+            "compressor pressure": 1,
+            "air flow": 1,
+            "fuel pressure/ fuel flow": 1,
+            "compressor efficiency": 1,
+            "oil consumption": 1,
+            "speed": 0,
+            "exhaust temperature": 0,
+            "vibration": 0,
+            "output power": 0,
+            "turbine efficiency": 0,
+            "oil debris/ contamination": 0
+        }
+    },
+    {
+        "asset_class": "industrial gas turbine",
+        "failure_mode": "bearing wear",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "compressor temperature": 1,
+            "compressor pressure": 1,
+            "air flow": 1,
+            "fuel pressure/ fuel flow": 1,
+            "speed": 1,
+            "exhaust temperature": 1,
+            "output power": 1,
+            "compressor efficiency": 1,
+            "turbine efficiency": 1,
+            "vibration": 0,
+            "oil debris/ contamination": 0,
+            "oil consumption": 0
+        }
+    },
+    {
+        "asset_class": "industrial gas turbine",
+        "failure_mode": "unbalance",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "compressor temperature": 1,
+            "compressor pressure": 1,
+            "air flow": 1,
+            "fuel pressure/ fuel flow": 1,
+            "speed": 1,
+            "exhaust temperature": 1,
+            "output power": 1,
+            "compressor efficiency": 1,
+            "turbine efficiency": 1,
+            "oil debris/ contamination": 1,
+            "oil consumption": 1,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "industrial gas turbine",
+        "failure_mode": "misalignment",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "compressor temperature": 1,
+            "compressor pressure": 1,
+            "air flow": 1,
+            "fuel pressure/ fuel flow": 1,
+            "speed": 1,
+            "exhaust temperature": 1,
+            "output power": 1,
+            "compressor efficiency": 1,
+            "turbine efficiency": 1,
+            "oil debris/ contamination": 1,
+            "oil consumption": 1,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "pump",
+        "failure_mode": "damaged impeller",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "fluid leakage": 1,
+            "oil leakage": 1,
+            "length measurement": 0,
+            "power": 0,
+            "pressure or vacuum": 0,
+            "speed": 0,
+            "vibration": 0,
+            "temperature": 0,
+            "coast down time": 0,
+            "oil debris": 0
+        }
+    },
+    {
+        "asset_class": "pump",
+        "failure_mode": "damaged seals",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "power": 1,
+            "temperature": 1,
+            "coast down time": 1,
+            "oil debris": 1,
+            "oil leakage": 1,
+            "fluid leakage": 0,
+            "length measurement": 0,
+            "pressure or vacuum": 0,
+            "speed": 0,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "pump",
+        "failure_mode": "eccentric impeller",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "fluid leakage": 1,
+            "length measurement": 1,
+            "oil debris": 1,
+            "oil leakage": 1,
+            "power": 0,
+            "pressure or vacuum": 0,
+            "speed": 0,
+            "vibration": 0,
+            "temperature": 0,
+            "coast down time": 0
+        }
+    },
+    {
+        "asset_class": "pump",
+        "failure_mode": "bearing damage",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "fluid leakage": 1,
+            "pressure or vacuum": 1,
+            "length measurement": 0,
+            "power": 0,
+            "speed": 0,
+            "vibration": 0,
+            "temperature": 0,
+            "coast down time": 0,
+            "oil debris": 0,
+            "oil leakage": 0
+        }
+    },
+    {
+        "asset_class": "pump",
+        "failure_mode": "bearing wear",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "fluid leakage": 1,
+            "power": 1,
+            "pressure or vacuum": 1,
+            "speed": 1,
+            "oil leakage": 1,
+            "length measurement": 0,
+            "vibration": 0,
+            "temperature": 0,
+            "coast down time": 0,
+            "oil debris": 0
+        }
+    },
+    {
+        "asset_class": "pump",
+        "failure_mode": "mounting fault",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "fluid leakage": 1,
+            "length measurement": 1,
+            "power": 1,
+            "pressure or vacuum": 1,
+            "speed": 1,
+            "temperature": 1,
+            "coast down time": 1,
+            "oil debris": 1,
+            "oil leakage": 1,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "pump",
+        "failure_mode": "unbalance",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "fluid leakage": 1,
+            "length measurement": 1,
+            "power": 1,
+            "pressure or vacuum": 1,
+            "speed": 1,
+            "temperature": 1,
+            "coast down time": 1,
+            "oil debris": 1,
+            "oil leakage": 1,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "pump",
+        "failure_mode": "misalignment",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "fluid leakage": 1,
+            "power": 1,
+            "pressure or vacuum": 1,
+            "speed": 1,
+            "temperature": 1,
+            "coast down time": 1,
+            "oil debris": 1,
+            "oil leakage": 1,
+            "length measurement": 0,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "compressor",
+        "failure_mode": "damaged impeller",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "fluid leakage": 1,
+            "oil leakage": 1,
+            "length measurement": 0,
+            "power": 0,
+            "pressure or vacuum": 0,
+            "speed": 0,
+            "vibration": 0,
+            "temperature": 0,
+            "coast down time": 0,
+            "oil debris": 0
+        }
+    },
+    {
+        "asset_class": "compressor",
+        "failure_mode": "damaged seals",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "power": 1,
+            "vibration": 1,
+            "temperature": 1,
+            "coast down time": 1,
+            "oil leakage": 1,
+            "fluid leakage": 0,
+            "length measurement": 0,
+            "pressure or vacuum": 0,
+            "speed": 0,
+            "oil debris": 0
+        }
+    },
+    {
+        "asset_class": "compressor",
+        "failure_mode": "eccentric impeller",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "fluid leakage": 1,
+            "length measurement": 1,
+            "oil debris": 1,
+            "oil leakage": 1,
+            "power": 0,
+            "pressure or vacuum": 0,
+            "speed": 0,
+            "vibration": 0,
+            "temperature": 0,
+            "coast down time": 0
+        }
+    },
+    {
+        "asset_class": "compressor",
+        "failure_mode": "bearing damage",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "fluid leakage": 1,
+            "pressure or vacuum": 1,
+            "length measurement": 0,
+            "power": 0,
+            "speed": 0,
+            "vibration": 0,
+            "temperature": 0,
+            "coast down time": 0,
+            "oil debris": 0,
+            "oil leakage": 0
+        }
+    },
+    {
+        "asset_class": "compressor",
+        "failure_mode": "bearing wear",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "fluid leakage": 1,
+            "power": 1,
+            "pressure or vacuum": 1,
+            "speed": 1,
+            "oil leakage": 1,
+            "length measurement": 0,
+            "vibration": 0,
+            "temperature": 0,
+            "coast down time": 0,
+            "oil debris": 0
+        }
+    },
+    {
+        "asset_class": "compressor",
+        "failure_mode": "cooling system fault",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "length measurement": 1,
+            "power": 1,
+            "speed": 1,
+            "vibration": 1,
+            "coast down time": 1,
+            "oil leakage": 1,
+            "fluid leakage": 0,
+            "pressure or vacuum": 0,
+            "temperature": 0,
+            "oil debris": 0
+        }
+    },
+    {
+        "asset_class": "compressor",
+        "failure_mode": "valve fault",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "length measurement": 1,
+            "power": 1,
+            "speed": 1,
+            "coast down time": 1,
+            "oil debris": 1,
+            "oil leakage": 1,
+            "fluid leakage": 0,
+            "pressure or vacuum": 0,
+            "vibration": 0,
+            "temperature": 0
+        }
+    },
+    {
+        "asset_class": "compressor",
+        "failure_mode": "mounting fault",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "fluid leakage": 1,
+            "length measurement": 1,
+            "power": 1,
+            "pressure or vacuum": 1,
+            "speed": 1,
+            "temperature": 1,
+            "coast down time": 1,
+            "oil debris": 1,
+            "oil leakage": 1,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "compressor",
+        "failure_mode": "compressor stall",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "fluid leakage": 1,
+            "power": 1,
+            "pressure or vacuum": 1,
+            "temperature": 1,
+            "coast down time": 1,
+            "oil debris": 1,
+            "oil leakage": 1,
+            "length measurement": 0,
+            "speed": 0,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "compressor",
+        "failure_mode": "unbalance",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "fluid leakage": 1,
+            "length measurement": 1,
+            "power": 1,
+            "pressure or vacuum": 1,
+            "speed": 1,
+            "temperature": 1,
+            "coast down time": 1,
+            "oil debris": 1,
+            "oil leakage": 1,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "compressor",
+        "failure_mode": "misalignment",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "fluid leakage": 1,
+            "power": 1,
+            "pressure or vacuum": 1,
+            "speed": 1,
+            "temperature": 1,
+            "coast down time": 1,
+            "oil debris": 1,
+            "oil leakage": 1,
+            "length measurement": 0,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "reciprocating internal combustion engine",
+        "failure_mode": "air inlet blockage",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "fuel pressure": 1,
+            "fuel flow": 1,
+            "exhaust temperature": 1,
+            "vibration": 1,
+            "output power": 1,
+            "oil consumption": 1,
+            "oil debris": 1,
+            "cooling fluid leak": 1,
+            "engine temperature": 0,
+            "cylinder pressure": 0,
+            "air flow": 0,
+            "exhaust pressure": 0
+        }
+    },
+    {
+        "asset_class": "reciprocating internal combustion engine",
+        "failure_mode": "fuel injector fault",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "fuel pressure": 1,
+            "exhaust pressure": 1,
+            "oil debris": 1,
+            "cooling fluid leak": 1,
+            "engine temperature": 0,
+            "cylinder pressure": 0,
+            "air flow": 0,
+            "fuel flow": 0,
+            "exhaust temperature": 0,
+            "vibration": 0,
+            "output power": 0,
+            "oil consumption": 0
+        }
+    },
+    {
+        "asset_class": "reciprocating internal combustion engine",
+        "failure_mode": "ignition fault",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air flow": 1,
+            "fuel pressure": 1,
+            "exhaust pressure": 1,
+            "oil debris": 1,
+            "cooling fluid leak": 1,
+            "engine temperature": 0,
+            "cylinder pressure": 0,
+            "fuel flow": 0,
+            "exhaust temperature": 0,
+            "vibration": 0,
+            "output power": 0,
+            "oil consumption": 0
+        }
+    },
+    {
+        "asset_class": "reciprocating internal combustion engine",
+        "failure_mode": "bearing wear",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "engine temperature": 1,
+            "cylinder pressure": 1,
+            "air flow": 1,
+            "fuel pressure": 1,
+            "fuel flow": 1,
+            "exhaust temperature": 1,
+            "exhaust pressure": 1,
+            "output power": 1,
+            "oil consumption": 1,
+            "cooling fluid leak": 1,
+            "vibration": 0,
+            "oil debris": 0
+        }
+    },
+    {
+        "asset_class": "reciprocating internal combustion engine",
+        "failure_mode": "fuel filter blockage",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "engine temperature": 1,
+            "cylinder pressure": 1,
+            "air flow": 1,
+            "exhaust temperature": 1,
+            "vibration": 1,
+            "output power": 1,
+            "oil consumption": 1,
+            "oil debris": 1,
+            "cooling fluid leak": 1,
+            "fuel pressure": 0,
+            "fuel flow": 0,
+            "exhaust pressure": 0
+        }
+    },
+    {
+        "asset_class": "reciprocating internal combustion engine",
+        "failure_mode": "seal leakage",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "engine temperature": 1,
+            "cylinder pressure": 1,
+            "air flow": 1,
+            "fuel pressure": 1,
+            "fuel flow": 1,
+            "vibration": 1,
+            "output power": 1,
+            "oil debris": 1,
+            "cooling fluid leak": 1,
+            "exhaust temperature": 0,
+            "exhaust pressure": 0,
+            "oil consumption": 0
+        }
+    },
+    {
+        "asset_class": "reciprocating internal combustion engine",
+        "failure_mode": "piston ring fault",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "engine temperature": 1,
+            "air flow": 1,
+            "fuel pressure": 1,
+            "fuel flow": 1,
+            "exhaust temperature": 1,
+            "exhaust pressure": 1,
+            "vibration": 1,
+            "cooling fluid leak": 1,
+            "cylinder pressure": 0,
+            "output power": 0,
+            "oil consumption": 0,
+            "oil debris": 0
+        }
+    },
+    {
+        "asset_class": "reciprocating internal combustion engine",
+        "failure_mode": "cooling system fault",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "engine temperature": 1,
+            "cylinder pressure": 1,
+            "air flow": 1,
+            "fuel pressure": 1,
+            "exhaust temperature": 1,
+            "vibration": 1,
+            "output power": 1,
+            "fuel flow": 0,
+            "exhaust pressure": 0,
+            "oil consumption": 0,
+            "oil debris": 0,
+            "cooling fluid leak": 0
+        }
+    },
+    {
+        "asset_class": "reciprocating internal combustion engine",
+        "failure_mode": "secondary balance gear fault",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "engine temperature": 1,
+            "cylinder pressure": 1,
+            "air flow": 1,
+            "fuel pressure": 1,
+            "fuel flow": 1,
+            "exhaust temperature": 1,
+            "exhaust pressure": 1,
+            "output power": 1,
+            "oil consumption": 1,
+            "oil debris": 1,
+            "cooling fluid leak": 1,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "reciprocating internal combustion engine",
+        "failure_mode": "gear defects",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "engine temperature": 1,
+            "cylinder pressure": 1,
+            "air flow": 1,
+            "fuel pressure": 1,
+            "fuel flow": 1,
+            "exhaust temperature": 1,
+            "exhaust pressure": 1,
+            "output power": 1,
+            "oil consumption": 1,
+            "cooling fluid leak": 1,
+            "vibration": 0,
+            "oil debris": 0
+        }
+    },
+    {
+        "asset_class": "reciprocating internal combustion engine",
+        "failure_mode": "flywheel damage",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "engine temperature": 1,
+            "cylinder pressure": 1,
+            "air flow": 1,
+            "fuel pressure": 1,
+            "fuel flow": 1,
+            "exhaust temperature": 1,
+            "exhaust pressure": 1,
+            "output power": 1,
+            "oil consumption": 1,
+            "cooling fluid leak": 1,
+            "vibration": 0,
+            "oil debris": 0
+        }
+    },
+    {
+        "asset_class": "reciprocating internal combustion engine",
+        "failure_mode": "mounting fault",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "engine temperature": 1,
+            "cylinder pressure": 1,
+            "air flow": 1,
+            "fuel pressure": 1,
+            "fuel flow": 1,
+            "exhaust temperature": 1,
+            "exhaust pressure": 1,
+            "output power": 1,
+            "oil consumption": 1,
+            "oil debris": 1,
+            "cooling fluid leak": 1,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "reciprocating internal combustion engine",
+        "failure_mode": "unbalance",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "engine temperature": 1,
+            "cylinder pressure": 1,
+            "air flow": 1,
+            "fuel pressure": 1,
+            "fuel flow": 1,
+            "exhaust temperature": 1,
+            "exhaust pressure": 1,
+            "output power": 1,
+            "oil consumption": 1,
+            "oil debris": 1,
+            "cooling fluid leak": 1,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "reciprocating internal combustion engine",
+        "failure_mode": "misalignment",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "engine temperature": 1,
+            "cylinder pressure": 1,
+            "air flow": 1,
+            "fuel pressure": 1,
+            "fuel flow": 1,
+            "exhaust temperature": 1,
+            "exhaust pressure": 1,
+            "output power": 1,
+            "oil consumption": 1,
+            "oil debris": 1,
+            "cooling fluid leak": 1,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "electric generator",
+        "failure_mode": "rotor windings fault",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "voltage": 1,
+            "resistance": 1,
+            "partial discharge": 1,
+            "power": 1,
+            "torque": 1,
+            "radio frequency emissions": 1,
+            "coast down": 1,
+            "oil debris": 1,
+            "current": 0,
+            "vibration": 0,
+            "temparature": 0,
+            "axial flux": 0,
+            "cooling gas": 0
+        }
+    },
+    {
+        "asset_class": "electric generator",
+        "failure_mode": "stator windings fault",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "voltage": 1,
+            "resistance": 1,
+            "partial discharge": 1,
+            "power": 1,
+            "torque": 1,
+            "radio frequency emissions": 1,
+            "coast down": 1,
+            "oil debris": 1,
+            "current": 0,
+            "vibration": 0,
+            "temparature": 0,
+            "axial flux": 0,
+            "cooling gas": 0
+        }
+    },
+    {
+        "asset_class": "electric generator",
+        "failure_mode": "eccentric rotor",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "voltage": 1,
+            "resistance": 1,
+            "partial discharge": 1,
+            "power": 1,
+            "torque": 1,
+            "radio frequency emissions": 1,
+            "temparature": 1,
+            "coast down": 1,
+            "oil debris": 1,
+            "cooling gas": 1,
+            "current": 0,
+            "vibration": 0,
+            "axial flux": 0
+        }
+    },
+    {
+        "asset_class": "electric generator",
+        "failure_mode": "brush(es) fault",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "resistance": 1,
+            "partial discharge": 1,
+            "vibration": 1,
+            "coast down": 1,
+            "axial flux": 1,
+            "oil debris": 1,
+            "cooling gas": 1,
+            "current": 0,
+            "voltage": 0,
+            "power": 0,
+            "torque": 0,
+            "radio frequency emissions": 0,
+            "temparature": 0
+        }
+    },
+    {
+        "asset_class": "electric generator",
+        "failure_mode": "bearing damage",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "current": 1,
+            "voltage": 1,
+            "resistance": 1,
+            "partial discharge": 1,
+            "power": 1,
+            "radio frequency emissions": 1,
+            "axial flux": 1,
+            "cooling gas": 1,
+            "torque": 0,
+            "vibration": 0,
+            "temparature": 0,
+            "coast down": 0,
+            "oil debris": 0
+        }
+    },
+    {
+        "asset_class": "electric generator",
+        "failure_mode": "insulation deterioration",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "power": 1,
+            "torque": 1,
+            "radio frequency emissions": 1,
+            "vibration": 1,
+            "temparature": 1,
+            "coast down": 1,
+            "axial flux": 1,
+            "oil debris": 1,
+            "current": 0,
+            "voltage": 0,
+            "resistance": 0,
+            "partial discharge": 0,
+            "cooling gas": 0
+        }
+    },
+    {
+        "asset_class": "electric generator",
+        "failure_mode": "loss of output power phase",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "resistance": 1,
+            "partial discharge": 1,
+            "power": 1,
+            "torque": 1,
+            "radio frequency emissions": 1,
+            "temparature": 1,
+            "coast down": 1,
+            "axial flux": 1,
+            "oil debris": 1,
+            "cooling gas": 1,
+            "current": 0,
+            "voltage": 0,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "electric generator",
+        "failure_mode": "unbalance",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "current": 1,
+            "voltage": 1,
+            "resistance": 1,
+            "partial discharge": 1,
+            "power": 1,
+            "torque": 1,
+            "radio frequency emissions": 1,
+            "temparature": 1,
+            "coast down": 1,
+            "axial flux": 1,
+            "oil debris": 1,
+            "cooling gas": 1,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "electric generator",
+        "failure_mode": "misalignment",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "current": 1,
+            "voltage": 1,
+            "resistance": 1,
+            "partial discharge": 1,
+            "power": 1,
+            "torque": 1,
+            "radio frequency emissions": 1,
+            "temparature": 1,
+            "coast down": 1,
+            "axial flux": 1,
+            "oil debris": 1,
+            "cooling gas": 1,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "fan",
+        "failure_mode": "damaged impeller",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air leakage": 1,
+            "oil leakage": 1,
+            "length measurement": 0,
+            "power": 0,
+            "pressure or vacuum": 0,
+            "speed": 0,
+            "vibration": 0,
+            "temperature": 0,
+            "coast down time": 0,
+            "oil debris": 0
+        }
+    },
+    {
+        "asset_class": "fan",
+        "failure_mode": "damaged oil seals",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air leakage": 1,
+            "power": 1,
+            "vibration": 1,
+            "temperature": 1,
+            "coast down time": 1,
+            "length measurement": 0,
+            "pressure or vacuum": 0,
+            "speed": 0,
+            "oil debris": 0,
+            "oil leakage": 0
+        }
+    },
+    {
+        "asset_class": "fan",
+        "failure_mode": "damaged bellows",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "length measurement": 1,
+            "power": 1,
+            "pressure or vacuum": 1,
+            "speed": 1,
+            "vibration": 1,
+            "temperature": 1,
+            "coast down time": 1,
+            "oil debris": 1,
+            "oil leakage": 1,
+            "air leakage": 0
+        }
+    },
+    {
+        "asset_class": "fan",
+        "failure_mode": "eccentric impeller",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air leakage": 1,
+            "length measurement": 1,
+            "oil debris": 1,
+            "oil leakage": 1,
+            "power": 0,
+            "pressure or vacuum": 0,
+            "speed": 0,
+            "vibration": 0,
+            "temperature": 0,
+            "coast down time": 0
+        }
+    },
+    {
+        "asset_class": "fan",
+        "failure_mode": "bearing damage",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air leakage": 1,
+            "pressure or vacuum": 1,
+            "length measurement": 0,
+            "power": 0,
+            "speed": 0,
+            "vibration": 0,
+            "temperature": 0,
+            "coast down time": 0,
+            "oil debris": 0,
+            "oil leakage": 0
+        }
+    },
+    {
+        "asset_class": "fan",
+        "failure_mode": "bearing wear",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air leakage": 1,
+            "power": 1,
+            "pressure or vacuum": 1,
+            "speed": 1,
+            "oil leakage": 1,
+            "length measurement": 0,
+            "vibration": 0,
+            "temperature": 0,
+            "coast down time": 0,
+            "oil debris": 0
+        }
+    },
+    {
+        "asset_class": "fan",
+        "failure_mode": "mounting fault",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air leakage": 1,
+            "length measurement": 1,
+            "power": 1,
+            "pressure or vacuum": 1,
+            "speed": 1,
+            "temperature": 1,
+            "coast down time": 1,
+            "oil debris": 1,
+            "oil leakage": 1,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "fan",
+        "failure_mode": "rotor fouled",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air leakage": 1,
+            "length measurement": 1,
+            "power": 1,
+            "pressure or vacuum": 1,
+            "speed": 1,
+            "temperature": 1,
+            "coast down time": 1,
+            "oil debris": 1,
+            "oil leakage": 1,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "fan",
+        "failure_mode": "unbalance",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air leakage": 1,
+            "length measurement": 1,
+            "power": 1,
+            "pressure or vacuum": 1,
+            "speed": 1,
+            "temperature": 1,
+            "coast down time": 1,
+            "oil debris": 1,
+            "oil leakage": 1,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "fan",
+        "failure_mode": "misalignment",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air leakage": 1,
+            "power": 1,
+            "pressure or vacuum": 1,
+            "speed": 1,
+            "temperature": 1,
+            "coast down time": 1,
+            "oil debris": 1,
+            "oil leakage": 1,
+            "length measurement": 0,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "failure_mode": "insulation deterioration",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "visual": 1,
+            "noise": 1,
+            "vibration": 1,
+            "leak reactance flux": 1,
+            "bushing capacitance": 1,
+            "amps/ volts/ load": 0,
+            "oil condition": 0,
+            "temperature": 0,
+            "partial discharge": 0,
+            "dissolved gas analysis": 0,
+            "ultrasound": 0,
+            "power factor/tan\u03b4": 0,
+            "resistance": 0,
+            "dielecric frequency response (dfr)/ polarization and de-polarization current (pdc)/ recovery voltage method (rvm)": 0,
+            "frequency response analysis (fra)": 0,
+            "excitation current": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "failure_mode": "moisture ingress/ content",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "amps/ volts/ load": 1,
+            "visual": 1,
+            "temperature": 1,
+            "partial discharge": 1,
+            "noise": 1,
+            "ultrasound": 1,
+            "vibration": 1,
+            "frequency response analysis (fra)": 1,
+            "excitation current": 1,
+            "leak reactance flux": 1,
+            "bushing capacitance": 1,
+            "oil condition": 0,
+            "dissolved gas analysis": 0,
+            "power factor/tan\u03b4": 0,
+            "resistance": 0,
+            "dielecric frequency response (dfr)/ polarization and de-polarization current (pdc)/ recovery voltage method (rvm)": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "failure_mode": "on-load tap-changer condition/ fault",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "visual": 1,
+            "power factor/tan\u03b4": 1,
+            "dielecric frequency response (dfr)/ polarization and de-polarization current (pdc)/ recovery voltage method (rvm)": 1,
+            "leak reactance flux": 1,
+            "bushing capacitance": 1,
+            "amps/ volts/ load": 0,
+            "oil condition": 0,
+            "temperature": 0,
+            "partial discharge": 0,
+            "dissolved gas analysis": 0,
+            "noise": 0,
+            "ultrasound": 0,
+            "vibration": 0,
+            "resistance": 0,
+            "frequency response analysis (fra)": 0,
+            "excitation current": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "failure_mode": "de-energized tap-changer condition/ fault",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "visual": 1,
+            "power factor/tan\u03b4": 1,
+            "dielecric frequency response (dfr)/ polarization and de-polarization current (pdc)/ recovery voltage method (rvm)": 1,
+            "leak reactance flux": 1,
+            "bushing capacitance": 1,
+            "amps/ volts/ load": 0,
+            "oil condition": 0,
+            "temperature": 0,
+            "partial discharge": 0,
+            "dissolved gas analysis": 0,
+            "noise": 0,
+            "ultrasound": 0,
+            "vibration": 0,
+            "resistance": 0,
+            "frequency response analysis (fra)": 0,
+            "excitation current": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "failure_mode": "oil quality deterioration",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "amps/ volts/ load": 1,
+            "visual": 1,
+            "temperature": 1,
+            "partial discharge": 1,
+            "noise": 1,
+            "ultrasound": 1,
+            "vibration": 1,
+            "resistance": 1,
+            "frequency response analysis (fra)": 1,
+            "excitation current": 1,
+            "leak reactance flux": 1,
+            "bushing capacitance": 1,
+            "oil condition": 0,
+            "dissolved gas analysis": 0,
+            "power factor/tan\u03b4": 0,
+            "dielecric frequency response (dfr)/ polarization and de-polarization current (pdc)/ recovery voltage method (rvm)": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "failure_mode": "arcing/ electrical discharge",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "amps/ volts/ load": 1,
+            "temperature": 1,
+            "vibration": 1,
+            "resistance": 1,
+            "dielecric frequency response (dfr)/ polarization and de-polarization current (pdc)/ recovery voltage method (rvm)": 1,
+            "frequency response analysis (fra)": 1,
+            "excitation current": 1,
+            "leak reactance flux": 1,
+            "bushing capacitance": 1,
+            "visual": 0,
+            "oil condition": 0,
+            "partial discharge": 0,
+            "dissolved gas analysis": 0,
+            "noise": 0,
+            "ultrasound": 0,
+            "power factor/tan\u03b4": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "failure_mode": "connection/ bushing faults",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "amps/ volts/ load": 1,
+            "visual": 1,
+            "oil condition": 1,
+            "vibration": 1,
+            "dielecric frequency response (dfr)/ polarization and de-polarization current (pdc)/ recovery voltage method (rvm)": 1,
+            "frequency response analysis (fra)": 1,
+            "excitation current": 1,
+            "leak reactance flux": 1,
+            "temperature": 0,
+            "partial discharge": 0,
+            "dissolved gas analysis": 0,
+            "noise": 0,
+            "ultrasound": 0,
+            "power factor/tan\u03b4": 0,
+            "resistance": 0,
+            "bushing capacitance": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "failure_mode": "overheating/ auxiliary cooling system fault",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "amps/ volts/ load": 1,
+            "partial discharge": 1,
+            "noise": 1,
+            "vibration": 1,
+            "power factor/tan\u03b4": 1,
+            "resistance": 1,
+            "dielecric frequency response (dfr)/ polarization and de-polarization current (pdc)/ recovery voltage method (rvm)": 1,
+            "frequency response analysis (fra)": 1,
+            "excitation current": 1,
+            "leak reactance flux": 1,
+            "bushing capacitance": 1,
+            "visual": 0,
+            "oil condition": 0,
+            "temperature": 0,
+            "dissolved gas analysis": 0,
+            "ultrasound": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "failure_mode": "low oil level",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "amps/ volts/ load": 1,
+            "partial discharge": 1,
+            "vibration": 1,
+            "power factor/tan\u03b4": 1,
+            "resistance": 1,
+            "dielecric frequency response (dfr)/ polarization and de-polarization current (pdc)/ recovery voltage method (rvm)": 1,
+            "frequency response analysis (fra)": 1,
+            "excitation current": 1,
+            "leak reactance flux": 1,
+            "bushing capacitance": 1,
+            "visual": 0,
+            "oil condition": 0,
+            "temperature": 0,
+            "dissolved gas analysis": 0,
+            "noise": 0,
+            "ultrasound": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "failure_mode": "oil circulation system problem",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "amps/ volts/ load": 1,
+            "partial discharge": 1,
+            "noise": 1,
+            "ultrasound": 1,
+            "vibration": 1,
+            "power factor/tan\u03b4": 1,
+            "resistance": 1,
+            "dielecric frequency response (dfr)/ polarization and de-polarization current (pdc)/ recovery voltage method (rvm)": 1,
+            "frequency response analysis (fra)": 1,
+            "excitation current": 1,
+            "leak reactance flux": 1,
+            "bushing capacitance": 1,
+            "visual": 0,
+            "oil condition": 0,
+            "temperature": 0,
+            "dissolved gas analysis": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "failure_mode": "winding distortion",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "amps/ volts/ load": 1,
+            "visual": 1,
+            "oil condition": 1,
+            "temperature": 1,
+            "partial discharge": 1,
+            "dissolved gas analysis": 1,
+            "noise": 1,
+            "vibration": 1,
+            "power factor/tan\u03b4": 1,
+            "resistance": 1,
+            "excitation current": 1,
+            "bushing capacitance": 1,
+            "ultrasound": 0,
+            "dielecric frequency response (dfr)/ polarization and de-polarization current (pdc)/ recovery voltage method (rvm)": 0,
+            "frequency response analysis (fra)": 0,
+            "leak reactance flux": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "failure_mode": "winding looseness",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "amps/ volts/ load": 1,
+            "visual": 1,
+            "oil condition": 1,
+            "temperature": 1,
+            "partial discharge": 1,
+            "dissolved gas analysis": 1,
+            "power factor/tan\u03b4": 1,
+            "resistance": 1,
+            "dielecric frequency response (dfr)/ polarization and de-polarization current (pdc)/ recovery voltage method (rvm)": 1,
+            "frequency response analysis (fra)": 1,
+            "excitation current": 1,
+            "leak reactance flux": 1,
+            "bushing capacitance": 1,
+            "noise": 0,
+            "ultrasound": 0,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "failure_mode": "core looseness",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "amps/ volts/ load": 1,
+            "visual": 1,
+            "oil condition": 1,
+            "temperature": 1,
+            "partial discharge": 1,
+            "dissolved gas analysis": 1,
+            "power factor/tan\u03b4": 1,
+            "resistance": 1,
+            "dielecric frequency response (dfr)/ polarization and de-polarization current (pdc)/ recovery voltage method (rvm)": 1,
+            "frequency response analysis (fra)": 1,
+            "excitation current": 1,
+            "leak reactance flux": 1,
+            "bushing capacitance": 1,
+            "noise": 0,
+            "ultrasound": 0,
+            "vibration": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "failure_mode": "oil leak",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "amps/ volts/ load": 1,
+            "oil condition": 1,
+            "temperature": 1,
+            "partial discharge": 1,
+            "dissolved gas analysis": 1,
+            "noise": 1,
+            "ultrasound": 1,
+            "vibration": 1,
+            "power factor/tan\u03b4": 1,
+            "resistance": 1,
+            "dielecric frequency response (dfr)/ polarization and de-polarization current (pdc)/ recovery voltage method (rvm)": 1,
+            "frequency response analysis (fra)": 1,
+            "excitation current": 1,
+            "leak reactance flux": 1,
+            "bushing capacitance": 1,
+            "visual": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "failure_mode": "external damage/ disturbance",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "amps/ volts/ load": 1,
+            "oil condition": 1,
+            "temperature": 1,
+            "partial discharge": 1,
+            "dissolved gas analysis": 1,
+            "noise": 1,
+            "ultrasound": 1,
+            "vibration": 1,
+            "power factor/tan\u03b4": 1,
+            "resistance": 1,
+            "dielecric frequency response (dfr)/ polarization and de-polarization current (pdc)/ recovery voltage method (rvm)": 1,
+            "frequency response analysis (fra)": 1,
+            "excitation current": 1,
+            "leak reactance flux": 1,
+            "bushing capacitance": 1,
+            "visual": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "failure_mode": "through fault e.g. lightning strike",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "amps/ volts/ load": 1,
+            "visual": 1,
+            "oil condition": 1,
+            "temperature": 1,
+            "partial discharge": 1,
+            "dissolved gas analysis": 1,
+            "noise": 1,
+            "ultrasound": 1,
+            "vibration": 1,
+            "resistance": 1,
+            "dielecric frequency response (dfr)/ polarization and de-polarization current (pdc)/ recovery voltage method (rvm)": 1,
+            "excitation current": 1,
+            "leak reactance flux": 1,
+            "bushing capacitance": 1,
+            "power factor/tan\u03b4": 0,
+            "frequency response analysis (fra)": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "failure_mode": "supply faults, e.g. excessive harmonics and over fluxing",
+        "question": "irrelevant_sensors_for_failure_mode",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "visual": 1,
+            "oil condition": 1,
+            "temperature": 1,
+            "partial discharge": 1,
+            "dissolved gas analysis": 1,
+            "noise": 1,
+            "ultrasound": 1,
+            "vibration": 1,
+            "power factor/tan\u03b4": 1,
+            "resistance": 1,
+            "dielecric frequency response (dfr)/ polarization and de-polarization current (pdc)/ recovery voltage method (rvm)": 1,
+            "frequency response analysis (fra)": 1,
+            "excitation current": 1,
+            "leak reactance flux": 1,
+            "bushing capacitance": 1,
+            "amps/ volts/ load": 0
+        }
+    },
+    {
+        "asset_class": "electric motor",
+        "sensor": "current",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "unbalance": 1,
+            "misalignment": 1,
+            "rotor windings fault": 0,
+            "stator windings fault": 0,
+            "eccentric rotor fault": 0,
+            "brush(es) fault": 0,
+            "bearing damage": 0,
+            "insulation deterioration": 0,
+            "loss of input power phase": 0
+        }
+    },
+    {
+        "asset_class": "electric motor",
+        "sensor": "voltage",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "rotor windings fault": 1,
+            "stator windings fault": 1,
+            "eccentric rotor fault": 1,
+            "bearing damage": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "brush(es) fault": 0,
+            "insulation deterioration": 0,
+            "loss of input power phase": 0
+        }
+    },
+    {
+        "asset_class": "electric motor",
+        "sensor": "resistance",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "rotor windings fault": 1,
+            "stator windings fault": 1,
+            "eccentric rotor fault": 1,
+            "brush(es) fault": 1,
+            "bearing damage": 1,
+            "loss of input power phase": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "insulation deterioration": 0
+        }
+    },
+    {
+        "asset_class": "electric motor",
+        "sensor": "partial discharge",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "rotor windings fault": 1,
+            "stator windings fault": 1,
+            "eccentric rotor fault": 1,
+            "brush(es) fault": 1,
+            "bearing damage": 1,
+            "loss of input power phase": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "insulation deterioration": 0
+        }
+    },
+    {
+        "asset_class": "electric motor",
+        "sensor": "power",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "stator windings fault": 1,
+            "eccentric rotor fault": 1,
+            "bearing damage": 1,
+            "insulation deterioration": 1,
+            "loss of input power phase": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "rotor windings fault": 0,
+            "brush(es) fault": 0
+        }
+    },
+    {
+        "asset_class": "electric motor",
+        "sensor": "torque",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "stator windings fault": 1,
+            "eccentric rotor fault": 1,
+            "insulation deterioration": 1,
+            "loss of input power phase": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "rotor windings fault": 0,
+            "brush(es) fault": 0,
+            "bearing damage": 0
+        }
+    },
+    {
+        "asset_class": "electric motor",
+        "sensor": "speed",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "stator windings fault": 1,
+            "eccentric rotor fault": 1,
+            "brush(es) fault": 1,
+            "bearing damage": 1,
+            "insulation deterioration": 1,
+            "loss of input power phase": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "rotor windings fault": 0
+        }
+    },
+    {
+        "asset_class": "electric motor",
+        "sensor": "vibration",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "brush(es) fault": 1,
+            "insulation deterioration": 1,
+            "rotor windings fault": 0,
+            "stator windings fault": 0,
+            "eccentric rotor fault": 0,
+            "bearing damage": 0,
+            "loss of input power phase": 0,
+            "unbalance": 0,
+            "misalignment": 0
+        }
+    },
+    {
+        "asset_class": "electric motor",
+        "sensor": "temperature",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "eccentric rotor fault": 1,
+            "insulation deterioration": 1,
+            "loss of input power phase": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "rotor windings fault": 0,
+            "stator windings fault": 0,
+            "brush(es) fault": 0,
+            "bearing damage": 0
+        }
+    },
+    {
+        "asset_class": "electric motor",
+        "sensor": "coast down time",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "rotor windings fault": 1,
+            "stator windings fault": 1,
+            "eccentric rotor fault": 1,
+            "brush(es) fault": 1,
+            "insulation deterioration": 1,
+            "loss of input power phase": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "bearing damage": 0
+        }
+    },
+    {
+        "asset_class": "electric motor",
+        "sensor": "axial flux",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "brush(es) fault": 1,
+            "bearing damage": 1,
+            "insulation deterioration": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "rotor windings fault": 0,
+            "stator windings fault": 0,
+            "eccentric rotor fault": 0,
+            "loss of input power phase": 0
+        }
+    },
+    {
+        "asset_class": "electric motor",
+        "sensor": "oil debris",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "rotor windings fault": 1,
+            "stator windings fault": 1,
+            "eccentric rotor fault": 1,
+            "brush(es) fault": 1,
+            "insulation deterioration": 1,
+            "loss of input power phase": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "bearing damage": 0
+        }
+    },
+    {
+        "asset_class": "electric motor",
+        "sensor": "cooling gas",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "eccentric rotor fault": 1,
+            "brush(es) fault": 1,
+            "bearing damage": 1,
+            "loss of input power phase": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "rotor windings fault": 0,
+            "stator windings fault": 0,
+            "insulation deterioration": 0
+        }
+    },
+    {
+        "asset_class": "steam turbine",
+        "sensor": "steam leakage",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "bearing damage": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "damaged rotor blade": 0,
+            "damaged labyrinth": 0,
+            "eccentric rotor": 0,
+            "bearing wear": 0,
+            "hogging or sagging rotor": 0,
+            "unequal expansion": 0
+        }
+    },
+    {
+        "asset_class": "steam turbine",
+        "sensor": "length measurement",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "damaged rotor blade": 1,
+            "damaged labyrinth": 1,
+            "eccentric rotor": 1,
+            "hogging or sagging rotor": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "bearing damage": 0,
+            "bearing wear": 0,
+            "unequal expansion": 0
+        }
+    },
+    {
+        "asset_class": "steam turbine",
+        "sensor": "power",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "eccentric rotor": 1,
+            "bearing wear": 1,
+            "hogging or sagging rotor": 1,
+            "unequal expansion": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "damaged rotor blade": 0,
+            "damaged labyrinth": 0,
+            "bearing damage": 0
+        }
+    },
+    {
+        "asset_class": "steam turbine",
+        "sensor": "pressure or vacuum",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "damaged rotor blade": 1,
+            "eccentric rotor": 1,
+            "bearing wear": 1,
+            "hogging or sagging rotor": 1,
+            "unequal expansion": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "damaged labyrinth": 0,
+            "bearing damage": 0
+        }
+    },
+    {
+        "asset_class": "steam turbine",
+        "sensor": "speed",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "damaged rotor blade": 1,
+            "eccentric rotor": 1,
+            "bearing damage": 1,
+            "bearing wear": 1,
+            "hogging or sagging rotor": 1,
+            "unequal expansion": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "damaged labyrinth": 0
+        }
+    },
+    {
+        "asset_class": "steam turbine",
+        "sensor": "vibration",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "damaged rotor blade": 0,
+            "damaged labyrinth": 0,
+            "eccentric rotor": 0,
+            "bearing damage": 0,
+            "bearing wear": 0,
+            "hogging or sagging rotor": 0,
+            "unequal expansion": 0,
+            "unbalance": 0,
+            "misalignment": 0
+        }
+    },
+    {
+        "asset_class": "steam turbine",
+        "sensor": "temperature",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "eccentric rotor": 1,
+            "hogging or sagging rotor": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "damaged rotor blade": 0,
+            "damaged labyrinth": 0,
+            "bearing damage": 0,
+            "bearing wear": 0,
+            "unequal expansion": 0
+        }
+    },
+    {
+        "asset_class": "steam turbine",
+        "sensor": "coast down time",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "unequal expansion": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "damaged rotor blade": 0,
+            "damaged labyrinth": 0,
+            "eccentric rotor": 0,
+            "bearing damage": 0,
+            "bearing wear": 0,
+            "hogging or sagging rotor": 0
+        }
+    },
+    {
+        "asset_class": "steam turbine",
+        "sensor": "oil debris",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "damaged labyrinth": 1,
+            "eccentric rotor": 1,
+            "unequal expansion": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "damaged rotor blade": 0,
+            "bearing damage": 0,
+            "bearing wear": 0,
+            "hogging or sagging rotor": 0
+        }
+    },
+    {
+        "asset_class": "steam turbine",
+        "sensor": "oil leakage",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "damaged rotor blade": 1,
+            "damaged labyrinth": 1,
+            "eccentric rotor": 1,
+            "hogging or sagging rotor": 1,
+            "unequal expansion": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "bearing damage": 0,
+            "bearing wear": 0
+        }
+    },
+    {
+        "asset_class": "aero gas turbine",
+        "sensor": "compressor temperature",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "compressor stall": 1,
+            "fuel filter blockage": 1,
+            "seal leakage": 1,
+            "combustion chamber holed": 1,
+            "burner blocked": 1,
+            "bearing wear/ damage": 1,
+            "gear defects": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "air inlet blockage": 0,
+            "compressor fouled": 0,
+            "compressor damaged": 0,
+            "power turbine dirty": 0,
+            "power turbine damage": 0
+        }
+    },
+    {
+        "asset_class": "aero gas turbine",
+        "sensor": "compresor pressure/ pressure ratio",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "compressor stall": 1,
+            "seal leakage": 1,
+            "combustion chamber holed": 1,
+            "burner blocked": 1,
+            "bearing wear/ damage": 1,
+            "gear defects": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "air inlet blockage": 0,
+            "compressor fouled": 0,
+            "compressor damaged": 0,
+            "fuel filter blockage": 0,
+            "power turbine dirty": 0,
+            "power turbine damage": 0
+        }
+    },
+    {
+        "asset_class": "aero gas turbine",
+        "sensor": "air flow",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "compressor damaged": 1,
+            "compressor stall": 1,
+            "fuel filter blockage": 1,
+            "seal leakage": 1,
+            "combustion chamber holed": 1,
+            "burner blocked": 1,
+            "bearing wear/ damage": 1,
+            "gear defects": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "air inlet blockage": 0,
+            "compressor fouled": 0,
+            "power turbine dirty": 0,
+            "power turbine damage": 0
+        }
+    },
+    {
+        "asset_class": "aero gas turbine",
+        "sensor": "fuel pressure/ fuel flow",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air inlet blockage": 1,
+            "compressor stall": 1,
+            "seal leakage": 1,
+            "power turbine dirty": 1,
+            "power turbine damage": 1,
+            "bearing wear/ damage": 1,
+            "gear defects": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "compressor fouled": 0,
+            "compressor damaged": 0,
+            "fuel filter blockage": 0,
+            "combustion chamber holed": 0,
+            "burner blocked": 0
+        }
+    },
+    {
+        "asset_class": "aero gas turbine",
+        "sensor": "speed",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "seal leakage": 1,
+            "bearing wear/ damage": 1,
+            "gear defects": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "air inlet blockage": 0,
+            "compressor fouled": 0,
+            "compressor damaged": 0,
+            "compressor stall": 0,
+            "fuel filter blockage": 0,
+            "combustion chamber holed": 0,
+            "burner blocked": 0,
+            "power turbine dirty": 0,
+            "power turbine damage": 0
+        }
+    },
+    {
+        "asset_class": "aero gas turbine",
+        "sensor": "gas generator temperature",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air inlet blockage": 1,
+            "compressor stall": 1,
+            "fuel filter blockage": 1,
+            "combustion chamber holed": 1,
+            "burner blocked": 1,
+            "power turbine dirty": 1,
+            "power turbine damage": 1,
+            "bearing wear/ damage": 1,
+            "gear defects": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "compressor fouled": 0,
+            "compressor damaged": 0,
+            "seal leakage": 0
+        }
+    },
+    {
+        "asset_class": "aero gas turbine",
+        "sensor": "pressure/ pressure ratio",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air inlet blockage": 1,
+            "combustion chamber holed": 1,
+            "bearing wear/ damage": 1,
+            "gear defects": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "compressor fouled": 0,
+            "compressor damaged": 0,
+            "compressor stall": 0,
+            "fuel filter blockage": 0,
+            "seal leakage": 0,
+            "burner blocked": 0,
+            "power turbine dirty": 0,
+            "power turbine damage": 0
+        }
+    },
+    {
+        "asset_class": "aero gas turbine",
+        "sensor": "power turbine temperature",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air inlet blockage": 1,
+            "compressor stall": 1,
+            "fuel filter blockage": 1,
+            "seal leakage": 1,
+            "combustion chamber holed": 1,
+            "burner blocked": 1,
+            "power turbine damage": 1,
+            "bearing wear/ damage": 1,
+            "gear defects": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "compressor fouled": 0,
+            "compressor damaged": 0,
+            "power turbine dirty": 0
+        }
+    },
+    {
+        "asset_class": "aero gas turbine",
+        "sensor": "exhaust temperature",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air inlet blockage": 1,
+            "compressor stall": 1,
+            "fuel filter blockage": 1,
+            "seal leakage": 1,
+            "burner blocked": 1,
+            "power turbine dirty": 1,
+            "power turbine damage": 1,
+            "bearing wear/ damage": 1,
+            "gear defects": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "compressor fouled": 0,
+            "compressor damaged": 0,
+            "combustion chamber holed": 0
+        }
+    },
+    {
+        "asset_class": "aero gas turbine",
+        "sensor": "vibration",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air inlet blockage": 1,
+            "fuel filter blockage": 1,
+            "seal leakage": 1,
+            "combustion chamber holed": 1,
+            "burner blocked": 1,
+            "compressor fouled": 0,
+            "compressor damaged": 0,
+            "compressor stall": 0,
+            "power turbine dirty": 0,
+            "power turbine damage": 0,
+            "bearing wear/ damage": 0,
+            "gear defects": 0,
+            "unbalance": 0,
+            "misalignment": 0
+        }
+    },
+    {
+        "asset_class": "aero gas turbine",
+        "sensor": "oil debris",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air inlet blockage": 1,
+            "compressor stall": 1,
+            "fuel filter blockage": 1,
+            "combustion chamber holed": 1,
+            "burner blocked": 1,
+            "power turbine dirty": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "compressor fouled": 0,
+            "compressor damaged": 0,
+            "seal leakage": 0,
+            "power turbine damage": 0,
+            "bearing wear/ damage": 0,
+            "gear defects": 0
+        }
+    },
+    {
+        "asset_class": "aero gas turbine",
+        "sensor": "oil leakage/ consumption",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air inlet blockage": 1,
+            "compressor fouled": 1,
+            "compressor damaged": 1,
+            "compressor stall": 1,
+            "fuel filter blockage": 1,
+            "combustion chamber holed": 1,
+            "burner blocked": 1,
+            "power turbine dirty": 1,
+            "power turbine damage": 1,
+            "gear defects": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "seal leakage": 0,
+            "bearing wear/ damage": 0
+        }
+    },
+    {
+        "asset_class": "industrial gas turbine",
+        "sensor": "compressor temperature",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air inlet blockage": 1,
+            "fuel filter blockage": 1,
+            "combustion chamber holed": 1,
+            "burner blocked": 1,
+            "power turbine damaged": 1,
+            "bearing wear": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "compressor fouled": 0,
+            "compressor damaged": 0
+        }
+    },
+    {
+        "asset_class": "industrial gas turbine",
+        "sensor": "compressor pressure",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "combustion chamber holed": 1,
+            "burner blocked": 1,
+            "power turbine damaged": 1,
+            "bearing wear": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "air inlet blockage": 0,
+            "compressor fouled": 0,
+            "compressor damaged": 0,
+            "fuel filter blockage": 0
+        }
+    },
+    {
+        "asset_class": "industrial gas turbine",
+        "sensor": "air flow",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "fuel filter blockage": 1,
+            "combustion chamber holed": 1,
+            "burner blocked": 1,
+            "power turbine damaged": 1,
+            "bearing wear": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "air inlet blockage": 0,
+            "compressor fouled": 0,
+            "compressor damaged": 0
+        }
+    },
+    {
+        "asset_class": "industrial gas turbine",
+        "sensor": "fuel pressure/ fuel flow",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air inlet blockage": 1,
+            "power turbine damaged": 1,
+            "bearing wear": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "compressor fouled": 0,
+            "compressor damaged": 0,
+            "fuel filter blockage": 0,
+            "combustion chamber holed": 0,
+            "burner blocked": 0
+        }
+    },
+    {
+        "asset_class": "industrial gas turbine",
+        "sensor": "speed",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "bearing wear": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "air inlet blockage": 0,
+            "compressor fouled": 0,
+            "compressor damaged": 0,
+            "fuel filter blockage": 0,
+            "combustion chamber holed": 0,
+            "burner blocked": 0,
+            "power turbine damaged": 0
+        }
+    },
+    {
+        "asset_class": "industrial gas turbine",
+        "sensor": "exhaust temperature",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air inlet blockage": 1,
+            "compressor fouled": 1,
+            "compressor damaged": 1,
+            "fuel filter blockage": 1,
+            "combustion chamber holed": 1,
+            "bearing wear": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "burner blocked": 0,
+            "power turbine damaged": 0
+        }
+    },
+    {
+        "asset_class": "industrial gas turbine",
+        "sensor": "vibration",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air inlet blockage": 1,
+            "compressor fouled": 1,
+            "fuel filter blockage": 1,
+            "combustion chamber holed": 1,
+            "burner blocked": 1,
+            "compressor damaged": 0,
+            "power turbine damaged": 0,
+            "bearing wear": 0,
+            "unbalance": 0,
+            "misalignment": 0
+        }
+    },
+    {
+        "asset_class": "industrial gas turbine",
+        "sensor": "output power",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "bearing wear": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "air inlet blockage": 0,
+            "compressor fouled": 0,
+            "compressor damaged": 0,
+            "fuel filter blockage": 0,
+            "combustion chamber holed": 0,
+            "burner blocked": 0,
+            "power turbine damaged": 0
+        }
+    },
+    {
+        "asset_class": "industrial gas turbine",
+        "sensor": "compressor efficiency",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air inlet blockage": 1,
+            "fuel filter blockage": 1,
+            "combustion chamber holed": 1,
+            "burner blocked": 1,
+            "power turbine damaged": 1,
+            "bearing wear": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "compressor fouled": 0,
+            "compressor damaged": 0
+        }
+    },
+    {
+        "asset_class": "industrial gas turbine",
+        "sensor": "turbine efficiency",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air inlet blockage": 1,
+            "compressor fouled": 1,
+            "compressor damaged": 1,
+            "fuel filter blockage": 1,
+            "combustion chamber holed": 1,
+            "burner blocked": 1,
+            "bearing wear": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "power turbine damaged": 0
+        }
+    },
+    {
+        "asset_class": "industrial gas turbine",
+        "sensor": "oil debris/ contamination",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air inlet blockage": 1,
+            "compressor fouled": 1,
+            "fuel filter blockage": 1,
+            "combustion chamber holed": 1,
+            "burner blocked": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "compressor damaged": 0,
+            "power turbine damaged": 0,
+            "bearing wear": 0
+        }
+    },
+    {
+        "asset_class": "industrial gas turbine",
+        "sensor": "oil consumption",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air inlet blockage": 1,
+            "compressor fouled": 1,
+            "compressor damaged": 1,
+            "fuel filter blockage": 1,
+            "combustion chamber holed": 1,
+            "burner blocked": 1,
+            "power turbine damaged": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "bearing wear": 0
+        }
+    },
+    {
+        "asset_class": "pump",
+        "sensor": "fluid leakage",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "damaged impeller": 1,
+            "eccentric impeller": 1,
+            "bearing damage": 1,
+            "bearing wear": 1,
+            "mounting fault": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "damaged seals": 0
+        }
+    },
+    {
+        "asset_class": "pump",
+        "sensor": "length measurement",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "eccentric impeller": 1,
+            "mounting fault": 1,
+            "unbalance": 1,
+            "damaged impeller": 0,
+            "damaged seals": 0,
+            "bearing damage": 0,
+            "bearing wear": 0,
+            "misalignment": 0
+        }
+    },
+    {
+        "asset_class": "pump",
+        "sensor": "power",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "damaged seals": 1,
+            "bearing wear": 1,
+            "mounting fault": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "damaged impeller": 0,
+            "eccentric impeller": 0,
+            "bearing damage": 0
+        }
+    },
+    {
+        "asset_class": "pump",
+        "sensor": "pressure or vacuum",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "bearing damage": 1,
+            "bearing wear": 1,
+            "mounting fault": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "damaged impeller": 0,
+            "damaged seals": 0,
+            "eccentric impeller": 0
+        }
+    },
+    {
+        "asset_class": "pump",
+        "sensor": "speed",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "bearing wear": 1,
+            "mounting fault": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "damaged impeller": 0,
+            "damaged seals": 0,
+            "eccentric impeller": 0,
+            "bearing damage": 0
+        }
+    },
+    {
+        "asset_class": "pump",
+        "sensor": "vibration",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "damaged impeller": 0,
+            "damaged seals": 0,
+            "eccentric impeller": 0,
+            "bearing damage": 0,
+            "bearing wear": 0,
+            "mounting fault": 0,
+            "unbalance": 0,
+            "misalignment": 0
+        }
+    },
+    {
+        "asset_class": "pump",
+        "sensor": "temperature",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "damaged seals": 1,
+            "mounting fault": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "damaged impeller": 0,
+            "eccentric impeller": 0,
+            "bearing damage": 0,
+            "bearing wear": 0
+        }
+    },
+    {
+        "asset_class": "pump",
+        "sensor": "coast down time",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "damaged seals": 1,
+            "mounting fault": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "damaged impeller": 0,
+            "eccentric impeller": 0,
+            "bearing damage": 0,
+            "bearing wear": 0
+        }
+    },
+    {
+        "asset_class": "pump",
+        "sensor": "oil debris",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "damaged seals": 1,
+            "eccentric impeller": 1,
+            "mounting fault": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "damaged impeller": 0,
+            "bearing damage": 0,
+            "bearing wear": 0
+        }
+    },
+    {
+        "asset_class": "pump",
+        "sensor": "oil leakage",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "damaged impeller": 1,
+            "damaged seals": 1,
+            "eccentric impeller": 1,
+            "bearing wear": 1,
+            "mounting fault": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "bearing damage": 0
+        }
+    },
+    {
+        "asset_class": "compressor",
+        "sensor": "fluid leakage",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "damaged impeller": 1,
+            "eccentric impeller": 1,
+            "bearing damage": 1,
+            "bearing wear": 1,
+            "mounting fault": 1,
+            "compressor stall": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "damaged seals": 0,
+            "cooling system fault": 0,
+            "valve fault": 0
+        }
+    },
+    {
+        "asset_class": "compressor",
+        "sensor": "length measurement",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "eccentric impeller": 1,
+            "cooling system fault": 1,
+            "valve fault": 1,
+            "mounting fault": 1,
+            "unbalance": 1,
+            "damaged impeller": 0,
+            "damaged seals": 0,
+            "bearing damage": 0,
+            "bearing wear": 0,
+            "compressor stall": 0,
+            "misalignment": 0
+        }
+    },
+    {
+        "asset_class": "compressor",
+        "sensor": "power",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "damaged seals": 1,
+            "bearing wear": 1,
+            "cooling system fault": 1,
+            "valve fault": 1,
+            "mounting fault": 1,
+            "compressor stall": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "damaged impeller": 0,
+            "eccentric impeller": 0,
+            "bearing damage": 0
+        }
+    },
+    {
+        "asset_class": "compressor",
+        "sensor": "pressure or vacuum",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "bearing damage": 1,
+            "bearing wear": 1,
+            "mounting fault": 1,
+            "compressor stall": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "damaged impeller": 0,
+            "damaged seals": 0,
+            "eccentric impeller": 0,
+            "cooling system fault": 0,
+            "valve fault": 0
+        }
+    },
+    {
+        "asset_class": "compressor",
+        "sensor": "speed",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "bearing wear": 1,
+            "cooling system fault": 1,
+            "valve fault": 1,
+            "mounting fault": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "damaged impeller": 0,
+            "damaged seals": 0,
+            "eccentric impeller": 0,
+            "bearing damage": 0,
+            "compressor stall": 0
+        }
+    },
+    {
+        "asset_class": "compressor",
+        "sensor": "vibration",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "damaged seals": 1,
+            "cooling system fault": 1,
+            "damaged impeller": 0,
+            "eccentric impeller": 0,
+            "bearing damage": 0,
+            "bearing wear": 0,
+            "valve fault": 0,
+            "mounting fault": 0,
+            "compressor stall": 0,
+            "unbalance": 0,
+            "misalignment": 0
+        }
+    },
+    {
+        "asset_class": "compressor",
+        "sensor": "temperature",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "damaged seals": 1,
+            "mounting fault": 1,
+            "compressor stall": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "damaged impeller": 0,
+            "eccentric impeller": 0,
+            "bearing damage": 0,
+            "bearing wear": 0,
+            "cooling system fault": 0,
+            "valve fault": 0
+        }
+    },
+    {
+        "asset_class": "compressor",
+        "sensor": "coast down time",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "damaged seals": 1,
+            "cooling system fault": 1,
+            "valve fault": 1,
+            "mounting fault": 1,
+            "compressor stall": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "damaged impeller": 0,
+            "eccentric impeller": 0,
+            "bearing damage": 0,
+            "bearing wear": 0
+        }
+    },
+    {
+        "asset_class": "compressor",
+        "sensor": "oil debris",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "eccentric impeller": 1,
+            "valve fault": 1,
+            "mounting fault": 1,
+            "compressor stall": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "damaged impeller": 0,
+            "damaged seals": 0,
+            "bearing damage": 0,
+            "bearing wear": 0,
+            "cooling system fault": 0
+        }
+    },
+    {
+        "asset_class": "compressor",
+        "sensor": "oil leakage",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "damaged impeller": 1,
+            "damaged seals": 1,
+            "eccentric impeller": 1,
+            "bearing wear": 1,
+            "cooling system fault": 1,
+            "valve fault": 1,
+            "mounting fault": 1,
+            "compressor stall": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "bearing damage": 0
+        }
+    },
+    {
+        "asset_class": "reciprocating internal combustion engine",
+        "sensor": "engine temperature",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "bearing wear": 1,
+            "fuel filter blockage": 1,
+            "seal leakage": 1,
+            "piston ring fault": 1,
+            "cooling system fault": 1,
+            "secondary balance gear fault": 1,
+            "gear defects": 1,
+            "flywheel damage": 1,
+            "mounting fault": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "air inlet blockage": 0,
+            "fuel injector fault": 0,
+            "ignition fault": 0
+        }
+    },
+    {
+        "asset_class": "reciprocating internal combustion engine",
+        "sensor": "cylinder pressure",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "bearing wear": 1,
+            "fuel filter blockage": 1,
+            "seal leakage": 1,
+            "cooling system fault": 1,
+            "secondary balance gear fault": 1,
+            "gear defects": 1,
+            "flywheel damage": 1,
+            "mounting fault": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "air inlet blockage": 0,
+            "fuel injector fault": 0,
+            "ignition fault": 0,
+            "piston ring fault": 0
+        }
+    },
+    {
+        "asset_class": "reciprocating internal combustion engine",
+        "sensor": "air flow",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "ignition fault": 1,
+            "bearing wear": 1,
+            "fuel filter blockage": 1,
+            "seal leakage": 1,
+            "piston ring fault": 1,
+            "cooling system fault": 1,
+            "secondary balance gear fault": 1,
+            "gear defects": 1,
+            "flywheel damage": 1,
+            "mounting fault": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "air inlet blockage": 0,
+            "fuel injector fault": 0
+        }
+    },
+    {
+        "asset_class": "reciprocating internal combustion engine",
+        "sensor": "fuel pressure",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air inlet blockage": 1,
+            "fuel injector fault": 1,
+            "ignition fault": 1,
+            "bearing wear": 1,
+            "seal leakage": 1,
+            "piston ring fault": 1,
+            "cooling system fault": 1,
+            "secondary balance gear fault": 1,
+            "gear defects": 1,
+            "flywheel damage": 1,
+            "mounting fault": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "fuel filter blockage": 0
+        }
+    },
+    {
+        "asset_class": "reciprocating internal combustion engine",
+        "sensor": "fuel flow",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air inlet blockage": 1,
+            "bearing wear": 1,
+            "seal leakage": 1,
+            "piston ring fault": 1,
+            "secondary balance gear fault": 1,
+            "gear defects": 1,
+            "flywheel damage": 1,
+            "mounting fault": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "fuel injector fault": 0,
+            "ignition fault": 0,
+            "fuel filter blockage": 0,
+            "cooling system fault": 0
+        }
+    },
+    {
+        "asset_class": "reciprocating internal combustion engine",
+        "sensor": "exhaust temperature",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air inlet blockage": 1,
+            "bearing wear": 1,
+            "fuel filter blockage": 1,
+            "piston ring fault": 1,
+            "cooling system fault": 1,
+            "secondary balance gear fault": 1,
+            "gear defects": 1,
+            "flywheel damage": 1,
+            "mounting fault": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "fuel injector fault": 0,
+            "ignition fault": 0,
+            "seal leakage": 0
+        }
+    },
+    {
+        "asset_class": "reciprocating internal combustion engine",
+        "sensor": "exhaust pressure",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "fuel injector fault": 1,
+            "ignition fault": 1,
+            "bearing wear": 1,
+            "piston ring fault": 1,
+            "secondary balance gear fault": 1,
+            "gear defects": 1,
+            "flywheel damage": 1,
+            "mounting fault": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "air inlet blockage": 0,
+            "fuel filter blockage": 0,
+            "seal leakage": 0,
+            "cooling system fault": 0
+        }
+    },
+    {
+        "asset_class": "reciprocating internal combustion engine",
+        "sensor": "vibration",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air inlet blockage": 1,
+            "fuel filter blockage": 1,
+            "seal leakage": 1,
+            "piston ring fault": 1,
+            "cooling system fault": 1,
+            "fuel injector fault": 0,
+            "ignition fault": 0,
+            "bearing wear": 0,
+            "secondary balance gear fault": 0,
+            "gear defects": 0,
+            "flywheel damage": 0,
+            "mounting fault": 0,
+            "unbalance": 0,
+            "misalignment": 0
+        }
+    },
+    {
+        "asset_class": "reciprocating internal combustion engine",
+        "sensor": "output power",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air inlet blockage": 1,
+            "bearing wear": 1,
+            "fuel filter blockage": 1,
+            "seal leakage": 1,
+            "cooling system fault": 1,
+            "secondary balance gear fault": 1,
+            "gear defects": 1,
+            "flywheel damage": 1,
+            "mounting fault": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "fuel injector fault": 0,
+            "ignition fault": 0,
+            "piston ring fault": 0
+        }
+    },
+    {
+        "asset_class": "reciprocating internal combustion engine",
+        "sensor": "oil consumption",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air inlet blockage": 1,
+            "bearing wear": 1,
+            "fuel filter blockage": 1,
+            "secondary balance gear fault": 1,
+            "gear defects": 1,
+            "flywheel damage": 1,
+            "mounting fault": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "fuel injector fault": 0,
+            "ignition fault": 0,
+            "seal leakage": 0,
+            "piston ring fault": 0,
+            "cooling system fault": 0
+        }
+    },
+    {
+        "asset_class": "reciprocating internal combustion engine",
+        "sensor": "oil debris",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air inlet blockage": 1,
+            "fuel injector fault": 1,
+            "ignition fault": 1,
+            "fuel filter blockage": 1,
+            "seal leakage": 1,
+            "secondary balance gear fault": 1,
+            "mounting fault": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "bearing wear": 0,
+            "piston ring fault": 0,
+            "cooling system fault": 0,
+            "gear defects": 0,
+            "flywheel damage": 0
+        }
+    },
+    {
+        "asset_class": "reciprocating internal combustion engine",
+        "sensor": "cooling fluid leak",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "air inlet blockage": 1,
+            "fuel injector fault": 1,
+            "ignition fault": 1,
+            "bearing wear": 1,
+            "fuel filter blockage": 1,
+            "seal leakage": 1,
+            "piston ring fault": 1,
+            "secondary balance gear fault": 1,
+            "gear defects": 1,
+            "flywheel damage": 1,
+            "mounting fault": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "cooling system fault": 0
+        }
+    },
+    {
+        "asset_class": "electric generator",
+        "sensor": "current",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "bearing damage": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "rotor windings fault": 0,
+            "stator windings fault": 0,
+            "eccentric rotor": 0,
+            "brush(es) fault": 0,
+            "insulation deterioration": 0,
+            "loss of output power phase": 0
+        }
+    },
+    {
+        "asset_class": "electric generator",
+        "sensor": "voltage",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "rotor windings fault": 1,
+            "stator windings fault": 1,
+            "eccentric rotor": 1,
+            "bearing damage": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "brush(es) fault": 0,
+            "insulation deterioration": 0,
+            "loss of output power phase": 0
+        }
+    },
+    {
+        "asset_class": "electric generator",
+        "sensor": "resistance",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "rotor windings fault": 1,
+            "stator windings fault": 1,
+            "eccentric rotor": 1,
+            "brush(es) fault": 1,
+            "bearing damage": 1,
+            "loss of output power phase": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "insulation deterioration": 0
+        }
+    },
+    {
+        "asset_class": "electric generator",
+        "sensor": "partial discharge",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "rotor windings fault": 1,
+            "stator windings fault": 1,
+            "eccentric rotor": 1,
+            "brush(es) fault": 1,
+            "bearing damage": 1,
+            "loss of output power phase": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "insulation deterioration": 0
+        }
+    },
+    {
+        "asset_class": "electric generator",
+        "sensor": "power",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "rotor windings fault": 1,
+            "stator windings fault": 1,
+            "eccentric rotor": 1,
+            "bearing damage": 1,
+            "insulation deterioration": 1,
+            "loss of output power phase": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "brush(es) fault": 0
+        }
+    },
+    {
+        "asset_class": "electric generator",
+        "sensor": "torque",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "rotor windings fault": 1,
+            "stator windings fault": 1,
+            "eccentric rotor": 1,
+            "insulation deterioration": 1,
+            "loss of output power phase": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "brush(es) fault": 0,
+            "bearing damage": 0
+        }
+    },
+    {
+        "asset_class": "electric generator",
+        "sensor": "radio frequency emissions",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "rotor windings fault": 1,
+            "stator windings fault": 1,
+            "eccentric rotor": 1,
+            "bearing damage": 1,
+            "insulation deterioration": 1,
+            "loss of output power phase": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "brush(es) fault": 0
+        }
+    },
+    {
+        "asset_class": "electric generator",
+        "sensor": "vibration",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "brush(es) fault": 1,
+            "insulation deterioration": 1,
+            "rotor windings fault": 0,
+            "stator windings fault": 0,
+            "eccentric rotor": 0,
+            "bearing damage": 0,
+            "loss of output power phase": 0,
+            "unbalance": 0,
+            "misalignment": 0
+        }
+    },
+    {
+        "asset_class": "electric generator",
+        "sensor": "temparature",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "eccentric rotor": 1,
+            "insulation deterioration": 1,
+            "loss of output power phase": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "rotor windings fault": 0,
+            "stator windings fault": 0,
+            "brush(es) fault": 0,
+            "bearing damage": 0
+        }
+    },
+    {
+        "asset_class": "electric generator",
+        "sensor": "coast down",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "rotor windings fault": 1,
+            "stator windings fault": 1,
+            "eccentric rotor": 1,
+            "brush(es) fault": 1,
+            "insulation deterioration": 1,
+            "loss of output power phase": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "bearing damage": 0
+        }
+    },
+    {
+        "asset_class": "electric generator",
+        "sensor": "axial flux",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "brush(es) fault": 1,
+            "bearing damage": 1,
+            "insulation deterioration": 1,
+            "loss of output power phase": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "rotor windings fault": 0,
+            "stator windings fault": 0,
+            "eccentric rotor": 0
+        }
+    },
+    {
+        "asset_class": "electric generator",
+        "sensor": "oil debris",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "rotor windings fault": 1,
+            "stator windings fault": 1,
+            "eccentric rotor": 1,
+            "brush(es) fault": 1,
+            "insulation deterioration": 1,
+            "loss of output power phase": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "bearing damage": 0
+        }
+    },
+    {
+        "asset_class": "electric generator",
+        "sensor": "cooling gas",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "eccentric rotor": 1,
+            "brush(es) fault": 1,
+            "bearing damage": 1,
+            "loss of output power phase": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "rotor windings fault": 0,
+            "stator windings fault": 0,
+            "insulation deterioration": 0
+        }
+    },
+    {
+        "asset_class": "fan",
+        "sensor": "air leakage",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "damaged impeller": 1,
+            "damaged oil seals": 1,
+            "eccentric impeller": 1,
+            "bearing damage": 1,
+            "bearing wear": 1,
+            "mounting fault": 1,
+            "rotor fouled": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "damaged bellows": 0
+        }
+    },
+    {
+        "asset_class": "fan",
+        "sensor": "length measurement",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "damaged bellows": 1,
+            "eccentric impeller": 1,
+            "mounting fault": 1,
+            "rotor fouled": 1,
+            "unbalance": 1,
+            "damaged impeller": 0,
+            "damaged oil seals": 0,
+            "bearing damage": 0,
+            "bearing wear": 0,
+            "misalignment": 0
+        }
+    },
+    {
+        "asset_class": "fan",
+        "sensor": "power",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "damaged oil seals": 1,
+            "damaged bellows": 1,
+            "bearing wear": 1,
+            "mounting fault": 1,
+            "rotor fouled": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "damaged impeller": 0,
+            "eccentric impeller": 0,
+            "bearing damage": 0
+        }
+    },
+    {
+        "asset_class": "fan",
+        "sensor": "pressure or vacuum",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "damaged bellows": 1,
+            "bearing damage": 1,
+            "bearing wear": 1,
+            "mounting fault": 1,
+            "rotor fouled": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "damaged impeller": 0,
+            "damaged oil seals": 0,
+            "eccentric impeller": 0
+        }
+    },
+    {
+        "asset_class": "fan",
+        "sensor": "speed",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "damaged bellows": 1,
+            "bearing wear": 1,
+            "mounting fault": 1,
+            "rotor fouled": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "damaged impeller": 0,
+            "damaged oil seals": 0,
+            "eccentric impeller": 0,
+            "bearing damage": 0
+        }
+    },
+    {
+        "asset_class": "fan",
+        "sensor": "vibration",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "damaged oil seals": 1,
+            "damaged bellows": 1,
+            "damaged impeller": 0,
+            "eccentric impeller": 0,
+            "bearing damage": 0,
+            "bearing wear": 0,
+            "mounting fault": 0,
+            "rotor fouled": 0,
+            "unbalance": 0,
+            "misalignment": 0
+        }
+    },
+    {
+        "asset_class": "fan",
+        "sensor": "temperature",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "damaged oil seals": 1,
+            "damaged bellows": 1,
+            "mounting fault": 1,
+            "rotor fouled": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "damaged impeller": 0,
+            "eccentric impeller": 0,
+            "bearing damage": 0,
+            "bearing wear": 0
+        }
+    },
+    {
+        "asset_class": "fan",
+        "sensor": "coast down time",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "damaged oil seals": 1,
+            "damaged bellows": 1,
+            "mounting fault": 1,
+            "rotor fouled": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "damaged impeller": 0,
+            "eccentric impeller": 0,
+            "bearing damage": 0,
+            "bearing wear": 0
+        }
+    },
+    {
+        "asset_class": "fan",
+        "sensor": "oil debris",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "damaged bellows": 1,
+            "eccentric impeller": 1,
+            "mounting fault": 1,
+            "rotor fouled": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "damaged impeller": 0,
+            "damaged oil seals": 0,
+            "bearing damage": 0,
+            "bearing wear": 0
+        }
+    },
+    {
+        "asset_class": "fan",
+        "sensor": "oil leakage",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "damaged impeller": 1,
+            "damaged bellows": 1,
+            "eccentric impeller": 1,
+            "bearing wear": 1,
+            "mounting fault": 1,
+            "rotor fouled": 1,
+            "unbalance": 1,
+            "misalignment": 1,
+            "damaged oil seals": 0,
+            "bearing damage": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "sensor": "amps/ volts/ load",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "moisture ingress/ content": 1,
+            "oil quality deterioration": 1,
+            "arcing/ electrical discharge": 1,
+            "connection/ bushing faults": 1,
+            "overheating/ auxiliary cooling system fault": 1,
+            "low oil level": 1,
+            "oil circulation system problem": 1,
+            "winding distortion": 1,
+            "winding looseness": 1,
+            "core looseness": 1,
+            "oil leak": 1,
+            "external damage/ disturbance": 1,
+            "through fault e.g. lightning strike": 1,
+            "insulation deterioration": 0,
+            "on-load tap-changer condition/ fault": 0,
+            "de-energized tap-changer condition/ fault": 0,
+            "supply faults, e.g. excessive harmonics and over fluxing": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "sensor": "visual",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "insulation deterioration": 1,
+            "moisture ingress/ content": 1,
+            "on-load tap-changer condition/ fault": 1,
+            "de-energized tap-changer condition/ fault": 1,
+            "oil quality deterioration": 1,
+            "connection/ bushing faults": 1,
+            "winding distortion": 1,
+            "winding looseness": 1,
+            "core looseness": 1,
+            "through fault e.g. lightning strike": 1,
+            "supply faults, e.g. excessive harmonics and over fluxing": 1,
+            "arcing/ electrical discharge": 0,
+            "overheating/ auxiliary cooling system fault": 0,
+            "low oil level": 0,
+            "oil circulation system problem": 0,
+            "oil leak": 0,
+            "external damage/ disturbance": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "sensor": "oil condition",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "connection/ bushing faults": 1,
+            "winding distortion": 1,
+            "winding looseness": 1,
+            "core looseness": 1,
+            "oil leak": 1,
+            "external damage/ disturbance": 1,
+            "through fault e.g. lightning strike": 1,
+            "supply faults, e.g. excessive harmonics and over fluxing": 1,
+            "insulation deterioration": 0,
+            "moisture ingress/ content": 0,
+            "on-load tap-changer condition/ fault": 0,
+            "de-energized tap-changer condition/ fault": 0,
+            "oil quality deterioration": 0,
+            "arcing/ electrical discharge": 0,
+            "overheating/ auxiliary cooling system fault": 0,
+            "low oil level": 0,
+            "oil circulation system problem": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "sensor": "temperature",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "moisture ingress/ content": 1,
+            "oil quality deterioration": 1,
+            "arcing/ electrical discharge": 1,
+            "winding distortion": 1,
+            "winding looseness": 1,
+            "core looseness": 1,
+            "oil leak": 1,
+            "external damage/ disturbance": 1,
+            "through fault e.g. lightning strike": 1,
+            "supply faults, e.g. excessive harmonics and over fluxing": 1,
+            "insulation deterioration": 0,
+            "on-load tap-changer condition/ fault": 0,
+            "de-energized tap-changer condition/ fault": 0,
+            "connection/ bushing faults": 0,
+            "overheating/ auxiliary cooling system fault": 0,
+            "low oil level": 0,
+            "oil circulation system problem": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "sensor": "partial discharge",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "moisture ingress/ content": 1,
+            "oil quality deterioration": 1,
+            "overheating/ auxiliary cooling system fault": 1,
+            "low oil level": 1,
+            "oil circulation system problem": 1,
+            "winding distortion": 1,
+            "winding looseness": 1,
+            "core looseness": 1,
+            "oil leak": 1,
+            "external damage/ disturbance": 1,
+            "through fault e.g. lightning strike": 1,
+            "supply faults, e.g. excessive harmonics and over fluxing": 1,
+            "insulation deterioration": 0,
+            "on-load tap-changer condition/ fault": 0,
+            "de-energized tap-changer condition/ fault": 0,
+            "arcing/ electrical discharge": 0,
+            "connection/ bushing faults": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "sensor": "dissolved gas analysis",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "winding distortion": 1,
+            "winding looseness": 1,
+            "core looseness": 1,
+            "oil leak": 1,
+            "external damage/ disturbance": 1,
+            "through fault e.g. lightning strike": 1,
+            "supply faults, e.g. excessive harmonics and over fluxing": 1,
+            "insulation deterioration": 0,
+            "moisture ingress/ content": 0,
+            "on-load tap-changer condition/ fault": 0,
+            "de-energized tap-changer condition/ fault": 0,
+            "oil quality deterioration": 0,
+            "arcing/ electrical discharge": 0,
+            "connection/ bushing faults": 0,
+            "overheating/ auxiliary cooling system fault": 0,
+            "low oil level": 0,
+            "oil circulation system problem": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "sensor": "noise",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "insulation deterioration": 1,
+            "moisture ingress/ content": 1,
+            "oil quality deterioration": 1,
+            "overheating/ auxiliary cooling system fault": 1,
+            "oil circulation system problem": 1,
+            "winding distortion": 1,
+            "oil leak": 1,
+            "external damage/ disturbance": 1,
+            "through fault e.g. lightning strike": 1,
+            "supply faults, e.g. excessive harmonics and over fluxing": 1,
+            "on-load tap-changer condition/ fault": 0,
+            "de-energized tap-changer condition/ fault": 0,
+            "arcing/ electrical discharge": 0,
+            "connection/ bushing faults": 0,
+            "low oil level": 0,
+            "winding looseness": 0,
+            "core looseness": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "sensor": "ultrasound",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "moisture ingress/ content": 1,
+            "oil quality deterioration": 1,
+            "oil circulation system problem": 1,
+            "oil leak": 1,
+            "external damage/ disturbance": 1,
+            "through fault e.g. lightning strike": 1,
+            "supply faults, e.g. excessive harmonics and over fluxing": 1,
+            "insulation deterioration": 0,
+            "on-load tap-changer condition/ fault": 0,
+            "de-energized tap-changer condition/ fault": 0,
+            "arcing/ electrical discharge": 0,
+            "connection/ bushing faults": 0,
+            "overheating/ auxiliary cooling system fault": 0,
+            "low oil level": 0,
+            "winding distortion": 0,
+            "winding looseness": 0,
+            "core looseness": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "sensor": "vibration",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "insulation deterioration": 1,
+            "moisture ingress/ content": 1,
+            "oil quality deterioration": 1,
+            "arcing/ electrical discharge": 1,
+            "connection/ bushing faults": 1,
+            "overheating/ auxiliary cooling system fault": 1,
+            "low oil level": 1,
+            "oil circulation system problem": 1,
+            "winding distortion": 1,
+            "oil leak": 1,
+            "external damage/ disturbance": 1,
+            "through fault e.g. lightning strike": 1,
+            "supply faults, e.g. excessive harmonics and over fluxing": 1,
+            "on-load tap-changer condition/ fault": 0,
+            "de-energized tap-changer condition/ fault": 0,
+            "winding looseness": 0,
+            "core looseness": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "sensor": "power factor/tan\u03b4",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "on-load tap-changer condition/ fault": 1,
+            "de-energized tap-changer condition/ fault": 1,
+            "overheating/ auxiliary cooling system fault": 1,
+            "low oil level": 1,
+            "oil circulation system problem": 1,
+            "winding distortion": 1,
+            "winding looseness": 1,
+            "core looseness": 1,
+            "oil leak": 1,
+            "external damage/ disturbance": 1,
+            "supply faults, e.g. excessive harmonics and over fluxing": 1,
+            "insulation deterioration": 0,
+            "moisture ingress/ content": 0,
+            "oil quality deterioration": 0,
+            "arcing/ electrical discharge": 0,
+            "connection/ bushing faults": 0,
+            "through fault e.g. lightning strike": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "sensor": "resistance",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "oil quality deterioration": 1,
+            "arcing/ electrical discharge": 1,
+            "overheating/ auxiliary cooling system fault": 1,
+            "low oil level": 1,
+            "oil circulation system problem": 1,
+            "winding distortion": 1,
+            "winding looseness": 1,
+            "core looseness": 1,
+            "oil leak": 1,
+            "external damage/ disturbance": 1,
+            "through fault e.g. lightning strike": 1,
+            "supply faults, e.g. excessive harmonics and over fluxing": 1,
+            "insulation deterioration": 0,
+            "moisture ingress/ content": 0,
+            "on-load tap-changer condition/ fault": 0,
+            "de-energized tap-changer condition/ fault": 0,
+            "connection/ bushing faults": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "sensor": "dielecric frequency response (dfr)/ polarization and de-polarization current (pdc)/ recovery voltage method (rvm)",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "on-load tap-changer condition/ fault": 1,
+            "de-energized tap-changer condition/ fault": 1,
+            "arcing/ electrical discharge": 1,
+            "connection/ bushing faults": 1,
+            "overheating/ auxiliary cooling system fault": 1,
+            "low oil level": 1,
+            "oil circulation system problem": 1,
+            "winding looseness": 1,
+            "core looseness": 1,
+            "oil leak": 1,
+            "external damage/ disturbance": 1,
+            "through fault e.g. lightning strike": 1,
+            "supply faults, e.g. excessive harmonics and over fluxing": 1,
+            "insulation deterioration": 0,
+            "moisture ingress/ content": 0,
+            "oil quality deterioration": 0,
+            "winding distortion": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "sensor": "frequency response analysis (fra)",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "moisture ingress/ content": 1,
+            "oil quality deterioration": 1,
+            "arcing/ electrical discharge": 1,
+            "connection/ bushing faults": 1,
+            "overheating/ auxiliary cooling system fault": 1,
+            "low oil level": 1,
+            "oil circulation system problem": 1,
+            "winding looseness": 1,
+            "core looseness": 1,
+            "oil leak": 1,
+            "external damage/ disturbance": 1,
+            "supply faults, e.g. excessive harmonics and over fluxing": 1,
+            "insulation deterioration": 0,
+            "on-load tap-changer condition/ fault": 0,
+            "de-energized tap-changer condition/ fault": 0,
+            "winding distortion": 0,
+            "through fault e.g. lightning strike": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "sensor": "excitation current",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "moisture ingress/ content": 1,
+            "oil quality deterioration": 1,
+            "arcing/ electrical discharge": 1,
+            "connection/ bushing faults": 1,
+            "overheating/ auxiliary cooling system fault": 1,
+            "low oil level": 1,
+            "oil circulation system problem": 1,
+            "winding distortion": 1,
+            "winding looseness": 1,
+            "core looseness": 1,
+            "oil leak": 1,
+            "external damage/ disturbance": 1,
+            "through fault e.g. lightning strike": 1,
+            "supply faults, e.g. excessive harmonics and over fluxing": 1,
+            "insulation deterioration": 0,
+            "on-load tap-changer condition/ fault": 0,
+            "de-energized tap-changer condition/ fault": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "sensor": "leak reactance flux",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "insulation deterioration": 1,
+            "moisture ingress/ content": 1,
+            "on-load tap-changer condition/ fault": 1,
+            "de-energized tap-changer condition/ fault": 1,
+            "oil quality deterioration": 1,
+            "arcing/ electrical discharge": 1,
+            "connection/ bushing faults": 1,
+            "overheating/ auxiliary cooling system fault": 1,
+            "low oil level": 1,
+            "oil circulation system problem": 1,
+            "winding looseness": 1,
+            "core looseness": 1,
+            "oil leak": 1,
+            "external damage/ disturbance": 1,
+            "through fault e.g. lightning strike": 1,
+            "supply faults, e.g. excessive harmonics and over fluxing": 1,
+            "winding distortion": 0
+        }
+    },
+    {
+        "asset_class": "power transformer",
+        "sensor": "bushing capacitance",
+        "question": "irrelevant_failure_modes_for_sensor",
+        "answer": "multi_answer",
+        "mc_targets": {
+            "insulation deterioration": 1,
+            "moisture ingress/ content": 1,
+            "on-load tap-changer condition/ fault": 1,
+            "de-energized tap-changer condition/ fault": 1,
+            "oil quality deterioration": 1,
+            "arcing/ electrical discharge": 1,
+            "overheating/ auxiliary cooling system fault": 1,
+            "low oil level": 1,
+            "oil circulation system problem": 1,
+            "winding distortion": 1,
+            "winding looseness": 1,
+            "core looseness": 1,
+            "oil leak": 1,
+            "external damage/ disturbance": 1,
+            "through fault e.g. lightning strike": 1,
+            "supply faults, e.g. excessive harmonics and over fluxing": 1,
+            "connection/ bushing faults": 0
+        }
+    }
+]
