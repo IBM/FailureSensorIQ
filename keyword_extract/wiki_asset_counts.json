@@ -1,0 +1,21 @@
+{
+  "centrifugal pump": 1215,
+  "chiller": 1951,
+  "boiler": 25397,
+  "gearbox": 9447,
+  "wind turbine": 7320,
+  "cooling tower": 10603,
+  "heat exchanger": 13854,
+  "fan coil unit": 1013,
+  "motor drive": 33204,
+  "steam turbine": 9497,
+  "pump": 53206,
+  "electric motor": 33500,
+  "compressor": 6217,
+  "aero gas turbine": 780,
+  "fan": 253356,
+  "power transformer": 7163,
+  "industrial gas turbine": 2687,
+  "electic generator": 1456,
+  "reciprocating internal combustion engine": 1394
+}

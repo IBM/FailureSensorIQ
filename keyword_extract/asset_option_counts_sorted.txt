@@ -1,0 +1,10 @@
+steam turbine: total option_ids count = 52
+compressor: total option_ids count = 56
+pump: total option_ids count = 64
+aero gas turbine: total option_ids count = 66
+industrial gas turbine: total option_ids count = 80
+fan: total option_ids count = 90
+electric motor: total option_ids count = 128
+reciprocating internal combustion engine: total option_ids count = 140
+electric generator: total option_ids count = 144
+power transformer: total option_ids count = 154

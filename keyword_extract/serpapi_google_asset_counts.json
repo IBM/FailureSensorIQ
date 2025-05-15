@@ -1,0 +1,21 @@
+{
+  "centrifugal pump": 23100000,
+  "chiller": 80800000,
+  "boiler": 235000000,
+  "gearbox": 176000000,
+  "wind turbine": 128000000,
+  "cooling tower": 725000000,
+  "heat exchanger": 38400000,
+  "fan coil unit": 41500000,
+  "motor drive": 1580000000,
+  "steam turbine": 32700000,
+  "pump": 1410000000,
+  "electric motor": 792000000,
+  "compressor": 288000000,
+  "aero gas turbine": 6040000,
+  "fan": 7080000000,
+  "power transformer": 271000000,
+  "industrial gas turbine": 84000000,
+  "electic generator": 715000000,
+  "reciprocating internal combustion engine": 2250000
+}
