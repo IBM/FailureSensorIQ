@@ -38,7 +38,7 @@ Option A: 752, Option B: 729, Option C: 491, Option D: 408, Option E: 208
 2-options: 487, 3-options: 266, 4-options: 389, 5-options: 1525
 
 ### Eval and test set
-In this repo, we release 50 expert curated MCQA for different assets as a validation set to be able to run the pipeline and see the results. We keep the 2667 MCQA private and we use this same pipeline to update the scores on Hugging Face leaderboard.
+We release the 2667 SC-MCQA and 5629 MC-MCQA dataset and the pipeline to update the scores on Hugging Face leaderboard. We also release another 50 expert curated MCQA for different assets as a validation set to quickly be able to run the pipeline and get some results.
 
 ## 3. PertEval
 Recent literature highlights concerns about LLMs’ ability to reliably select the correct answer in multiple-choice questions, raising the question of whether models select an answer first and then generate reasoning or reason before choosing. The tendency to favor specific options introduces biases that vary across models and are hard to quantify. To address these challenges, we evaluate model performance on both the original (ST-MCQA) and a perturbed dataset, which underwent rigorous modifications. We adopted the [PertEval toolkit](https://github.com/aigc-apps/PertEval) enabled us to create a copy of the perturbed dataset. We developed two versions of the perturbed dataset: (i) SimplePert, which modifies the formatting of the questions by reordering the options, adding a right parenthesis to each option, and changing the option labels from A, B, C, etc., to P, Q, R, and so on. (ii) ComplexPert, apply all the question permutation as well as use LLM (llama-3-70b in this case) to change the questions also.
