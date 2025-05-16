@@ -78,8 +78,8 @@
   "recordSet": [
     {
       "@type": "cr:RecordSet",
-      "@id": "FailureSensorIQ-record",
-      "name": "FailureSensorIQ-record",
+      "@id": "FailureSensorIQ_mcqa",
+      "name": "FailureSensorIQ_mcqa",
       "field": [
         {
           "@type": "cr:Field",
