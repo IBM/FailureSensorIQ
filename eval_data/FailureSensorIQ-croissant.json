@@ -1,0 +1,252 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "dct": "http://purl.org/dc/terms/",
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    },
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "sc": "https://schema.org/",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform"
+  },
+  "@type": "sc:Dataset",
+  "name": "FailureSensorIQ",
+  "description": "As industries increasingly adopt autonomous AI agents, the need for models that can not only recall facts but also demonstrate a deep understanding of operational contexts\u2014such as sensor relevance, fault prediction, and diagnostic reasoning\u2014is paramount. Unlike traditional QA datasets, our dataset focuses on multiple aspects of reasoning through failure modes, sensor data, and the relationships between them across various industrial assets. Failure modes, rooted in the theoretical framework of reliability engineering, represent potential points of failure within an asset or system. In contrast, sensors are physical manifestations that collect real-time data from operational systems. By combining these two concepts, our proposed dataset offers an opportunity to assess an LLM\u2019s ability to reason across both theoretical and real-world domains, providing insights into their capacity to understand complex industrial processes.",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "url": "https://github.com/IBM/FailureSensorIQ",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "FailureSensorIQ",
+      "name": "FailureSensorIQ",
+      "description": "FailureSensorIQ datasets",
+      "contentUrl": "https://github.com/IBM/FailureSensorIQ",
+      "encodingFormat": "git+https",
+      "sha256": "main"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "FailureSensorIQ-jsonl-files",
+      "name": "FailureSensorIQ-jsonl-files",
+      "description": "Jsonlines-format FailureSensorIQ datasets.",
+      "containedIn": {
+        "@id": "FailureSensorIQ"
+      },
+      "encodingFormat": "application/jsonlines",
+      "includes": [
+        "eval_data/industrial_mcp_original.jsonl",
+        "eval_data/fmsr_processed/filtered_data_all_Mar_30_2025.jsonl",
+        "eval_data/fmsr_processed/fmsr_filtered_mcmt_all.jsonl"
+      ]
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "@id": "jsonl",
+      "name": "jsonl",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "jsonl/subject",
+          "name": "subject",
+          "description": "The subject of the record",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "FailureSensorIQ-jsonl-files"
+            },
+            "extract": {
+              "column": "subject"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "jsonl/id",
+          "name": "id",
+          "description": "The identifier of the record",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileSet": {
+              "@id": "FailureSensorIQ-jsonl-files"
+            },
+            "extract": {
+              "column": "id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "jsonl/question",
+          "name": "question",
+          "description": "the question in the prompt",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "FailureSensorIQ-jsonl-files"
+            },
+            "extract": {
+              "column": "question"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "jsonl/options",
+          "name": "options",
+          "description": "the options in the prompt",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "FailureSensorIQ-jsonl-files"
+            },
+            "extract": {
+              "column": "options"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "jsonl/option_ids",
+          "name": "option_ids",
+          "description": "the ids for options in the prompt",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "FailureSensorIQ-jsonl-files"
+            },
+            "extract": {
+              "column": "option_ids"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "jsonl/question_first",
+          "name": "question_first",
+          "description": "is question or options first in the prompt?",
+          "dataType": "sc:Boolean",
+          "source": {
+            "fileSet": {
+              "@id": "FailureSensorIQ-jsonl-files"
+            },
+            "extract": {
+              "column": "question_first"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "jsonl/correct",
+          "name": "correct",
+          "description": "the correctness of each options",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "FailureSensorIQ-jsonl-files"
+            },
+            "extract": {
+              "column": "correct"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "jsonl/text_type",
+          "name": "text_type",
+          "description": "the type of expected text, e.g. choice",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "FailureSensorIQ-jsonl-files"
+            },
+            "extract": {
+              "column": "text_type"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "jsonl/asset_name",
+          "name": "asset_name",
+          "description": "asset in the question",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "FailureSensorIQ-jsonl-files"
+            },
+            "extract": {
+              "column": "asset_name"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "jsonl/relevancy",
+          "name": "relevancy",
+          "description": "relevancy type that the question is about, e.g. relevant_component_for_sensor",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "FailureSensorIQ-jsonl-files"
+            },
+            "extract": {
+              "column": "relevancy"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "jsonl/question_type",
+          "name": "question_type",
+          "description": "question type, e.g. mcp1_negative",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "FailureSensorIQ-jsonl-files"
+            },
+            "extract": {
+              "column": "question_type"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
