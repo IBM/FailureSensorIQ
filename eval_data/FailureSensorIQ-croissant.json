@@ -78,8 +78,8 @@
   "recordSet": [
     {
       "@type": "cr:RecordSet",
-      "@id": "jsonl",
-      "name": "jsonl",
+      "@id": "FailureSensorIQ-record",
+      "name": "FailureSensorIQ-record",
       "field": [
         {
           "@type": "cr:Field",
