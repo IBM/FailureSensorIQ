@@ -69,9 +69,10 @@ pip install -r requirements.txt
 ```
 ## Running the evaluation pipeline
 ```
-python run_eval.py <hf-model-id>
+python run_eval.py <hf-model-id> full
 ```
-If no argument is given, the code will fetch all the pending models for evaluation from huggingface and run them on the 50 validation questions.  
+`full` refers to evaluating on the full dataset. You can first try `sample` instead to try on a few samples of the dataset and make sure that everything runs as intended before running on the full dataset.
+If no argument is given, the code will fetch all the pending models for evaluation from huggingface and run them on the full dataset.  
 
 If everything ran successfully you should be able to see the performance metrics under `results/demo-leaderboard/gpt2-demo/results_<model-name>.json`
 

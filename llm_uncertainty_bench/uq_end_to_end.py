@@ -1,7 +1,7 @@
 import subprocess
 
-def run_uq_benchmark(model_name, prompt_type='chat'):
-    command = f'cd llm_uncertainty_bench && ./run.sh {model_name} {prompt_type}'
+def run_uq_benchmark(model_name, prompt_type='chat', dataset='full'):
+    command = f'cd llm_uncertainty_bench && ./run.sh {model_name} {prompt_type} {dataset}'
     result = subprocess.run(
         command,
         capture_output = True, # Python >= 3.7 only

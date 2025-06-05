@@ -1,6 +1,7 @@
 # model_id="meta-llama/Llama-3.1-8B-Instruct"
 model_id=$1
 prompt_type=$2
+dataset=$3
 n_gpus="$(nvidia-smi --query-gpu=name --format=csv,noheader | wc -l)"
 model_name="$(echo $model_id | cut -d'/' -f2)"
 echo ${model_name}
@@ -11,11 +12,10 @@ echo ${n_gpus}
 
 if [ "${prompt_type}" == "chat" ]; then
   echo "chat logits"
-  python generate_logits_chat.py --model=${model_id} --data_path=data --file=fmsr.json --prompt_method=base --output_dir=outputs_chat_v2 --few_shot=0
-  # python generate_logits_chat.py --model=${model_id} --data_path=data --file=fmsr.json --prompt_method=base --output_dir=outputs_chat_v2 --few_shot=0
+  python generate_logits_chat.py --model=${model_id} --data_path=data --file="fmsr_${dataset}.json" --prompt_method=base --output_dir=outputs_chat_v2 --few_shot=0
 else
   echo "text generation logits"
-  python generate_logits.py --model=${model_id} --data_path=data --file=fmsr.json --prompt_method=base --output_dir=outputs_chat_v2 --few_shot=0
+  python generate_logits.py --model=${model_id} --data_path=data --file="fmsr_${dataset}.json" --prompt_method=base --output_dir=outputs_chat_v2 --few_shot=0
 fi
 
 python uncertainty_quantification_via_cp.py \

@@ -31,10 +31,10 @@ import time
 import subprocess
 
 
-# In[3]:
+# In[6]:
 
 
-# try removing old processes that utilize the gpu
+# try killing old processes that utilize the gpu
 try:
     subprocess.run(["nvidia-smi | grep 'python' | awk '{ print $5 }' | xargs -n1 kill -9"], shell=True)
 except:
@@ -49,9 +49,15 @@ if len(sys.argv) == 1 or sys.argv[1] == '-f':
     all_request_models = get_requests('cc4718/requests')
     all_result_models = get_results('cc4718/results')
     models_todo = set(all_request_models) - set(all_result_models)
+    # dataset can be full/sample
+    dataset = 'full'
 else:
+    # huggingface models
     models_todo = [sys.argv[1]]
+    # dataset full/sample
+    dataset = sys.argv[2]
 print(models_todo)
+print(dataset)
 
 
 # In[5]:
@@ -59,11 +65,11 @@ print(models_todo)
 
 for model_name in models_todo:
     # perteval
-    original_log_path = get_perteval_results(model_name, 'original')
+    original_log_path = get_perteval_results(model_name, mode='original', cot='cot_standard', dataset=dataset)
     print('Finished perteval on original data')
     # wait a few seconds to kill vllm to spin up a new
     time.sleep(10)
-    perturb_log_path = get_perteval_results(model_name, 'perturb')
+    perturb_log_path = get_perteval_results(model_name, mode='perturb', cot='cot_standard', dataset=dataset)
     print('Finished perteval on perturbed data')
     original, perturb, consist = tas.transition_analysis(original_log_path, perturb_log_path, subjects=["failure_mode_sensor_analysis"])
     asset_scores = tas.get_record_id_for_correct_answer(original_log_path, dimention='asset_name')
@@ -73,7 +79,7 @@ for model_name in models_todo:
     # accuracy, nll_loss_avg, ece_score_avg = run_uq(model_name=model_name, dataset_path=dataset_path)
     # uq bench
     print('Running LLM Uncertainty Bench')
-    uq_scores = run_uq_benchmark(model_name)
+    uq_scores = run_uq_benchmark(model_name, prompt_type='chat', dataset=dataset)
     result_dict = {
         "config": {
             "model_dtype": "torch.bfloat16", 
