@@ -7,7 +7,8 @@ import subprocess
 import time
 import signal
 import requests
-def get_perteval_results(model_name, mode='original', cot='cot_standard'):
+def get_perteval_results(model_name, mode='original', cot='cot_standard', dataset='full'):
+    os.environ['VLLM_LOGGING_LEVEL'] = 'ERROR'
     if not os.path.exists('log'):
         os.mkdir('log')
     proc = subprocess.Popen(["vllm", "serve", model_name, "--port", "8003"], preexec_fn=os.setsid)
@@ -25,11 +26,19 @@ def get_perteval_results(model_name, mode='original', cot='cot_standard'):
     model = ChatGPT(base_url="http://localhost:8003/v1", model=model_name, api_key='empty')
     test_subjects = ['failure_mode_sensor_analysis']
     if mode == 'original':
-        test_data_path = "./eval_data/industrial_mcp_original.jsonl"
-        log_path_prefix = "./log/fmsr_filtered_data_all_"
+        if dataset == 'sample':
+            # 50 mcp
+            test_data_path = "./eval_data/industrial_mcp_original.jsonl"
+        else:
+            # full
+            test_data_path = "./eval_data/fmsr_processed/fmsr_filtered_data_all.jsonl"
+        log_path_prefix = f"./log/fmsr_filtered_data_{dataset}"
     elif mode == 'perturb':
-        test_data_path = "./eval_data/industrial_mcp_perturbed.jsonl"
-        log_path_prefix = "./log/fmsr_filtered_perturbed_data_all_llama_"
+        if dataset == 'sample':
+            test_data_path = "./eval_data/industrial_mcp_perturbed.jsonl"
+        else:
+            test_data_path = "./eval_data/fmsr_processed/fmsr_filtered_perturbed_data_all_simple.jsonl"
+        log_path_prefix = f"./log/fmsr_filtered_perturbed_data_all_{dataset}"
     else:
         raise ValueError(f'Invalid perteval mode {mode}')
     trigger_statements = {
@@ -48,7 +57,7 @@ def get_perteval_results(model_name, mode='original', cot='cot_standard'):
         model_selection = model_name,
         temperature = 0.0,
         thread_func = test_dataset,
-        n_thread = 8,
+        n_thread = 1,
         start_id = None,
         end_id = None,
         trigger_statement=trigger_statements[cot]
