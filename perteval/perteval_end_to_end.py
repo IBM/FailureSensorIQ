@@ -57,7 +57,7 @@ def get_perteval_results(model_name, mode='original', cot='cot_standard', datase
         model_selection = model_name,
         temperature = 0.0,
         thread_func = test_dataset,
-        n_thread = 1,
+        n_thread = 8,
         start_id = None,
         end_id = None,
         trigger_statement=trigger_statements[cot]
