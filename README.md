@@ -50,7 +50,13 @@ We adopt the [LLM Uncertainty Bench framework](https://github.com/smartyfh/LLM-U
 ## LLMFeatureSelect and Kaggle experiments
 `kaggle` folder contains the 3 dataset experiments we performed to evaluate the model's feature suggestions. It also contains `LLMFeatureSelector`, an sklearn pipeline for feature selection which uses and supports Hugging Face models. 
 
-## Getting started
+## Loading the dataset from Hugging Face 🤗
+```
+load_dataset('cc4718/FailureSensorIQ', data_files='all.jsonl')
+```
+For loading the perturbed or an extra sample of the dataset check out `load_dataset.ipynb`  
+
+## Installing and running our evaluation pipeline
 Tested with `python 3.10.4`  
 Clone repo and submodules
 ```
@@ -67,7 +73,6 @@ Install requirements
 pip install vllm==0.8.5.post1
 pip install -r requirements.txt
 ```
-## Running the evaluation pipeline
 ```
 python run_eval.py <hf-model-id> full
 ```
