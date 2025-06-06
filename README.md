@@ -14,7 +14,7 @@
 ![Qwen](https://img.shields.io/badge/Model-Qwen-21C2A4)
 ![DeepSeek](https://img.shields.io/badge/Model-DeepSeek-21C2A4)
 
-📰 [Paper](https://arxiv.org/abs/), 🤗 [Leaderboard](https://huggingface.co/spaces/cc4718/FailureSensorIQ)
+📰 [Paper](https://arxiv.org/abs/2506.03278), 🤗 [Leaderboard](https://huggingface.co/spaces/cc4718/FailureSensorIQ)
 
 </div>
 
@@ -50,7 +50,13 @@ We adopt the [LLM Uncertainty Bench framework](https://github.com/smartyfh/LLM-U
 ## LLMFeatureSelect and Kaggle experiments
 `kaggle` folder contains the 3 dataset experiments we performed to evaluate the model's feature suggestions. It also contains `LLMFeatureSelector`, an sklearn pipeline for feature selection which uses and supports Hugging Face models. 
 
-## Getting started
+## Loading the dataset from Hugging Face 🤗
+```
+load_dataset('cc4718/FailureSensorIQ', data_files='all.jsonl')
+```
+For loading the perturbed or an extra sample of the dataset check out `load_dataset.ipynb`  
+
+## Installing and running our evaluation pipeline
 Tested with `python 3.10.4`  
 Clone repo and submodules
 ```
@@ -67,11 +73,11 @@ Install requirements
 pip install vllm==0.8.5.post1
 pip install -r requirements.txt
 ```
-## Running the evaluation pipeline
 ```
-python run_eval.py <hf-model-id>
+python run_eval.py <hf-model-id> full
 ```
-If no argument is given, the code will fetch all the pending models for evaluation from huggingface and run them on the 50 validation questions.  
+`full` refers to evaluating on the full dataset. You can first try `sample` instead to try on a few samples of the dataset and make sure that everything runs as intended before running on the full dataset.
+If no argument is given, the code will fetch all the pending models for evaluation from huggingface and run them on the full dataset.  
 
 If everything ran successfully you should be able to see the performance metrics under `results/demo-leaderboard/gpt2-demo/results_<model-name>.json`
 
@@ -81,3 +87,6 @@ Sometimes if the execution crashes/interrupts before it finishes, the vllm child
 ```
 nvidia-smi | grep 'python' | awk '{ print $5 }' | xargs -n1 kill -9
 ```
+
+## Hardware  
+For running the evaluation pipeline we tested this on an A100 80GB. The hardware requirements depend on what model you choose to evaluate.
