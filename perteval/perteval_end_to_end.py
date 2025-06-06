@@ -31,7 +31,7 @@ def get_perteval_results(model_name, mode='original', cot='cot_standard', datase
             test_data_path = "./eval_data/industrial_mcp_original.jsonl"
         else:
             # full
-            test_data_path = "./eval_data/fmsr_processed/fmsr_filtered_data_all.jsonl"
+            test_data_path = "./eval_data/fmsr_processed/filtered_data_all_Mar_30_2025.jsonl"
         log_path_prefix = f"./log/fmsr_filtered_data_{dataset}"
     elif mode == 'perturb':
         if dataset == 'sample':
@@ -62,5 +62,7 @@ def get_perteval_results(model_name, mode='original', cot='cot_standard', datase
         end_id = None,
         trigger_statement=trigger_statements[cot]
     )
+    # todo: write asset name in the log
+    
     os.killpg(os.getpgid(proc.pid), signal.SIGTERM)
     return log_path
