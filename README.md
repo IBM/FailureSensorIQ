@@ -87,3 +87,6 @@ Sometimes if the execution crashes/interrupts before it finishes, the vllm child
 ```
 nvidia-smi | grep 'python' | awk '{ print $5 }' | xargs -n1 kill -9
 ```
+
+## Hardware  
+For running the evaluation pipeline we tested this on an A100 80GB. The hardware requirements depend on what model you choose to evaluate.
