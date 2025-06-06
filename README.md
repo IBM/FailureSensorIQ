@@ -14,7 +14,7 @@
 ![Qwen](https://img.shields.io/badge/Model-Qwen-21C2A4)
 ![DeepSeek](https://img.shields.io/badge/Model-DeepSeek-21C2A4)
 
-📰 [Paper](https://arxiv.org/abs/), 🤗 [Leaderboard](https://huggingface.co/spaces/cc4718/FailureSensorIQ)
+📰 [Paper](https://arxiv.org/abs/2506.03278), 🤗 [Leaderboard](https://huggingface.co/spaces/cc4718/FailureSensorIQ)
 
 </div>
 
