@@ -65,4 +65,4 @@ def get_perteval_results(model_name, mode='original', cot='cot_standard', datase
     # todo: write asset name in the log
     
     os.killpg(os.getpgid(proc.pid), signal.SIGTERM)
-    return log_path
+    return log_path, test_data_path
