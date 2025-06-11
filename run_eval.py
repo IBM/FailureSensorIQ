@@ -31,7 +31,7 @@ import time
 import subprocess
 
 
-# In[6]:
+# In[3]:
 
 
 # try killing old processes that utilize the gpu
@@ -56,30 +56,47 @@ else:
     models_todo = [sys.argv[1]]
     # dataset full/sample
     dataset = sys.argv[2]
+print('models to evaluate:')
 print(models_todo)
+print('dataset:')
 print(dataset)
 
 
-# In[5]:
+# In[ ]:
 
 
 for model_name in models_todo:
     # perteval
-    original_log_path = get_perteval_results(model_name, mode='original', cot='cot_standard', dataset=dataset)
+    original_log_path, test_path = get_perteval_results(model_name, 
+                                                        mode='original', 
+                                                        cot='cot_standard', 
+                                                        dataset=dataset)
     print('Finished perteval on original data')
-    # wait a few seconds to kill vllm to spin up a new
+    # wait a few seconds to kill vllm and spin up a new
     time.sleep(10)
-    perturb_log_path = get_perteval_results(model_name, mode='perturb', cot='cot_standard', dataset=dataset)
+    perturb_log_path, _ = get_perteval_results(model_name, 
+                                               mode='perturb', 
+                                               cot='cot_standard', 
+                                               dataset=dataset)
     print('Finished perteval on perturbed data')
-    original, perturb, consist = tas.transition_analysis(original_log_path, perturb_log_path, subjects=["failure_mode_sensor_analysis"])
-    asset_scores = tas.get_record_id_for_correct_answer(original_log_path, dimention='asset_name')
-    relevancy_scores = tas.get_record_id_for_correct_answer(original_log_path, dimention='relevancy')
-    # uq on the original dataset
-    # dataset_path = 'data/fmsr'
-    # accuracy, nll_loss_avg, ece_score_avg = run_uq(model_name=model_name, dataset_path=dataset_path)
+    original, perturb, consist = tas.transition_analysis(original_log_path, 
+                                                         perturb_log_path, 
+                                                         subjects=["failure_mode_sensor_analysis"])
+    asset_scores = tas.get_record_id_for_correct_answer(original_log_path, 
+                                                        dimention='asset_name', 
+                                                        fdata_path=test_path)
+    relevancy_scores = tas.get_record_id_for_correct_answer(original_log_path, 
+                                                            dimention='relevancy', 
+                                                            fdata_path=test_path)
     # uq bench
     print('Running LLM Uncertainty Bench')
     uq_scores = run_uq_benchmark(model_name, prompt_type='chat', dataset=dataset)
+    if dataset == 'sample':
+        acc_sel_key = 'relevant_sensor_for_failure_mode'
+        acc_el_key = 'irrelevant_sensor_for_failure_mode'
+    else:
+        acc_sel_key = 'relevant_sensors_for_failure_mode'
+        acc_el_key = 'irrelevant_sensors_for_failure_mode'
     result_dict = {
         "config": {
             "model_dtype": "torch.bfloat16", 
@@ -91,10 +108,10 @@ for model_name in models_todo:
                 "acc": original
             },
             "acc_sel": {
-                "acc_sel": relevancy_scores['relevant_sensor_for_failure_mode']
+                "acc_sel": relevancy_scores[acc_sel_key]
             },
             "acc_el": {
-                "acc_el": relevancy_scores['irrelevant_sensor_for_failure_mode']
+                "acc_el": relevancy_scores[acc_el_key]
             },
             "acc_perturb": {
                 "perturb_score": perturb
@@ -116,6 +133,7 @@ for model_name in models_todo:
     out_fname = f'results/demo-leaderboard/gpt2-demo/results_{out_model_name}.json'
     with open(out_fname, 'w') as f:
         f.write(json.dumps(result_dict))
+    print(f'all results written to {out_fname}')
 
 
 # In[16]:
