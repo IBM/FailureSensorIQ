@@ -27,7 +27,7 @@ pyarrow==14.0.1
 pyarrow-hotfix==0.6
 python-dateutil==2.8.2
 pytz==2023.3.post1
-PyYAML==6.0.1
+PyYAML==6.0.2
 regex==2023.10.3
 requests==2.32.2
 safetensors==0.4.0
