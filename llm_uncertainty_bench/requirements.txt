@@ -26,7 +26,7 @@ psutil==5.9.6
 pyarrow==14.0.1
 pyarrow-hotfix==0.6
 python-dateutil==2.8.2
-pytz==2023.3.post1
+pytz==2025.2
 PyYAML==6.0.1
 regex==2023.10.3
 requests==2.32.2
