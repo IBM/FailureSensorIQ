@@ -36,7 +36,7 @@ six==1.16.0
 tiktoken==0.5.1
 tokenizers==0.14.1
 torch==1.13.1+cu117
-torchaudio==0.13.1+cu117
+torchaudio==2.7.1
 torchvision==0.14.1+cu117
 tqdm==4.66.1
 transformers==4.50.0
