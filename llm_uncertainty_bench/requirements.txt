@@ -34,7 +34,7 @@ safetensors==0.4.0
 sentencepiece==0.1.99
 six==1.16.0
 tiktoken==0.5.1
-tokenizers==0.14.1
+tokenizers==0.21.1
 torch==1.13.1+cu117
 torchaudio==0.13.1+cu117
 torchvision==0.14.1+cu117
