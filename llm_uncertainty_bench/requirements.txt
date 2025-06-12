@@ -44,5 +44,5 @@ transformers-stream-generator==0.0.4
 typing_extensions==4.8.0
 tzdata==2023.3
 urllib3==2.2.2
-xxhash==3.4.1
+xxhash==3.5.0
 yarl==1.9.3
