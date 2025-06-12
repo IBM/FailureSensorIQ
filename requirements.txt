@@ -1,4 +1,4 @@
-huggingface-hub==0.31.2
+huggingface-hub==0.33.0
 numpy==2.2.5
 pandas==2.2.3
 dashscope==1.23.4
