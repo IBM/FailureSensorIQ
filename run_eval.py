@@ -121,6 +121,7 @@ for model_name in models_todo:
             }
         },
     }
+    print(uq_scores)
     for k, v in uq_scores.items():
         result_dict['results'][k] = {k: v}
     for asset in asset_scores:
@@ -136,7 +137,7 @@ for model_name in models_todo:
     print(f'all results written to {out_fname}')
 
 
-# In[16]:
+# In[ ]:
 
 
 # !nvidia-smi | grep 'python' | awk '{ print $5 }' | xargs -n1 kill -9
