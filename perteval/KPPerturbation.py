@@ -297,10 +297,8 @@ def get_mcq_llm_answer(mcq: MultipleChoiceQuestion, llm: LargeLanguageModel) -> 
                 try:
                     response = json.loads(response)
                 except:
-                    print("came here----")
                     response = fix_json_string(response)
                     response = json.loads(response)
-                    print("came here----1")
 
                 for i in range(len(mcq.option_ids)):
                     if mcq.option_ids[i] in response["answer"]:

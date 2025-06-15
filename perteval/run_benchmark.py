@@ -30,7 +30,6 @@ def test_dataset(data: list, model: LargeLanguageModel, trigger_statement: Optio
     results = []
     n_complete = 0
     for i, elem in enumerate(data):
-        print(i)
         mcq = MultipleChoiceQuestion()
         mcq.load_dict(elem)
         if trigger_statement:
