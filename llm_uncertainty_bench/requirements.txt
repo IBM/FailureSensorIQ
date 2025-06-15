@@ -39,7 +39,7 @@ torch==1.13.1+cu117
 torchaudio==0.13.1+cu117
 torchvision==0.14.1+cu117
 tqdm==4.66.1
-transformers==4.50.0
+transformers==4.52.4
 transformers-stream-generator==0.0.4
 typing_extensions==4.8.0
 tzdata==2023.3
