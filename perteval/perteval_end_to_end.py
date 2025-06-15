@@ -7,11 +7,27 @@ import subprocess
 import time
 import signal
 import requests
+import torch
 def get_perteval_results(model_name, mode='original', cot='cot_standard', dataset='full'):
     os.environ['VLLM_LOGGING_LEVEL'] = 'ERROR'
     if not os.path.exists('log'):
         os.mkdir('log')
-    proc = subprocess.Popen(["vllm", "serve", model_name, "--port", "8003"], preexec_fn=os.setsid)
+    vllm_args = ["vllm", "serve", model_name, "--port", "8003"]
+    # --config_format mistral --load_format mistral --tool-call-parser mistral --enable-auto-tool-choice --tensor-parallel-size 2
+    mistral_keywords = ['mistral', 'mixtral', 'magistral']
+    for keyword in mistral_keywords:
+        if keyword in model_name.lower():
+            extra_args = [
+                '--tokenizer-mode', 'mistral', 
+                '--config_format', 'mistral',
+                '--load_format', 'mistral',
+                '--tool-call-parser', 'mistral',
+                '--enable-auto-tool-choice',
+                '--tensor-parallel-size', str(torch.cuda.device_count())
+            ]
+            vllm_args.extend(extra_args)
+    print(vllm_args)
+    proc = subprocess.Popen(vllm_args, preexec_fn=os.setsid)
     n_retries = 150
     while n_retries > 0:
         try:
