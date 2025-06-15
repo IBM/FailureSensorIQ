@@ -22,7 +22,7 @@ python uncertainty_quantification_via_cp.py \
   --model=${model_name} \
   --raw_data_dir=data \
   --logits_data_dir=outputs_chat_v2 \
-  --data_names=fmsr \
+  --data_names="fmsr_${dataset}" \
   --cal_ratio=0.5 \
   --icl_methods=icl0 \
   --prompt_methods=base \
