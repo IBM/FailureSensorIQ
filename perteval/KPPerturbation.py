@@ -14,7 +14,7 @@ import traceback
 import sys
 import random
 
-from GeneralLLM import LargeLanguageModel, Qwen, ChatGPT
+from GeneralLLM import LargeLanguageModel, Qwen, ChatGPT, Gemini
 
 
 def _add_left_parenthesis(s: str) -> str:

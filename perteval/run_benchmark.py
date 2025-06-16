@@ -11,7 +11,7 @@ from functools import partial
 from typing import Optional
 
 from dataset_preprocessing import load_from_jsonl, write_to_jsonl
-from GeneralLLM import LargeLanguageModel, ChatGPT
+from GeneralLLM import LargeLanguageModel, ChatGPT, Gemini
 from KPPerturbation import MultipleChoiceQuestion, get_mcq_llm_answer, QuestionRewriter
 
 logging.basicConfig(level=logging.INFO)
@@ -161,7 +161,7 @@ if __name__ == "__main__":
             simple_question_path=None,
             model_class=ChatGPT,
             model_selection="gpt-3.5-turbo",
-            temperature=0.2,
+            temperature=0,
             thread_func=test_dataset,
             n_thread=8,
             start_id=None,

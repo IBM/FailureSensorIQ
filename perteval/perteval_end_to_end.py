@@ -1,5 +1,5 @@
 from run_benchmark import test_dataset, parallel_test_dataset
-from GeneralLLM import TransformersModel, ChatGPT
+from GeneralLLM import TransformersModel, ChatGPT, Gemini, Anthropic
 from openai import OpenAI
 from datetime import datetime
 import os
@@ -27,19 +27,25 @@ def get_perteval_results(model_name, mode='original', cot='cot_standard', datase
             ]
             vllm_args.extend(extra_args)
     print(vllm_args)
-    proc = subprocess.Popen(vllm_args, preexec_fn=os.setsid)
-    n_retries = 150
-    while n_retries > 0:
-        try:
-            response = requests.get('http://localhost:8003/v1/models')
-            if response.status_code == 200:
-                break
-        except:
-            pass
-        print(f'waiting for vllm to launch. Retrying in 10 seconds')
-        time.sleep(10)
-        n_retries -= 1
-    model = ChatGPT(base_url="http://localhost:8003/v1", model=model_name, api_key='empty')
+    if 'gemini' in model_name.lower():
+        model = Gemini(model=model_name, temperature=0)
+    elif 'claude' in model_name.lower():
+        model = Anthropic(model=model_name, temperature=0)
+    else:
+        # spin up a self-hosted model
+        proc = subprocess.Popen(vllm_args, preexec_fn=os.setsid)
+        n_retries = 150
+        while n_retries > 0:
+            try:
+                response = requests.get('http://localhost:8003/v1/models')
+                if response.status_code == 200:
+                    break
+            except:
+                pass
+            print(f'waiting for vllm to launch. Retrying in 10 seconds')
+            time.sleep(10)
+            n_retries -= 1
+        model = ChatGPT(base_url="http://localhost:8003/v1", model=model_name, api_key='empty', temperature=0)
     test_subjects = ['failure_mode_sensor_analysis']
     if mode == 'original':
         if dataset == 'sample':
@@ -67,18 +73,20 @@ def get_perteval_results(model_name, mode='original', cot='cot_standard', datase
     parallel_test_dataset(
         file_path = test_data_path,
         log_path=log_path,
-        simple_question_path = None,
-        subjects = test_subjects,
-        model_class = model,
-        model_selection = model_name,
-        temperature = 0.0,
-        thread_func = test_dataset,
-        n_thread = 8,
-        start_id = None,
-        end_id = None,
+        simple_question_path=None,
+        subjects=test_subjects,
+        model_class=model,
+        model_selection=model_name,
+        temperature=0.0,
+        thread_func=test_dataset,
+        n_thread=1,
+        start_id=None,
+        end_id=None,
         trigger_statement=trigger_statements[cot]
     )
     # todo: write asset name in the log
-    
-    os.killpg(os.getpgid(proc.pid), signal.SIGTERM)
+    try:
+        os.killpg(os.getpgid(proc.pid), signal.SIGTERM)
+    except:
+        pass
     return log_path, test_data_path

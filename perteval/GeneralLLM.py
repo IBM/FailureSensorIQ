@@ -10,6 +10,143 @@ from watsonx_llm import get_chat_response
 from model_inference import get_llm_response
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
+import anthropic
+import base64
+import os
+from google import genai
+from google.genai import types
+from pydantic import BaseModel
+from typing import Literal
+
+
+class Anthropic:
+    """
+    The interface for Anthropic
+    """
+    def __init__(
+        self, 
+        name: str = "",
+        description: str = "",
+        api_key: str = None,
+        model: str = "claude-opus-4-20250514",
+        temperature: float = 0,
+        system_prompt="You are a helpful assistant"
+    ):
+        self.model = model
+        self.api_key = api_key
+        self.system_prompt = system_prompt
+        self.temperature = temperature
+        if not api_key:
+            api_key = os.environ.get("ANTHROPIC_API_KEY")
+        self.client = anthropic.Anthropic()
+        self.context = []
+
+    def listen_and_response(self, message: str):
+        self.context.append([
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": message
+                    }
+                ]
+            }
+        ])
+        message = self.client.messages.create(
+            model=self.model,
+            max_tokens=2000,
+            temperature=self.temperature,
+            system=self.system_prompt,
+            messages=self.context
+        )
+        message = message[0].text
+        
+        self.context.append(
+            {
+                'role': 'assistant',
+                'content': [
+                    {
+                        'type': 'text',
+                        'text': message
+                    }
+                ]
+            }
+        )
+        return gen_text
+
+    def refresh(self, system_prompt: str = "You are a helpful assistant."):
+        self.context = []
+        return True
+
+    def get_history(self):
+        return self.context.copy()
+
+class OutputStructGemini(BaseModel):
+    reasoning: str
+    # assuming it only has maximum 5 options. For 10 options complex this would not work
+    answer: list[Literal["A", "B", "C", "D", "E"]]
+
+class Gemini:
+    """
+    The interface for Gemini
+    """
+    def __init__(
+        self, 
+        name: str = "",
+        description: str = "",
+        api_key: str = None,
+        model: str = "gemini-2.5-flash-preview-05-20",
+        temperature: float = 0,
+        system_prompt="You are a helpful assistant"
+    ):
+        self.model = model
+        self.api_key = api_key
+        self.system_prompt = system_prompt
+        self.temperature = temperature
+        if not api_key:
+            api_key = os.environ.get("GEMINI_API_KEY")
+        self.client = genai.Client(
+            api_key=api_key,
+        )
+        self.generate_content_config = types.GenerateContentConfig(
+            response_mime_type="application/json",
+            response_schema=OutputStructGemini,
+            temperature=self.temperature
+        )
+        self.context = []
+
+    def listen_and_response(self, message: str):
+        self.context.append(
+            types.Content(
+                role="user",
+                parts=[
+                    types.Part.from_text(text=message),
+                ],
+            )
+        )
+        gen_text = self.client.models.generate_content(
+            model=self.model,
+            contents=self.context,
+            config=self.generate_content_config,
+        )
+        gen_text = gen_text.candidates[0].content.parts[0].text
+        self.context.append(
+            types.Content(
+                role="model",
+                parts=[
+                    types.Part.from_text(text=gen_text),
+                ],
+            )
+        )
+        return gen_text
+
+    def refresh(self, system_prompt: str = "You are a helpful assistant."):
+        self.context = []
+        return True
+
+    def get_history(self):
+        return self.context.copy()
 
 class LargeLanguageModel(object):
     """
@@ -247,7 +384,7 @@ class ChatGPT(LargeLanguageModel):
         api_key: str = None,
         model: str = "gpt-3.5-turbo",
         system_prompt: str = "You are a helpful assistant.",
-        temperature: float = 1.0,
+        temperature: float = 0,
         base_url=None
     ):
         super().__init__(name, description, temperature)
@@ -298,7 +435,7 @@ class GLM(LargeLanguageModel):
         api_key: str = None,
         model: str = "glm-3-turbo",
         system_prompt: str = "You are a helpful assistant.",
-        temperature: float = 0.5,
+        temperature: float = 0,
     ):
         super(GLM, self).__init__(name, description, temperature)
         self.client = ZhipuAI(api_key=api_key)
@@ -331,36 +468,3 @@ class GLM(LargeLanguageModel):
     def get_history(self):
         return self.context.copy()
 
-
-class Gemini(LargeLanguageModel):
-    def __init__(
-        self,
-        name: str = "",
-        description: str = "",
-        api_key: str = None,
-        model: str = "gemini-1.0-pro",
-        temperature: float = 0.5,
-    ):
-        super(Gemini, self).__init__(name, description, temperature)
-        self.model = model
-        self.temperature = temperature
-        genai.configure(api_key=api_key)
-        self.generationConfig = genai.GenerationConfig(temperature=self.temperature)
-        self.gemini = genai.GenerativeModel(self.model)
-
-    def listen_and_response(self, message: str):
-        """
-        Please notice that the history-based chat is still not implemented in this method.
-        """
-        sleep_time = 0.25
-        time.sleep(sleep_time)
-        response = self.gemini.generate_content(
-            message, generation_config=self.generationConfig
-        )
-        return response.text
-
-    def refresh(self):
-        pass
-
-    def get_history(self):
-        pass
