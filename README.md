@@ -52,6 +52,7 @@ We adopt the [LLM Uncertainty Bench framework](https://github.com/smartyfh/LLM-U
 
 ## Loading the dataset from Hugging Face 🤗
 ```
+from datasets import load_dataset
 load_dataset('cc4718/FailureSensorIQ', data_files='all.jsonl')
 ```
 For loading the perturbed or an extra sample of the dataset check out `load_dataset.ipynb`  
