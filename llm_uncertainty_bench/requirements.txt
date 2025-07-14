@@ -42,7 +42,7 @@ tqdm==4.66.1
 transformers==4.50.0
 transformers-stream-generator==0.0.4
 typing_extensions==4.14.1
-tzdata==2023.3
+tzdata==2023.4
 urllib3==2.5.0
 xxhash==3.4.1
 yarl==1.20.1
