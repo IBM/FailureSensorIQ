@@ -16,7 +16,7 @@ idna==3.7
 Jinja2==3.1.2
 MarkupSafe==3.0.2
 multidict==6.6.3
-multiprocess==0.70.15
+multiprocess==0.70.18
 numpy==1.26.4
 packaging==25.0
 pandas==2.1.3
