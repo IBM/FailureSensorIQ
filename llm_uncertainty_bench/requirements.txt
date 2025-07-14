@@ -12,7 +12,7 @@ filelock==3.18.0
 frozenlist==1.7.0
 fsspec==2025.5.1
 huggingface-hub==0.33.4
-idna==3.7
+idna==3.10
 Jinja2==3.1.6
 MarkupSafe==3.0.2
 multidict==6.6.3
