@@ -9,7 +9,7 @@ datasets==4.0.0
 dill==0.3.7
 einops==0.7.0
 filelock==3.18.0
-frozenlist==1.4.0
+frozenlist==1.7.0
 fsspec==2025.5.1
 huggingface-hub==0.17.3
 idna==3.7
