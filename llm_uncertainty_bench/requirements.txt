@@ -20,7 +20,7 @@ multiprocess==0.70.18
 numpy==1.26.4
 packaging==25.0
 pandas==2.3.1
-Pillow==10.4.0
+Pillow==11.3.0
 protobuf==4.25.8
 psutil==5.9.8
 pyarrow==20.0.0
