@@ -37,7 +37,7 @@ tiktoken==0.9.0
 tokenizers==0.21.2
 torch==1.13.1+cu117
 torchaudio==2.7.1
-torchvision==0.14.1+cu117
+torchvision==0.22.1
 tqdm==4.66.3
 transformers==4.50.0
 transformers-stream-generator==0.0.5
