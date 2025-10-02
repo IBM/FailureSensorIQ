@@ -1,0 +1,401 @@
+[
+    {
+        "Equipment Class": "Combustion engines",
+        "Equipment Type": [
+            "Diesel engine",
+            "Otto (gas) engine"
+        ]
+    },
+    {
+        "Equipment Class": "Compressors",
+        "Equipment Type": [
+            "Centrifugal",
+            "Reciprocating",
+            "Screw",
+            "Axial"
+        ]
+    },
+    {
+        "Equipment Class": "Control logic units",
+        "Equipment Type": [
+            "Programmable logic controller (PLC)",
+            "Computer",
+            "Distributed control unit",
+            "Relay",
+            "Solid state",
+            "Single-loop controller",
+            "Programmable automation controller (PAC)"
+        ]
+    },
+    {
+        "Equipment Class": "Cranes",
+        "Equipment Type": [
+            "Electro-hydraulic operated",
+            "Diesel hydraulic operated"
+        ]
+    },
+    {
+        "Equipment Class": "Electric generators",
+        "Equipment Type": [
+            "Gas-turbine driven",
+            "Steam-turbine driven",
+            "Turboexpander",
+            "Engine driven, e.g. diesel engine, gas engine"
+        ]
+    },
+    {
+        "Equipment Class": "Electric motors",
+        "Equipment Type": [
+            "Alternating current",
+            "Direct current"
+        ]
+    },
+    {
+        "Equipment Class": "Electrical submersible pumps",
+        "Equipment Type": [
+            "Centrifugal",
+            "Rotary",
+            "Alternative current"
+        ]
+    },
+    {
+        "Equipment Class": "Fire detection",
+        "Equipment Type": [
+            "Smoke/Combustion",
+            "Heat",
+            "Flame",
+            "Manual pushbutton",
+            "Others"
+        ]
+    },
+    {
+        "Equipment Class": "Frequency converters",
+        "Equipment Type": [
+            "Low voltage",
+            "High voltage"
+        ]
+    },
+    {
+        "Equipment Class": "Gas detection",
+        "Equipment Type": [
+            "Hydrocarbon",
+            "Toxic gases",
+            "Others"
+        ]
+    },
+    {
+        "Equipment Class": "Gas turbines",
+        "Equipment Type": [
+            "Industrial",
+            "Aero-derivative",
+            "Heavy duty"
+        ]
+    },
+    {
+        "Equipment Class": "Heat exchangers",
+        "Equipment Type": [
+            "Shell and tube",
+            "Plate",
+            "Plate fin",
+            "Double pipe",
+            "Bayonet",
+            "Printed circuit",
+            "Air-cooled",
+            "Spiral",
+            "Spiral-wound"
+        ]
+    },
+    {
+        "Equipment Class": "Heaters and boilers",
+        "Equipment Type": [
+            "Direct-fired heater",
+            "Electric heater",
+            "Indirect HC-fired heater",
+            "Heater treater",
+            "Non-HC-fired boiler",
+            "Electric boiler",
+            "HC-fired boiler"
+        ]
+    },
+    {
+        "Equipment Class": "Input devices",
+        "Equipment Type": [
+            "Pressure",
+            "Level",
+            "Temperature",
+            "Flow",
+            "Speed",
+            "Vibration",
+            "Displacement",
+            "Analyser",
+            "Weight",
+            "Corrosion",
+            "Limit switch",
+            "On/off (pushbutton)",
+            "Others"
+        ]
+    },
+    {
+        "Equipment Class": "Jacking and fixation",
+        "Equipment Type": [
+            "Open-truss legs",
+            "Columnar legs"
+        ]
+    },
+    {
+        "Equipment Class": "Lifeboats",
+        "Equipment Type": [
+            "Free fall",
+            "Davit launched"
+        ]
+    },
+    {
+        "Equipment Class": "Nozzles",
+        "Equipment Type": [
+            "Deluge",
+            "Sprinkler",
+            "Water mist",
+            "Gaseous"
+        ]
+    },
+    {
+        "Equipment Class": "Open water intervention",
+        "Equipment Type": [
+            "Well completion",
+            "Well intervention - open sea (tree mode)",
+            "Full workover (tree mode)"
+        ]
+    },
+    {
+        "Equipment Class": "Piping",
+        "Equipment Type": [
+            "Carbon steels",
+            "Stainless steels",
+            "High-strength low-alloy steels",
+            "Titanium",
+            "Polymers including fibre-reinforced"
+        ]
+    },
+    {
+        "Equipment Class": "Power transformers",
+        "Equipment Type": [
+            "Oil immersed",
+            "Dry"
+        ]
+    },
+    {
+        "Equipment Class": "Pressure vessels",
+        "Equipment Type": [
+            "Stripper",
+            "Separator",
+            "Coalescer",
+            "Flash drum",
+            "Scrubber",
+            "Contactor",
+            "Surge drum",
+            "Cyclone",
+            "Hydrocyclone",
+            "Slug catcher",
+            "Adsorber",
+            "Dryer",
+            "Pig trap",
+            "Distillation column",
+            "Saturator",
+            "Reactor",
+            "De-aerator"
+        ]
+    },
+    {
+        "Equipment Class": "Pumps",
+        "Equipment Type": [
+            "Centrifugal",
+            "Reciprocating",
+            "Rotary"
+        ]
+    },
+    {
+        "Equipment Class": "Risers",
+        "Equipment Type": [
+            "Rigid",
+            "Flexible"
+        ]
+    },
+    {
+        "Equipment Class": "Steam turbines",
+        "Equipment Type": [
+            "Multi-stage",
+            "Single-stage"
+        ]
+    },
+    {
+        "Equipment Class": "Storage tanks",
+        "Equipment Type": [
+            "Fixed-Roof",
+            "Lifting Roof",
+            "Diaphragm",
+            "External Floating Roof",
+            "Roofless",
+            "Fixed Roof with Internal Floating Roof"
+        ]
+    },
+    {
+        "Equipment Class": "Subsea blowout preventers",
+        "Equipment Type": [
+            "Piloted hydraulic",
+            "Multiplexed electro-hydraulic"
+        ]
+    },
+    {
+        "Equipment Class": "Subsea pipelines",
+        "Equipment Type": [
+            "Flexible",
+            "Rigid"
+        ]
+    },
+    {
+        "Equipment Class": "Subsea pressure vessels",
+        "Equipment Type": [
+            "Coalescer",
+            "Cyclone",
+            "Hydrocyclone",
+            "Scrubber",
+            "Separator",
+            "Slug catcher",
+            "Surge drum"
+        ]
+    },
+    {
+        "Equipment Class": "Subsea production control",
+        "Equipment Type": [
+            "Direct hydraulic",
+            "Direct electro-hydraulic",
+            "Multiplexed electro-hydraulic",
+            "Discrete pilot hydraulic",
+            "Sequential piloted hydraulic",
+            "Telemetric hydraulic"
+        ]
+    },
+    {
+        "Equipment Class": "Subsea pumps",
+        "Equipment Type": [
+            "Centrifugal",
+            "Reciprocating",
+            "Rotary"
+        ]
+    },
+    {
+        "Equipment Class": "Subsea wellhead and X-mas trees",
+        "Equipment Type": [
+            "Vertical",
+            "Horizontal"
+        ]
+    },
+    {
+        "Equipment Class": "Surface blowout preventers",
+        "Equipment Type": [
+            "Piloted hydraulic",
+            "Multiplexed electro-hydraulic"
+        ]
+    },
+    {
+        "Equipment Class": "Surface well control equipment (for well intervention)",
+        "Equipment Type": [
+            "Coiled tubing",
+            "Snubbing",
+            "Wireline"
+        ]
+    },
+    {
+        "Equipment Class": "Surface wellhead and X-mas trees",
+        "Equipment Type": [
+            "Vertical",
+            "Horizontal"
+        ]
+    },
+    {
+        "Equipment Class": "Switchgear",
+        "Equipment Type": [
+            "Low voltage",
+            "Oil and vacuum insulated",
+            "High voltage air insulated",
+            "High voltage gas insulated"
+        ]
+    },
+    {
+        "Equipment Class": "Swivels",
+        "Equipment Type": [
+            "Axial",
+            "Toroidal",
+            "Electric/signal"
+        ]
+    },
+    {
+        "Equipment Class": "Top drives",
+        "Equipment Type": [
+            "Hydraulically driven",
+            "Electrically driven"
+        ]
+    },
+    {
+        "Equipment Class": "Turbo expanders",
+        "Equipment Type": [
+            "Centrifugal",
+            "Axial"
+        ]
+    },
+    {
+        "Equipment Class": "Turrets",
+        "Equipment Type": [
+            "Disconnectable turrets",
+            "Permanent turrets"
+        ]
+    },
+    {
+        "Equipment Class": "UPS",
+        "Equipment Type": [
+            "Dual UPS with standby bypass",
+            "Rectifier supplied from emergency power",
+            "Bypass from main power system",
+            "Dual UPS without bypass",
+            "Rectifier supplied from emergency power",
+            "Single UPS with bypass",
+            "Rectifier supplied from emergency power",
+            "Bypass from main power system",
+            "Single UPS without bypass",
+            "Rectifier supplied from emergency power"
+        ]
+    },
+    {
+        "Equipment Class": "Valves",
+        "Equipment Type": [
+            "Ball",
+            "Gate",
+            "Globe",
+            "Butterfly",
+            "Plug",
+            "Needle",
+            "Check",
+            "Diaphragm",
+            "Flapper",
+            "Multiple orifice",
+            "Three-way",
+            "PSV-conventional",
+            "PSV-conventional with bellow",
+            "PSV-pilot operated",
+            "PSV-vacuum relief",
+            "Plug and cage",
+            "External sleeve",
+            "Disc",
+            "Axial flow",
+            "Pinch",
+            "Others"
+        ]
+    },
+    {
+        "Equipment Class": "Winches",
+        "Equipment Type": [
+            "Electric winch",
+            "Hydraulic winch"
+        ]
+    }
+]
