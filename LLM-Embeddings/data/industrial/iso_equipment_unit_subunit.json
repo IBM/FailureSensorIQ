@@ -1,0 +1,2727 @@
+[
+    {
+        "Equipment unit": "Combustion engines",
+        "Subunit": [
+            {
+                "name": "Start system",
+                "Maintainable items": [
+                    "Start energy (battery, air)",
+                    "Starting unit",
+                    "Start control"
+                ]
+            },
+            {
+                "name": "Combustion engine unit",
+                "Maintainable items": [
+                    "Air inlet",
+                    "Ignition system",
+                    "Turbocharger",
+                    "Fuel pumps",
+                    "Injectors",
+                    "Fuel filters",
+                    "Exhaust",
+                    "Cylinders",
+                    "Pistons",
+                    "Shaft",
+                    "Thrust bearing",
+                    "Radial bearing",
+                    "Seals",
+                    "Piping",
+                    "Valves"
+                ]
+            },
+            {
+                "name": "Control and monitoring",
+                "Maintainable items": [
+                    "Actuating device",
+                    "Control unit",
+                    "Internal power supply",
+                    "Monitoring",
+                    "Sensors",
+                    "Valves",
+                    "Wiring",
+                    "Piping",
+                    "Seals"
+                ]
+            },
+            {
+                "name": "Lubrication system",
+                "Maintainable items": [
+                    "Reservoir",
+                    "Pump",
+                    "Motor",
+                    "Filter",
+                    "Cooler Valves",
+                    "Piping",
+                    "Oil",
+                    "Temperature-control sensor"
+                ]
+            },
+            {
+                "name": "Cooling system",
+                "Maintainable items": [
+                    "Heat exchanger",
+                    "Fan",
+                    "Motor",
+                    "Filter",
+                    "Valves",
+                    "Piping",
+                    "Pump",
+                    "Temperature-control sensor"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "Hood",
+                    "Flange joints"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Compressors",
+        "Subunit": [
+            {
+                "name": "Power transmission",
+                "Maintainable items": [
+                    "Gearbox/ variable drive Bearings",
+                    "Belt/sheave",
+                    "Coupling to the driver",
+                    "Coupling to the driven unit",
+                    "Lubrication",
+                    "Seals"
+                ]
+            },
+            {
+                "name": "Compressor",
+                "Maintainable items": [
+                    "Casing",
+                    "Rotor with impellers Balance piston",
+                    "Interstage seals",
+                    "Radial bearing",
+                    "Thrust bearing",
+                    "Shaft seals",
+                    "Internal piping",
+                    "Valves",
+                    "Antisurge system",
+                    "Piston",
+                    "Cylinder liner",
+                    "Packing"
+                ]
+            },
+            {
+                "name": "Control and monitoring",
+                "Maintainable items": [
+                    "Actuating device Control unit",
+                    "Cables and junction boxes",
+                    "Internal power supply",
+                    "Monitoring",
+                    "Sensors",
+                    "Valves",
+                    "Wiring",
+                    "Piping",
+                    "Seals"
+                ]
+            },
+            {
+                "name": "Lubrication  system",
+                "Maintainable items": [
+                    "Oil tank with ",
+                    "heating system Pump",
+                    "Motor",
+                    "Check valves",
+                    "Coolers",
+                    "Filters",
+                    "Piping",
+                    "Valves",
+                    "Lube oil"
+                ]
+            },
+            {
+                "name": "Shaft seal  system",
+                "Maintainable items": [
+                    "Oil tank with heating Reservoir",
+                    "Pump",
+                    "Motor",
+                    "Gear",
+                    "Filters",
+                    "Valves",
+                    "Seal oil",
+                    "Dry gas seal",
+                    "Mechanical seal",
+                    "Scrubber"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "Base frame",
+                    "Piping, pipe support and bellows Control valves",
+                    "Isolation valves Check valves",
+                    "Coolers",
+                    "Silencers",
+                    "Purge air",
+                    "Magnetic-bearing control system Flange joints"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Electric generators",
+        "Subunit": [
+            {
+                "name": "Power transmission",
+                "Maintainable items": [
+                    "Gearbox",
+                    "Radial bearing",
+                    "Thrust bearing Seals",
+                    "Lubrication",
+                    "Coupling to driver",
+                    "Coupling to driven unit Belt/sheave"
+                ]
+            },
+            {
+                "name": "Electric generator",
+                "Maintainable items": [
+                    "Stator",
+                    "Rotor",
+                    "Radial bearing",
+                    "Thrust bearing Excitation",
+                    "Cabling and junction boxes"
+                ]
+            },
+            {
+                "name": "Control and monitoring",
+                "Maintainable items": [
+                    "Actuating device",
+                    "Control unit (e.g. AVR)",
+                    "Internal power supply Monitoring",
+                    "Sensors",
+                    "Valves",
+                    "Wiring",
+                    "Piping",
+                    "Seals"
+                ]
+            },
+            {
+                "name": "Lubrication system",
+                "Maintainable items": [
+                    "Reservoir",
+                    "Pump",
+                    "Motor",
+                    "Filter",
+                    "Cooler Valves",
+                    "Piping",
+                    "Oil"
+                ]
+            },
+            {
+                "name": "Cooling system",
+                "Maintainable items": [
+                    "Heat exchanger",
+                    "Fan",
+                    "Motor",
+                    "Filter",
+                    "Valves",
+                    "Piping",
+                    "Pump"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "Hood",
+                    "Purge air",
+                    "Neutral grounding resistors (NGRs)"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Electric motors",
+        "Subunit": [
+            {
+                "name": "Electric motor",
+                "Maintainable items": [
+                    "Stator",
+                    "Rotor",
+                    "Excitation",
+                    "Radial bearing",
+                    "Thrust bearing"
+                ]
+            },
+            {
+                "name": "Control and monitoring",
+                "Maintainable items": [
+                    "Actuating device",
+                    "Control unit",
+                    "Internal power supply Monitoring",
+                    "Sensors",
+                    "Valves",
+                    "Wiring",
+                    "Piping",
+                    "Seals"
+                ]
+            },
+            {
+                "name": "Lubrication system",
+                "Maintainable items": [
+                    "Reservoir",
+                    "Pump",
+                    "Motor",
+                    "Filter",
+                    "Cooler Valves",
+                    "Piping",
+                    "Oil"
+                ]
+            },
+            {
+                "name": "Cooling system",
+                "Maintainable items": [
+                    "Heat exchanger",
+                    "Filter",
+                    "Valves",
+                    "Piping",
+                    "Pump",
+                    "Motor",
+                    "Fan"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "Hood"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Gas turbines",
+        "Subunit": [
+            {
+                "name": "Starting system",
+                "Maintainable items": [
+                    "Starting motor",
+                    "Start control",
+                    "Piping",
+                    "Filter(s)",
+                    "Valve(s)",
+                    "Pump(s)",
+                    "Start energy (e.g. battery, air)",
+                    "Lubrication system",
+                    "Heater",
+                    "Reservoir(s)",
+                    "Pump(s)",
+                    "Motor",
+                    "Filter",
+                    "Temperature control Valves",
+                    "Piping",
+                    "Oil cooler",
+                    "Oil",
+                    "Sensors",
+                    "Wires"
+                ]
+            },
+            {
+                "name": "Air intake",
+                "Maintainable items": [
+                    "Air cooling",
+                    "Anti-icing",
+                    "Filters",
+                    "Intake duct",
+                    "Inlet vanes",
+                    "Fuel system",
+                    "Fuel control",
+                    "Piping",
+                    "Valves",
+                    "Seals",
+                    "Pump(s)/Gas compressor",
+                    "Filter(s)",
+                    "Separators",
+                    "Wires",
+                    "Fuel properties measurement"
+                ]
+            },
+            {
+                "name": "Combustion system",
+                "Maintainable items": [
+                    "Combustor",
+                    "Fuel nozzles",
+                    "Seals",
+                    "Water/Steam injectionb",
+                    "Pump(s)",
+                    "Piping",
+                    "Valves",
+                    "Filter(s)",
+                    "Seals",
+                    "Wires"
+                ]
+            },
+            {
+                "name": "Compressor",
+                "Maintainable items": [
+                    "Rotor",
+                    "Stator",
+                    "Cooling system",
+                    "VGV system",
+                    "Anti-surge valve",
+                    "Aux. bleeding system",
+                    "Anti-icing valve Casing",
+                    "Radial bearing",
+                    "Thrust bearing",
+                    "Seals",
+                    "Piping",
+                    "Fire and gas protection",
+                    "Control unit",
+                    "Pipes",
+                    "Valves",
+                    "Sensors",
+                    "Wires",
+                    "Tank(s)/ Storage"
+                ]
+            },
+            {
+                "name": "Power turbine HP turbine",
+                "Maintainable items": [
+                    "Rotor",
+                    "Stator",
+                    "Casing",
+                    "Radial bearing",
+                    "Thrust bearing",
+                    "Seals",
+                    "Valves",
+                    "Piping",
+                    "Accessory drive",
+                    "Gearbox",
+                    "Bearing",
+                    "Seals",
+                    "Casing"
+                ]
+            },
+            {
+                "name": "Control and monitoring",
+                "Maintainable items": [
+                    "Control unit",
+                    "Sensors",
+                    "Wires",
+                    "Actuating devices",
+                    "Monitoring",
+                    "Valves",
+                    "Internal power supply",
+                    "Seals",
+                    "Exhaust",
+                    "Diffuser Exhaust collector",
+                    "Compensator/ bellows Ducting Emission monitoring Silencer",
+                    "Thrust bearing Valves",
+                    "Waste heat recovery unit"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "Enclosure",
+                    "Hood",
+                    "Purge air",
+                    "Flange joints",
+                    "Ventilation fan",
+                    "Water-wash system"
+                ]
+            },
+            {
+                "name": "Exhaust",
+                "Maintainable items": [
+                    "Diffuser Exhaust collector",
+                    "Compensator/ bellows Ducting Emission monitoring Silencer",
+                    "Thrust bearing Valves",
+                    "Waste heat recovery unit"
+                ]
+            },
+            {
+                "name": "Accessory drive",
+                "Maintainable items": [
+                    "Gearbox",
+                    "Bearing",
+                    "Seals",
+                    "Casing"
+                ]
+            },
+            {
+                "name": "Fire and gas protection",
+                "Maintainable items": [
+                    "Control unit",
+                    "Pipes",
+                    "Valves",
+                    "Sensors",
+                    "Wires",
+                    "Tank(s)/ Storage"
+                ]
+            },
+            {
+                "name": "Water/Steam injectionb",
+                "Maintainable items": [
+                    "Pump(s)",
+                    "Piping",
+                    "Valves",
+                    "Filter(s)",
+                    "Seals",
+                    "Wires"
+                ]
+            },
+            {
+                "name": "Fuel system",
+                "Maintainable items": [
+                    "Pump(s)",
+                    "Piping",
+                    "Valves",
+                    "Filter(s)",
+                    "Seals",
+                    "Wires"
+                ]
+            },
+            {
+                "name": "Accessory drive",
+                "Maintainable items": [
+                    "Fuel control",
+                    "Piping",
+                    "Valves",
+                    "Seals",
+                    "Pump(s)/Gas compressor",
+                    "Filter(s)/Separators",
+                    "Wires",
+                    "Fuel properties measurement"
+                ]
+            },
+            {
+                "name": "Lubrication system",
+                "Maintainable items": [
+                    "Heater",
+                    "Reservoir(s)",
+                    "Pump(s)",
+                    "Motor",
+                    "Filter",
+                    "Temperature control Valves",
+                    "Piping",
+                    "Oil cooler",
+                    "Oil",
+                    "Sensors",
+                    "Wires"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Pumps",
+        "Subunit": [
+            {
+                "name": "Power transmission",
+                "Maintainable items": [
+                    "Gearbox/ variable drive",
+                    "Bearing",
+                    "Seals",
+                    "Coupling to driver",
+                    "Coupling to driven unit Belt/sheave"
+                ]
+            },
+            {
+                "name": "Pump unit",
+                "Maintainable items": [
+                    "Support",
+                    "Casing",
+                    "Impeller",
+                    "Shaft",
+                    "Radial bearing",
+                    "Thrust bearing",
+                    "Seals",
+                    "Valves",
+                    "Piping",
+                    "Cylinder liner",
+                    "Piston",
+                    "Diaphragm"
+                ]
+            },
+            {
+                "name": "Control and monitoring",
+                "Maintainable items": [
+                    "Actuating device",
+                    "Control unit",
+                    "Internal power supply Monitoring",
+                    "Sensors",
+                    "Valves",
+                    "Wiring",
+                    "Piping",
+                    "Seals"
+                ]
+            },
+            {
+                "name": "Lubrication system",
+                "Maintainable items": [
+                    "Reservoir",
+                    "Pump",
+                    "Motor",
+                    "Filter",
+                    "Cooler Valves",
+                    "Piping",
+                    "Oil",
+                    "Seals"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "Purge air",
+                    "Cooling/heating system",
+                    "Cyclone separator",
+                    "Pulsation damper",
+                    "Flange joints"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Steam turbines",
+        "Subunit": [
+            {
+                "name": "Power turbine",
+                "Maintainable items": [
+                    "Piping",
+                    "Radial bearing",
+                    "Rotor",
+                    "Seals",
+                    "Stator/casing",
+                    "Steam reg. valves",
+                    "Thrust bearing"
+                ]
+            },
+            {
+                "name": "Condenser",
+                "Maintainable items": [
+                    "Condenser",
+                    "Reg. pump",
+                    "Vacuum pump"
+                ]
+            },
+            {
+                "name": "Regulating system",
+                "Maintainable items": [
+                    "Filter",
+                    "Pump"
+                ]
+            },
+            {
+                "name": "Lubrication system",
+                "Maintainable items": [
+                    "Cooler",
+                    "Filter",
+                    "Oil",
+                    "Oil seal pump",
+                    "Piping",
+                    "Pump",
+                    "Motor",
+                    "Reservoir",
+                    "Valves"
+                ]
+            },
+            {
+                "name": "Control and monitoring",
+                "Maintainable items": [
+                    "Actuating device Control unit",
+                    "Internal power supply Monitoring",
+                    "Sensors",
+                    "Valves",
+                    "Wiring",
+                    "Piping",
+                    "Seals"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "Cranking system Hood"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Turbo expanders",
+        "Subunit": [
+            {
+                "name": "Expander turbine",
+                "Maintainable items": [
+                    "Rotor w/impellers Inlet vanes",
+                    "Casing",
+                    "Radial bearing",
+                    "Thrust bearing",
+                    "Seals",
+                    "Inlet screen",
+                    "Valves",
+                    "Piping"
+                ]
+            },
+            {
+                "name": "Control and monitoring",
+                "Maintainable items": [
+                    "Actuating device",
+                    "Control unit",
+                    "Internal power supply Monitoring",
+                    "Sensors",
+                    "Valves",
+                    "Wiring",
+                    "Piping",
+                    "Seals"
+                ]
+            },
+            {
+                "name": "Lubrication system",
+                "Maintainable items": [
+                    "Reservoir",
+                    "Pump",
+                    "Motor",
+                    "Filter",
+                    "Cooler Valves",
+                    "Piping",
+                    "Oil"
+                ]
+            },
+            {
+                "name": "Shaft seal system",
+                "Maintainable items": [
+                    "Seal-gas equipment",
+                    "Seal gas"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "Others"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Cranes",
+        "Subunit": [
+            {
+                "name": "Crane structure",
+                "Maintainable items": [
+                    "A-frame/ king",
+                    "Drivers cabin",
+                    "Engine room",
+                    "Pedestal",
+                    "Crane frame"
+                ]
+            },
+            {
+                "name": "Boom system",
+                "Maintainable items": [
+                    "Boom",
+                    "Boom bearing",
+                    "Hydraulic cylinder",
+                    "Luffing winch Luffing wire",
+                    "Luffing sheaves",
+                    "Boom stop cylinder"
+                ]
+            },
+            {
+                "name": "Hoist system",
+                "Maintainable items": [
+                    "Hoist winch",
+                    "Hoist sheaves Hook",
+                    "Lifting wire",
+                    "Shock damper"
+                ]
+            },
+            {
+                "name": "Swing system",
+                "Maintainable items": [
+                    "Slew bearing Slew ring",
+                    "Slew motor",
+                    "Slew pinion"
+                ]
+            },
+            {
+                "name": "Power system",
+                "Maintainable items": [
+                    "Hydraulic pumps",
+                    "Electric engine",
+                    "Diesel engine",
+                    "Proportional valves",
+                    "Hydraulic tank",
+                    "Hydraulic filters",
+                    "Hydraulic oil"
+                ]
+            },
+            {
+                "name": "Control and monitoring",
+                "Maintainable items": [
+                    "PC/PLS",
+                    "Control valves",
+                    "Internal power supply Amplifiers",
+                    "Joysticks",
+                    "Load indicator"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "Others"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Heat exchangers",
+        "Subunit": [
+            {
+                "name": "External",
+                "Maintainable items": [
+                    "Support",
+                    "Body/shell",
+                    "Valves",
+                    "Piping"
+                ]
+            },
+            {
+                "name": "Internal",
+                "Maintainable items": [
+                    "Body/shell",
+                    "Tubes",
+                    "Plates",
+                    "Seals (gaskets)"
+                ]
+            },
+            {
+                "name": "Control and monitoring",
+                "Maintainable items": [
+                    "Actuating device",
+                    "Control unit",
+                    "Internal power supply",
+                    "Monitoring",
+                    "Sensors",
+                    "Valves",
+                    "Wiring",
+                    "Piping",
+                    "Seals"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "Fan",
+                    "Motor"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Heaters and boilers",
+        "Subunit": [
+            {
+                "name": "Column",
+                "Maintainable items": [
+                    "Body/shell",
+                    "Packing",
+                    "Reflux coil/ condenser"
+                ]
+            },
+            {
+                "name": "Externals",
+                "Maintainable items": [
+                    "Body/shell",
+                    "Piping",
+                    "Support",
+                    "Valves"
+                ]
+            },
+            {
+                "name": "Internals",
+                "Maintainable items": [
+                    "Body/shell",
+                    "Burner",
+                    "Firetube",
+                    "Exhaust stack",
+                    "Tube coil",
+                    "Support"
+                ]
+            },
+            {
+                "name": "Control and monitoring",
+                "Maintainable items": [
+                    "Actuating device",
+                    "Control unit",
+                    "Internal power supply Monitoring Sensors",
+                    "Valves",
+                    "Wiring",
+                    "Piping",
+                    "Seals"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "Draft fan/motor Others"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Pressure vessels",
+        "Subunit": [
+            {
+                "name": "External items",
+                "Maintainable items": [
+                    "Body/Shell",
+                    "Valves",
+                    "Piping",
+                    "Support"
+                ]
+            },
+            {
+                "name": "Internal items",
+                "Maintainable items": [
+                    "Body/Shell",
+                    "Cyclones",
+                    "Hydrocyclone liners",
+                    "Plates, trays, vanes, pads Nozzle",
+                    "Sand-trap system",
+                    "Heater",
+                    "Corrosion protection",
+                    "Distributor",
+                    "Coil"
+                ]
+            },
+            {
+                "name": "Control and monitoring",
+                "Maintainable items": [
+                    "Actuating device",
+                    "Control unit",
+                    "Internal power supply",
+                    "Monitoring",
+                    "Sensors",
+                    "Valves",
+                    "Wiring",
+                    "Piping",
+                    "Seals"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "Others"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Piping",
+        "Subunit": [
+            {
+                "name": "Pipe",
+                "Maintainable items": [
+                    "Fastener/bolts",
+                    "Fitting",
+                    "Flange",
+                    "Header",
+                    "Lining",
+                    "Pipe element",
+                    "Plug",
+                    "Seals/gaskets"
+                ]
+            },
+            {
+                "name": "Valve",
+                "Maintainable items": [
+                    "Valve body",
+                    "Valve seals",
+                    "Actuator",
+                    "Bonnet",
+                    "Accessories"
+                ]
+            },
+            {
+                "name": "Control and monitoring",
+                "Maintainable items": [
+                    "Actuating device",
+                    "Control unit",
+                    "Internal power supply Monitoring",
+                    "Sensors",
+                    "Valves",
+                    "Wiring",
+                    "Piping",
+                    "Seals"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "Pipe support",
+                    "Others"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Winches",
+        "Subunit": [
+            {
+                "name": "Winch",
+                "Maintainable items": [
+                    "Bearing",
+                    "Chain",
+                    "Drum",
+                    "Lubrication",
+                    "Reel",
+                    "Speedbrake",
+                    "Spool",
+                    "Structure",
+                    "Tensioning and motion compensation",
+                    "Wire"
+                ]
+            },
+            {
+                "name": "Power transmission",
+                "Maintainable items": [
+                    "Bearing",
+                    "Coupling",
+                    "Gear",
+                    "Shaft"
+                ]
+            },
+            {
+                "name": "Control and monitoring",
+                "Maintainable items": [
+                    "Actuating device",
+                    "Control unit",
+                    "Internal power supply Monitoring",
+                    "Sensors",
+                    "Valves",
+                    "Wiring",
+                    "Piping",
+                    "Seals"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "Hood",
+                    "Others"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Turrets",
+        "Subunit": [
+            {
+                "name": "Turret",
+                "Maintainable items": [
+                    "Bearing-roller",
+                    "Bearing-slide",
+                    "Bearing-wheel",
+                    "Structure",
+                    "Turning and locking system"
+                ]
+            },
+            {
+                "name": "Mooring",
+                "Maintainable items": [
+                    "Anchor",
+                    "Buoy",
+                    "Chain",
+                    "Synthetic rope",
+                    "Connection to structure",
+                    "Winch",
+                    "Wire"
+                ]
+            },
+            {
+                "name": "Riser and umbilical termination",
+                "Maintainable items": [
+                    "Bend-restrictor lock Hang-off"
+                ]
+            },
+            {
+                "name": "Utility systems",
+                "Maintainable items": [
+                    "Ballast system",
+                    "Bilge system",
+                    "Lock buoy/ship system a Power system",
+                    "Pull-in",
+                    "Ventilation"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Swivels",
+        "Subunit": [
+            {
+                "name": "Swivel",
+                "Maintainable items": [
+                    "Dynamic seals",
+                    "Bearing",
+                    "Liquid barrier system",
+                    "Bolting (incl. both structural and pressure connections)",
+                    "Casing",
+                    "Brushes"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "Tensioners",
+                    "Common items"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Storage tanks",
+        "Subunit": [
+            {
+                "name": "Tank structure",
+                "Maintainable items": [
+                    "Shell (or sidewalls) Roof",
+                    "Bottom",
+                    "Nozzles",
+                    "Manholes",
+                    "Cleanout",
+                    "Foundation"
+                ]
+            },
+            {
+                "name": "External",
+                "Maintainable items": [
+                    "Bottom drain",
+                    "Roof drain",
+                    "Seal",
+                    "Platform",
+                    "Walkway",
+                    "Stairway",
+                    "Ladder",
+                    "Centring and anti-rotation device",
+                    "Secondary containment"
+                ]
+            },
+            {
+                "name": "Internal",
+                "Maintainable items": [
+                    "Heaters",
+                    "Cathodic protection",
+                    "Nozzles",
+                    "Piping",
+                    "Swing line"
+                ]
+            },
+            {
+                "name": "Control and monitoring",
+                "Maintainable items": [
+                    "Sensors",
+                    "Piping",
+                    "Open vent",
+                    "Flame arrester"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "Mixers",
+                    "Fire-fighting system",
+                    "Lightning protection system",
+                    "Others"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "UPS",
+        "Subunit": [
+            {
+                "name": "Battery unit",
+                "Maintainable items": [
+                    "Battery breaker Battery bank",
+                    "Cabling",
+                    "Circuit breaker",
+                    "Connection/ socket Instrument"
+                ]
+            },
+            {
+                "name": "Bypass unit",
+                "Maintainable items": [
+                    "Bypass switch",
+                    "Bypass transformer",
+                    "Contactor feeder a Fuse(s)",
+                    "Instrument",
+                    "Static switch"
+                ]
+            },
+            {
+                "name": "Inverter unit",
+                "Maintainable items": [
+                    "Bypass switch",
+                    "Cabling",
+                    "Connection/ socket Fuse(s)",
+                    "Instrument",
+                    "Inverter",
+                    "Static switch",
+                    "Inverter transformer"
+                ]
+            },
+            {
+                "name": "Rectifier unit",
+                "Maintainable items": [
+                    "DC supply",
+                    "Cabling",
+                    "Contactor feeder",
+                    "Fuse(s)",
+                    "Fused switch",
+                    "Instrument",
+                    "Rectifier",
+                    "Rectifier transformer"
+                ]
+            },
+            {
+                "name": "Control and monitoring",
+                "Maintainable items": [
+                    "Control unit",
+                    "Internal power supply Monitoring",
+                    "Sensors",
+                    "Wiring",
+                    "Insulation monitoring device"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "Cabinet",
+                    "Insulation",
+                    "Cooling fans",
+                    "Others"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Power transformers",
+        "Subunit": [
+            {
+                "name": "Transformer unit",
+                "Maintainable items": [
+                    "Oil",
+                    "Tank",
+                    "Windings",
+                    "Fan",
+                    "Core",
+                    "Expansion tank",
+                    "Radiator",
+                    "Tap changer",
+                    "Neutral impedance",
+                    "Outer tank"
+                ]
+            },
+            {
+                "name": "Monitoring system",
+                "Maintainable items": [
+                    "Bucholz relay",
+                    "Level indicator",
+                    "Thermometer",
+                    "Relief valve",
+                    "Pressure relay",
+                    "Current transformers"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "Bushing insulators",
+                    "Terminal blocks",
+                    "Connectors",
+                    "Wiring",
+                    "Grounding",
+                    "Junction box",
+                    "Silica-gel device",
+                    "Dampers",
+                    "Penetrator",
+                    "Neutral grounding resistors (NGRs)"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Switchgear",
+        "Subunit": [
+            {
+                "name": "Main power circuits",
+                "Maintainable items": [
+                    "Circuit breaker",
+                    "Cable termination",
+                    "Current transformers",
+                    "Voltage transformers",
+                    "Disconnectors",
+                    "Earthing switch",
+                    "Motor starters (contactor)",
+                    "Actuator",
+                    "Busbar"
+                ]
+            },
+            {
+                "name": "Control protection and monitoring",
+                "Maintainable items": [
+                    "Metering",
+                    "Protection relay and interlock",
+                    "Control power supply",
+                    "Miniature circuit breakers (MCB)",
+                    "Communication interface",
+                    "Terminal blocks and connectors",
+                    "PLC",
+                    "Sensor",
+                    "Valve",
+                    "Piping",
+                    "Wiring"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "Interface cabinet",
+                    "Cooling",
+                    "Enclosure (cabinet)"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Frequency converters",
+        "Subunit": [
+            {
+                "name": "Input stage",
+                "Maintainable items": [
+                    "Rectifiers",
+                    "Protective devices",
+                    "Internal circuit breaker or disconnector Harmonic filter",
+                    "Commutating reactor",
+                    "Input transformer"
+                ]
+            },
+            {
+                "name": "DC bus",
+                "Maintainable items": [
+                    "Capacitors",
+                    "Inductors",
+                    "Charging circuits",
+                    "Brake choppers",
+                    "Internal circuit breaker or disconnector Switch fuses",
+                    "Fuses"
+                ]
+            },
+            {
+                "name": "Output stage",
+                "Maintainable items": [
+                    "Inverter",
+                    "Output filters",
+                    "Power cell"
+                ]
+            },
+            {
+                "name": "Control and monitoring",
+                "Maintainable items": [
+                    "Monitoring",
+                    "Control unit",
+                    "Internal power",
+                    "Supply",
+                    "Communication",
+                    "Cards",
+                    "Instruments",
+                    "Wiring",
+                    "Miniature circuit breakers/fuses Isolation switch"
+                ]
+            },
+            {
+                "name": "Cooling system",
+                "Maintainable items": [
+                    "Heat exchanger",
+                    "Filter",
+                    "Motor",
+                    "Piping",
+                    "Pump",
+                    "Seals",
+                    "Valves",
+                    "Enclosure cooling fans De-ioniser",
+                    "Louver"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "Heaters",
+                    "Enclosure fixtures and fittings",
+                    "Excitation circuits",
+                    "Bypass contactor"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Fire and gas detectors",
+        "Subunit": [
+            {
+                "name": "Sensor",
+                "Maintainable items": [
+                    "Cabling",
+                    "Cover",
+                    "Detector (incl. head and associated electronics)",
+                    "Mounting socket"
+                ]
+            },
+            {
+                "name": "Interface unit",
+                "Maintainable items": [
+                    "Cabinet",
+                    "Control card",
+                    "Display"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "Others"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Input devices",
+        "Subunit": [
+            {
+                "name": "Sensor and electronics",
+                "Maintainable items": [
+                    "Sensing element",
+                    "Conditioning (electronics)"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "Cabling",
+                    "Piping",
+                    "Others"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Control logic units",
+        "Subunit": [
+            {
+                "name": "Analog input cards",
+                "Maintainable items": [
+                    "Input card",
+                    "Connection unit"
+                ]
+            },
+            {
+                "name": "Digital input cards",
+                "Maintainable items": [
+                    "Input card",
+                    "Connection unit (X-wiring)"
+                ]
+            },
+            {
+                "name": "Analog output cards",
+                "Maintainable items": [
+                    "Output card",
+                    "Connection unit (X-wiring)",
+                    "Relay"
+                ]
+            },
+            {
+                "name": "Digital output cards",
+                "Maintainable items": [
+                    "Output card",
+                    "Connection unit (X-wiring)",
+                    "Relay"
+                ]
+            },
+            {
+                "name": "Logic solver",
+                "Maintainable items": [
+                    "Central processor unit (CPU)",
+                    "Random access memory (RAM)",
+                    "Watchdog/ diagnostic Software"
+                ]
+            },
+            {
+                "name": "System bus",
+                "Maintainable items": [
+                    "No subdivision"
+                ]
+            },
+            {
+                "name": "Power supply",
+                "Maintainable items": [
+                    "No subdivision"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "Galvanic barriers Others"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Valves",
+        "Subunit": [
+            {
+                "name": "Valves",
+                "Maintainable items": [
+                    "Valve body",
+                    "Bonnet",
+                    "Flange joints",
+                    "Seat rings",
+                    "Packing/stem seal",
+                    "Seals",
+                    "Closure member",
+                    "Stem"
+                ]
+            },
+            {
+                "name": "Actuator",
+                "Maintainable items": [
+                    "Diaphragm",
+                    "Spring",
+                    "Case",
+                    "Piston",
+                    "Stem",
+                    "Seals/gaskets",
+                    "Electrical motor",
+                    "Gear",
+                    "Travel stop"
+                ]
+            },
+            {
+                "name": "Control and monitoring",
+                "Maintainable items": [
+                    "Wiring",
+                    "Indicator",
+                    "Instrument, general",
+                    "Instrument, position",
+                    "Monitoring",
+                    "Solenoid valve",
+                    "Pilot valve",
+                    "Quick exhaust dump valve",
+                    "Internal power supply",
+                    "Limit switch"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "Accumulator",
+                    "Others"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Nozzles",
+        "Subunit": [
+            {
+                "name": "Nozzle",
+                "Maintainable items": [
+                    "Fusible bulb",
+                    "Nozzle body with internals Nozzle head",
+                    "Protective coating",
+                    "Screen",
+                    "Solder"
+                ]
+            },
+            {
+                "name": "Mounting assembly",
+                "Maintainable items": [
+                    "Mounting connector",
+                    "Seals"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "Others"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Lifeboats",
+        "Subunit": [
+            {
+                "name": "Main structure",
+                "Maintainable items": [
+                    "Hull",
+                    "Innerliner",
+                    "Superstructure",
+                    "Seat/Seat belts",
+                    "Lifting/Release hook attachment Tanks",
+                    "Doors/Hatches"
+                ]
+            },
+            {
+                "name": "Propulsion",
+                "Maintainable items": [
+                    "Engine Gear box/ transmission Propeller shaft",
+                    "Propeller",
+                    "Steering nozzle",
+                    "Steering system",
+                    "Waterjet"
+                ]
+            },
+            {
+                "name": "Control and monitoring",
+                "Maintainable items": [
+                    "Air regulator",
+                    "Control panel",
+                    "Lifeboat release hook",
+                    "Lifeboat release panel",
+                    "Hydrostatic interlock system e Limit switches f"
+                ]
+            },
+            {
+                "name": "Launch/ Release",
+                "Maintainable items": [
+                    "Davit structure",
+                    "Davit winch/gear/ motor",
+                    "Davit wire",
+                    "Davit winch HPU",
+                    "Davit control panel Hydraulic system g",
+                    "Shackles",
+                    "Hang-off wires",
+                    "Skid arrangement h"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "Communication systems",
+                    "Electrical system incl. lights and navigation",
+                    "Deluge pump/ piping/nozzles Air cylinder",
+                    "Battery charger",
+                    "Bilge pump",
+                    "Emergency equipment"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Subsea production control",
+        "Subunit": [
+            {
+                "name": "Chemical",
+                "Maintainable items": [
+                    "Injection (topside)",
+                    "No breakdown"
+                ]
+            },
+            {
+                "name": "Dynamic umbilical",
+                "Maintainable items": [
+                    "Bend restrictor",
+                    "Buoyancy device",
+                    "Hydraulic/ chemical line",
+                    "J/I-tube seal",
+                    "LV power/ signal line",
+                    "Fibre-optic line",
+                    "Sheath/ armour",
+                    "Stabilizer",
+                    "Tension and motion compensation equilibrium",
+                    "Topside umbilical-termination unit (TUTU)"
+                ]
+            },
+            {
+                "name": "Static umbilical",
+                "Maintainable items": [
+                    "Bend restrictor",
+                    "Hydraulic/ chemical line",
+                    "LV power/ signal line",
+                    "Fibre-optic line",
+                    "Sheath/ armour",
+                    "Subsea umbilical-termination unit (SUTU)",
+                    "Topside umbilical-termination unit (TUTU)"
+                ]
+            },
+            {
+                "name": "Electric-power unit (topside)",
+                "Maintainable items": [
+                    "No breakdown"
+                ]
+            },
+            {
+                "name": "Hydraulic-power unit (topside)",
+                "Maintainable items": [
+                    "No breakdown"
+                ]
+            },
+            {
+                "name": "Master control (topside)",
+                "Maintainable items": [
+                    "No breakdown"
+                ]
+            },
+            {
+                "name": "Subsea control module",
+                "Maintainable items": [
+                    "Accumulator subsea",
+                    "Module base plate",
+                    "Chemical inj. coupling",
+                    "Fibre-optic connector Filter",
+                    "Hydraulic coupling",
+                    "LV power/ signal connector",
+                    "Subsea electronic module",
+                    "Directional Control Valve (DCV)",
+                    "IWIS"
+                ]
+            },
+            {
+                "name": "Subsea distr. module",
+                "Maintainable items": [
+                    "Accumulator subsea",
+                    "Subsea bypass panel",
+                    "Chemical inj. coupling",
+                    "Fibre-optic connector",
+                    "Fibre-optic jumper",
+                    "Hose",
+                    "Hydraulic/ chemical line",
+                    "Hydraulic coupling Piping",
+                    "LV power/ signal connector",
+                    "LV power/ signal ",
+                    "jumper",
+                    "Subsea cabling IWIS"
+                ]
+            },
+            {
+                "name": "Sensors",
+                "Maintainable items": [
+                    "Flow",
+                    "Leak",
+                    "Level",
+                    "Position",
+                    "Combined pressure and temperature Pressure",
+                    "Temperature",
+                    "Sand",
+                    "Vibration"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Subsea wellhead and X-mas trees",
+        "Subunit": [
+            {
+                "name": "Subsea wellhead",
+                "Maintainable items": [
+                    "Permanent guide base (PGB)",
+                    "Temporary guide base (TGB)",
+                    "Conductor housing",
+                    "Wellhead housing (high-pressure housing)",
+                    "Casing hangers",
+                    "Annulus seal assemblies (packoffs)"
+                ]
+            },
+            {
+                "name": "Subsea",
+                "Maintainable items": [
+                    "X-mas tree",
+                    "Chemical inj. coupling",
+                    "Flowspool",
+                    "Piping (hard pipe)",
+                    "High pressure cap",
+                    "Hoses (flexible piping)",
+                    "Debris cap",
+                    "Tree-guide frame",
+                    "Connector",
+                    "Internal isolation cap",
+                    "Internal tree-cap valve",
+                    "Internal tree-cap plug",
+                    "Tree cap",
+                    "Valve, check",
+                    "Valve, choke",
+                    "Valve, control",
+                    "Valve, other",
+                    "Valve, process isolation",
+                    "Valve, utility isolation",
+                    "Valve, workover"
+                ]
+            },
+            {
+                "name": "Tubing hanger",
+                "Maintainable items": [
+                    "Chemical inj. coupling",
+                    "Hydraulic coupling",
+                    "LV/power signal connector",
+                    "Tubing-hanger body",
+                    "Tubing-hanger isolation plug"
+                ]
+            },
+            {
+                "name": "Flowbase",
+                "Maintainable items": [
+                    "Frame",
+                    "Hub/mandrel",
+                    "Valve, check",
+                    "Valve, process isolation",
+                    "Valve, utility isolation"
+                ]
+            },
+            {
+                "name": "Flow control module",
+                "Maintainable items": [
+                    "Chemical inj. coupling",
+                    "Connector",
+                    "Flow loop",
+                    "Frame",
+                    "Hoses",
+                    "Hydraulic connector",
+                    "Piping",
+                    "Valve, check",
+                    "Valve, choke",
+                    "Valve, control"
+                ]
+            },
+            {
+                "name": "Vertical connection module (VCM)",
+                "Maintainable items": [
+                    "VCM connector",
+                    "Valve and actuator",
+                    "Control system compensation Swivel",
+                    "Funnel guide",
+                    "ROV-panel override system",
+                    "ROV panel"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Risers",
+        "Subunit": [
+            {
+                "name": "Riser",
+                "Maintainable items": [
+                    "Connector",
+                    "Insulation",
+                    "Pipe"
+                ]
+            },
+            {
+                "name": "Riser base",
+                "Maintainable items": [
+                    "Gas lift",
+                    "Structure",
+                    "Valve, process isolation",
+                    "Valve, utility isolation"
+                ]
+            },
+            {
+                "name": "Heating system",
+                "Maintainable items": [
+                    "Topside part",
+                    "Subsea part"
+                ]
+            },
+            {
+                "name": "Protection",
+                "Maintainable items": [
+                    "Anode",
+                    "Coating external"
+                ]
+            },
+            {
+                "name": "Accessories",
+                "Maintainable items": [
+                    "Bend restrictor",
+                    "Buoyancy device",
+                    "J/I-tube seal",
+                    "Stabilizing and guiding equipment",
+                    "Tension and motion-compensation equipment"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Subsea pumps",
+        "Subunit": [
+            {
+                "name": "Pump",
+                "Maintainable items": [
+                    "Bearing, radial",
+                    "Bearing, thrust",
+                    "Casing",
+                    "Connector",
+                    "Cylinder liner",
+                    "Impeller",
+                    "Piping",
+                    "Piston",
+                    "Seal",
+                    "Shaft",
+                    "Structure, protect",
+                    "Structure, support",
+                    "Mechanical landing interface Valve, control",
+                    "Valve, process isolation Valve, other"
+                ]
+            },
+            {
+                "name": "Electric motor",
+                "Maintainable items": [
+                    "Bearing, radial",
+                    "Bearing, thrust",
+                    "Casing",
+                    "Connector",
+                    "Control unit",
+                    "Impeller",
+                    "Rotor",
+                    "Seal",
+                    "Stator",
+                    "Support ",
+                    "Subsea electrical penetrator"
+                ]
+            },
+            {
+                "name": "Barrier fluid",
+                "Maintainable items": [
+                    "Accumulator",
+                    "Hydraulic coupling",
+                    "Cooling",
+                    "Filter",
+                    "Lubrication oil",
+                    "Piping",
+                    "Lubrication oil pump incl. driver",
+                    "Reservoir",
+                    "Valve, check"
+                ]
+            },
+            {
+                "name": "Control and monitoring",
+                "Maintainable items": [
+                    "Cable",
+                    "Junction box Leak sensor",
+                    "Level sensor",
+                    "Power supply",
+                    "Pressure sensor",
+                    "Power/signal coupler Speed sensor",
+                    "Temperature sensor",
+                    "Vibration sensor",
+                    "Valve, other"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "Connector",
+                    "Cooling/heating Piping",
+                    "Pulsation damper",
+                    "Purge system"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Subsea electrical power distribution",
+        "Subunit": [
+            {
+                "name": "Topside power distribution equipment",
+                "Maintainable items": [
+                    "(No subdivision)"
+                ]
+            },
+            {
+                "name": "Dynamic power cable",
+                "Maintainable items": [
+                    "Topside cable termination unit",
+                    "Tension & motion compensation equipment Bend restrictor",
+                    "Buoyancy device",
+                    "J/I-tube seal",
+                    "Stabilizer",
+                    "Subsea cable termination unit",
+                    "Midline joint",
+                    "Sheath/armour",
+                    "HV power line",
+                    "Fibre-optic line"
+                ]
+            },
+            {
+                "name": "Static power cable",
+                "Maintainable items": [
+                    "HV power line",
+                    "Fibre-optic line",
+                    "Factory joint",
+                    "Offshore joint",
+                    "Sheath/armour",
+                    "Subsea cable termination unit",
+                    "Topside cable termination unit",
+                    "Onshore cable termination unit",
+                    "Bend restrictor",
+                    "Midline joint"
+                ]
+            },
+            {
+                "name": "Subsea power distribution equipment",
+                "Maintainable items": [
+                    "Subsea power connector",
+                    "Subsea switchgear",
+                    "Subsea power transformer",
+                    "Subsea penetrator",
+                    "Subsea frequency converter Subsea power jumper",
+                    "Subsea UPS",
+                    "Control and monitoring"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Subsea pressure vessels",
+        "Subunit": [
+            {
+                "name": "External items",
+                "Maintainable items": [
+                    "Protective structure",
+                    "Support structure",
+                    "Insulation",
+                    "Connector",
+                    "Body/Shell",
+                    "Piping",
+                    "Valve, check",
+                    "Valve, process isolation",
+                    "Valve, utility isolation",
+                    "Valve, other"
+                ]
+            },
+            {
+                "name": "Internal items",
+                "Maintainable items": [
+                    "Coalescer plates",
+                    "Baffle plates",
+                    "Trays",
+                    "Vanes",
+                    "Pads",
+                    "Demister",
+                    "Diverter",
+                    "Grid plate",
+                    "Heat coil",
+                    "Sand-trap system",
+                    "Distributor"
+                ]
+            },
+            {
+                "name": "Control and monitoring",
+                "Maintainable items": [
+                    "Sensors",
+                    "Valve, control"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "Others"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Subsea pipelines",
+        "Subunit": [
+            {
+                "name": "Pipe",
+                "Maintainable items": [
+                    "Coating external",
+                    "Connector",
+                    "Sealine",
+                    "Safety joint",
+                    "Flexible pipe spool",
+                    "Rigid pipe spool",
+                    "Valve, process isolation"
+                ]
+            },
+            {
+                "name": "Heating system",
+                "Maintainable items": [
+                    "Subsea part",
+                    "Topsides part"
+                ]
+            },
+            {
+                "name": "Subsea Isolation Station (SIS)",
+                "Maintainable items": [
+                    "Structure - protective",
+                    "Structure - support",
+                    "Valve, process isolation",
+                    "Valve, utility isolation",
+                    "Valve, check",
+                    "Valve, control",
+                    "Pig station"
+                ]
+            },
+            {
+                "name": "Onshore Isolation Station (OIS)",
+                "Maintainable items": [
+                    "Structure - protective",
+                    "Structure - support",
+                    "Valve f, process isolation",
+                    "Valve, utility isolation",
+                    "Valve, check",
+                    "Valve, control",
+                    "Pig station"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Downhole well completion",
+        "Subunit": [
+            {
+                "name": "Casing",
+                "Maintainable items": [
+                    "Casing",
+                    "Cement",
+                    "Casing hanger",
+                    "Liner",
+                    "Liner hanger",
+                    "Liner hanger/packer",
+                    "Permanent bridge plug"
+                ]
+            },
+            {
+                "name": "Completion string",
+                "Maintainable items": [
+                    "Tubing hanger",
+                    "Tubing",
+                    "Flow coupling",
+                    "TR-SCSSV",
+                    "Annulus safety valve",
+                    "Sliding sleeve",
+                    "Inflow control device",
+                    "Electrical submersible pump",
+                    "Hydraulical submersible ",
+                    "pump",
+                    "Sidepocket mandrel",
+                    "Inflow control valve",
+                    "Seal assembly",
+                    "Permanent gauge",
+                    "Production packer",
+                    "Downhole packer/hanger",
+                    "Autonomous control device (AICD)",
+                    "Nipple for wireline SCSSV",
+                    "Fracturing sleeve",
+                    "Fracturing plug"
+                ]
+            },
+            {
+                "name": "Insert",
+                "Maintainable items": [
+                    "Gas lift valve (GLV)",
+                    "Dummy GLV",
+                    "WR-SCSSV",
+                    "WR Bridge plug",
+                    "Chemical injection valve"
+                ]
+            },
+            {
+                "name": "Downhole power/ control/monitoring",
+                "Maintainable items": [
+                    "Electric-connector, downhole gauge",
+                    "Electric-connector, tubing hanger",
+                    "Downhole control module",
+                    "Hydraulic control line",
+                    "Wellhead penetrator",
+                    "Hanger penetrator",
+                    "Packer penetrator",
+                    "Power cable",
+                    "Signal/instrument cable"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Electrical submersible pumps",
+        "Subunit": [
+            {
+                "name": "ESP cable",
+                "Maintainable items": [
+                    "Main power cable",
+                    "Motor lead extension",
+                    "Packer penetrator",
+                    "Pigtail",
+                    "Pothead connector Splice",
+                    "Wellhead penetrator"
+                ]
+            },
+            {
+                "name": "ESP motor",
+                "Maintainable items": [
+                    "Base",
+                    "Coupling",
+                    "Filter",
+                    "Head",
+                    "Housing",
+                    "Oil",
+                    "O-ring",
+                    "Rotor Bearing",
+                    "Rotors",
+                    "Shaft",
+                    "Stator",
+                    "Thrust bearing",
+                    "Varnish",
+                    "Down hole sensor"
+                ]
+            },
+            {
+                "name": "ESP pump",
+                "Maintainable items": [
+                    "Base",
+                    "Coupling",
+                    "Diffusers",
+                    "Head/Discharge",
+                    "Housing",
+                    "Impellers",
+                    "O-rings",
+                    "Screens",
+                    "Shaft",
+                    "Shaft support bearings Snap rings",
+                    "Thrust washers"
+                ]
+            },
+            {
+                "name": "ESP pump intake",
+                "Maintainable items": [
+                    "Base",
+                    "Coupling",
+                    "Diffusers",
+                    "Discharge ports/ screens Head",
+                    "Housing",
+                    "Impellers",
+                    "Inducer section",
+                    "Intake pots/screens",
+                    "O-rings",
+                    "Radial bearings",
+                    "Separation section/rotor",
+                    "Shaft",
+                    "Shaft support bearings Snaps rings",
+                    "Thrust washers"
+                ]
+            },
+            {
+                "name": "ESP seal",
+                "Maintainable items": [
+                    "Bag chamber",
+                    "Base",
+                    "Coupling",
+                    "Head",
+                    "Housing",
+                    "Labyrinth chamber",
+                    "Mechanical seals",
+                    "Oil",
+                    "O-ring",
+                    "Relief valve",
+                    "Shaft",
+                    "Thrust bearing"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Surface wellhead and X-mas trees",
+        "Subunit": [
+            {
+                "name": "Wellhead",
+                "Maintainable items": [
+                    "Annulus seal assemblies (Pack-offs) Casing hangers",
+                    "Conductor housing",
+                    "Control line exit block/ chemical inj. block Wellhead housing"
+                ]
+            },
+            {
+                "name": "Tubing hanger",
+                "Maintainable items": [
+                    "Chemical injection coupling",
+                    "Hydraulic coupling (termination in control line block)",
+                    "Power/signal coupler",
+                    "El. fiber (termination in control line block)",
+                    "Tubing-hanger body",
+                    "Tubing-hanger isolation plug",
+                    "Tubing hanger seals",
+                    "Back pressure valve",
+                    "Tubing head spool"
+                ]
+            },
+            {
+                "name": "X-mas tree",
+                "Maintainable items": [
+                    "Tree caps",
+                    "Tree loops/flowlines",
+                    "Tree/wellhead connector",
+                    "X-mas tree/flowline connection (interface point)",
+                    "Valve, check",
+                    "Valve, choke",
+                    "Valve, process isolationa,",
+                    "Valve, utility isolation ",
+                    "Valve, other"
+                ]
+            },
+            {
+                "name": "Control and monitoring",
+                "Maintainable items": [
+                    "Control panel",
+                    "Hydraulic instrument tubing",
+                    "Electric instrument tubing",
+                    "Pressure indicator",
+                    "Pressure transmitters",
+                    "Limit switch",
+                    "Temperature sensors"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Top drives",
+        "Subunit": [
+            {
+                "name": "Drivers",
+                "Maintainable items": [
+                    "Electric driver",
+                    "Hydraulic driver",
+                    "Radial, thrust and axial bearing"
+                ]
+            },
+            {
+                "name": "Gear",
+                "Maintainable items": [
+                    "Bearings",
+                    "Packing/ seals",
+                    "Coupling to driver",
+                    "Coupling to swivel",
+                    "Pinions",
+                    "Gearwheels"
+                ]
+            },
+            {
+                "name": "Rotary swivel",
+                "Maintainable items": [
+                    "Gooseneck",
+                    "Packing/ seals",
+                    "Axial, radial and thrust bearing",
+                    "Swivel housing",
+                    "Swivel stem"
+                ]
+            },
+            {
+                "name": "Pipe-handler assembly",
+                "Maintainable items": [
+                    "Link hanger ",
+                    "incl. tilt ",
+                    "actuators",
+                    "Pipe-handler position motor",
+                    "Swivel coupling",
+                    "Torque wrench"
+                ]
+            },
+            {
+                "name": "Lubrication",
+                "Maintainable items": [
+                    "Oil tank",
+                    "Heaters",
+                    "Coolers",
+                    "Pump with motor Valves",
+                    "Filters",
+                    "Lube oil"
+                ]
+            },
+            {
+                "name": "Control and monitoring",
+                "Maintainable items": [
+                    "Control panel Control",
+                    "Electric and/or hydraulic solenoid cabinet",
+                    "Service loops Manifolds",
+                    "Junction box Sensor",
+                    "Solenoid valves",
+                    "Check valves",
+                    "Other valves"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "Guide dolly frame",
+                    "Internal blowout preventers (kelly valves)",
+                    "Counter-balance compensator/ read-saver system"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Subsea blowout preventers (BOP)",
+        "Subunit": [
+            {
+                "name": "Preventers, valves and lines",
+                "Maintainable items": [
+                    "Annular preventers - Body",
+                    "Annular preventers - Flanges",
+                    "Annular preventers - Packing element",
+                    "Annular preventers - Hydraulic piston",
+                    "Annular preventers - Seals",
+                    "Ram preventers - Body",
+                    "Ram preventers - Locking device",
+                    "Ram preventers - Flanges",
+                    "Ram preventers - Ram block",
+                    "Ram preventers - Ram seals",
+                    "Ram preventers - Shear blade",
+                    "Ram preventers - Piston/operator",
+                    "Ram preventers - Seals",
+                    "Choke-and-kill valves - Actuator",
+                    "Choke-and-kill valves - Gate body",
+                    "Choke-and-kill valves - Seals bonnet",
+                    "Choke-and-kill valves - Choke-and-kill lines:",
+                    "Choke-and-kill valves - Riser-attached line",
+                    "Choke-and-kill valves - Couplers/ Connectors",
+                    "Choke-and-kill valves - Seals",
+                    "Choke-and-kill valves - Hose/Pipe",
+                    "Choke-and-kill valves - Rigid pipe",
+                    "Choke-and-kill valves - Gooseneck hose"
+                ]
+            },
+            {
+                "name": "Hydraulic connectors",
+                "Maintainable items": [
+                    "LMRP connectors and wellhead connectors:",
+                    "Body",
+                    "Locking mechanism",
+                    "Piston(s)",
+                    "Main-bore seal ring",
+                    "Seals"
+                ]
+            },
+            {
+                "name": "Flexible joint",
+                "Maintainable items": [
+                    "Flexible joint:",
+                    "Flexible element",
+                    "Housing",
+                    "Flanges",
+                    "Wear ring",
+                    "Anodes",
+                    "Bolting"
+                ]
+            },
+            {
+                "name": "Primary control",
+                "Maintainable items": [
+                    "Subsea",
+                    "Control Pod",
+                    "Pilot valves",
+                    "Shuttle valves",
+                    "Accumulators",
+                    "Pressure regulator valves",
+                    "Solenoid valves",
+                    "Check valves",
+                    "Other valves",
+                    "Hydraulic control fluid",
+                    "Seals",
+                    "El-equipment/SEM",
+                    "Instrumentation (e.g. flow/pressure sensors)",
+                    "Piping/Hoses",
+                    "Hydraulic bundles (pilot lines and main supply)",
+                    "Multiplex cables",
+                    "Rigid hydraulic supply line",
+                    "Surface Control panels",
+                    "Surface control unit",
+                    "Electrical power supply",
+                    "Power supply",
+                    "Battery backup (UPS) Push button",
+                    "Instrumentation (e.g. ",
+                    "pressure) sensor, readout)",
+                    "Hydraulic power unit",
+                    "Control Pod",
+                    "Pod reels",
+                    "Pod selector valve"
+                ]
+            },
+            {
+                "name": "Backup control",
+                "Maintainable items": [
+                    "Subsea:",
+                    "Solenoid valves",
+                    "Pilot valves",
+                    "Shuttle valves",
+                    "Accumulators",
+                    "Subsea control unit",
+                    "Battery",
+                    "Transducers Surface:",
+                    "Surface control unit",
+                    "Transducers",
+                    "ROV operated",
+                    "Hot stab",
+                    "Shuttle valves",
+                    "Valves, ROV operated shut-off",
+                    "ROV intervention panel"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Surface blowout preventers (BOP)",
+        "Subunit": [
+            {
+                "name": "Preventers, valves and lines",
+                "Maintainable items": [
+                    "Annular preventer:",
+                    "Body",
+                    "Flanges",
+                    "Packing element",
+                    "Hydraulic piston",
+                    "Seals",
+                    "Ram preventers:",
+                    "Body",
+                    "Locking device",
+                    "Flanges",
+                    "Ram block bonnet",
+                    "Ram seals",
+                    "Shear blade",
+                    "Piston/operator",
+                    "Seals",
+                    "Choke-and-kill valves:",
+                    "Actuator",
+                    "Gate body",
+                    "Seals bonnet",
+                    "Gooseneck hose",
+                    "Choke-and-kill lines:",
+                    "Connectors",
+                    "Seals",
+                    "Hose/Pipe",
+                    "Rigid pipe"
+                ]
+            },
+            {
+                "name": "Connectors",
+                "Maintainable items": [
+                    "Connectors:",
+                    "Body",
+                    "Locking mechanism",
+                    "Piston(s)",
+                    "Main-bore seal ring",
+                    "Seals"
+                ]
+            },
+            {
+                "name": "Primary control",
+                "Maintainable items": [
+                    "Surface controls:",
+                    "Control Pod",
+                    "Pilot valves",
+                    "Pressure regulator valves",
+                    "Solenoid valves",
+                    "Check valves",
+                    "Other valves",
+                    "Hydraulic control fluid",
+                    "Seals",
+                    "El-equipment/SEM",
+                    "Instrumentation (e.g. flow/ pressure sensors)",
+                    "Piping/Hoses",
+                    "Hydraulic bundles (pilot lines and main supply) Multiplex cables",
+                    "Hydraulic supply line",
+                    "Control panels",
+                    "Surface control unit",
+                    "Electrical power supply",
+                    "Power supply",
+                    "Battery backup (UPS)",
+                    "Push button",
+                    "Instrumentation (e.g. pressure sensor, readout) Hydraulic power unit"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Surface well control equipment (for well intervention)",
+        "Subunit": [
+            {
+                "name": "Temporary connection and high pressure extension",
+                "Maintainable items": [
+                    "Sealing surface",
+                    "Sealing element"
+                ]
+            },
+            {
+                "name": "Well Intervention BOP",
+                "Maintainable items": [
+                    "Ram assembly",
+                    "Sealing element",
+                    "Shearing element"
+                ]
+            },
+            {
+                "name": "Dynamic pressure seal",
+                "Maintainable items": [
+                    "Sealing element",
+                    "Hydraulic circuit"
+                ]
+            },
+            {
+                "name": "Lateral isolation valve",
+                "Maintainable items": [
+                    "Valve, process isolation",
+                    "Valve, utility isolation"
+                ]
+            },
+            {
+                "name": "Control and monitoring",
+                "Maintainable items": [
+                    "Prime mover",
+                    "Solenoid control valve",
+                    "Pilot controlled valve",
+                    "Hand actuator",
+                    "Accumulator",
+                    "Electronics module",
+                    "Hydraulic coupling",
+                    "LV power/signal connector",
+                    "Relief valve",
+                    "Shuttle valve",
+                    "Filter",
+                    "Pump",
+                    "Hydraulic fluid tank"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Subsea well intervention: Open water intervention",
+        "Subunit": [
+            {
+                "name": "Well control ",
+                "Maintainable items": [
+                    "package (WCP)",
+                    "Valve, process isolation",
+                    "Valve, utility isolation Valve, shear",
+                    "Connector"
+                ]
+            },
+            {
+                "name": "Emergency disconnect package",
+                "Maintainable items": [
+                    "the top of WCP",
+                    "Retainer valve",
+                    "Valve, utility isolation",
+                    "Connector",
+                    "Bleed-off valve"
+                ]
+            },
+            {
+                "name": "WO riser",
+                "Maintainable items": [
+                    "WO stress joint",
+                    "WO safety joint",
+                    "Tension joint",
+                    "Heave eliminator Slick joint",
+                    "Swivel"
+                ]
+            },
+            {
+                "name": "Rig interface",
+                "Maintainable items": [
+                    "Tension frame",
+                    "Elevator interface"
+                ]
+            },
+            {
+                "name": "Topside control & monitoring",
+                "Maintainable items": [
+                    "Solenoid control valve",
+                    "Pilot control valve",
+                    "Accumulator topside",
+                    "Hydraulic coupling",
+                    "Master control station (topside)",
+                    "Pressure regulator",
+                    "WOCS Pump ",
+                    "incl. driver",
+                    "LV power/ signal connector",
+                    "Shutdown panel",
+                    "Filter",
+                    "Reels",
+                    "Purge system",
+                    "UPS",
+                    "Valve, relief"
+                ]
+            },
+            {
+                "name": "Subsea control and monitoring",
+                "Maintainable items": [
+                    "Solenoid control valve",
+                    "Pilot control valve",
+                    "Accumulator subsea",
+                    "Hydraulic coupling WO Umbilical",
+                    "Subsea electronic module",
+                    "LV power/ signal connector",
+                    "Filter",
+                    "Valve, relief",
+                    "Valve, shuttle",
+                    "Subsea powered pump",
+                    "Hydraulic fluid subsea tanks"
+                ]
+            }
+        ]
+    },
+    {
+        "Equipment unit": "Jacking and fixation",
+        "Subunit": [
+            {
+                "name": "Jacking unit",
+                "Maintainable items": [
+                    "Load shift system Motor",
+                    "Gear Box",
+                    "Pinion",
+                    "Variable frequency drive Brake",
+                    "Greasing system"
+                ]
+            },
+            {
+                "name": "Fixation",
+                "Maintainable items": [
+                    "Clamping unit"
+                ]
+            },
+            {
+                "name": "Leg structure",
+                "Maintainable items": [
+                    "Chord",
+                    "Bracing",
+                    "Spud can",
+                    "Rack",
+                    "Jetting system",
+                    "Corrosion protection",
+                    "Greasing system"
+                ]
+            },
+            {
+                "name": "Hull-mounted structure",
+                "Maintainable items": [
+                    "Jacking support structure Leg guides"
+                ]
+            },
+            {
+                "name": "Control and monitoring",
+                "Maintainable items": [
+                    "Actuating device",
+                    "Control unit",
+                    "Internal power supply Monitoring",
+                    "Sensor",
+                    "Valve",
+                    "Wiring",
+                    "Piping",
+                    "Seals"
+                ]
+            },
+            {
+                "name": "Miscellaneous",
+                "Maintainable items": [
+                    "HPU",
+                    "Others"
+                ]
+            }
+        ]
+    }
+]

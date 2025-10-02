@@ -1,0 +1,5 @@
+peft
+accelerate
+torch
+transformers
+ibm-watsonx-ai

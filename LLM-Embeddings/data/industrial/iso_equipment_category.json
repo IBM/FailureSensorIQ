@@ -1,0 +1,159 @@
+[
+    {
+        "Equipment Category": "Drilling",
+        "Equipment Class": [
+            "Cementing equipment",
+            "Choke and manifolds",
+            "Crown and travelling blocks",
+            "Derrick",
+            "Diverters",
+            "Drawworks",
+            "Drilling and completion risers",
+            "Drill strings",
+            "Mud-treatment equipment",
+            "Pipe handling equipment",
+            "Riser compensators",
+            "String-motion compensators",
+            "Subsea blowout preventers (BOP)",
+            "Surface blowout preventers (BOP)",
+            "Top drives"
+        ]
+    },
+    {
+        "Equipment Category": "Electrical",
+        "Equipment Class": [
+            "Frequency converters",
+            "Power cables and terminations (topside/ onshore)",
+            "Power transformers",
+            "Switchgear",
+            "Uninterruptible power supply"
+        ]
+    },
+    {
+        "Equipment Category": "Marine",
+        "Equipment Class": [
+            "Anchor windlasses and mooring equipment",
+            "De-icing equipment",
+            "Dynamic positioning equipment",
+            "Helicopter deck with equipment",
+            "Jacking and fixation",
+            "Marine disconnection equipment",
+            "Thrusters",
+            "Towing equipment"
+        ]
+    },
+    {
+        "Equipment Category": "Mechanical",
+        "Equipment Class": [
+            "Conveyors and elevators",
+            "Cranes",
+            "Filters and strainers",
+            "Heat exchangers",
+            "Heaters and boilers",
+            "Loading arms",
+            "Onshore pipelines",
+            "Piping",
+            "Pressure vessels",
+            "Silos",
+            "Steam ejectors",
+            "Storage tanks",
+            "Swivels",
+            "Turrets",
+            "Winches"
+        ]
+    },
+    {
+        "Equipment Category": "Rotating",
+        "Equipment Class": [
+            "Blowers and fans",
+            "Centrifuges",
+            "Combustion engines",
+            "Compressors",
+            "Electric generators",
+            "Electric motors",
+            "Gas turbines",
+            "Liquid expanders",
+            "Mixers",
+            "Pumps",
+            "Steam turbines",
+            "Turboexpanders"
+        ]
+    },
+    {
+        "Equipment Category": "Safety and control",
+        "Equipment Class": [
+            "Control logic units",
+            "Emergency communication equipment",
+            "Escape, evacuation and rescue",
+            "Fire and gas detectors",
+            "Fire-fighting equipment",
+            "Flare ignition",
+            "Inert-gas equipment",
+            "Input devices",
+            "Lifeboats",
+            "Nozzles",
+            "Telecommunications",
+            "Valves"
+        ]
+    },
+    {
+        "Equipment Category": "Subsea",
+        "Equipment Class": [
+            "Dry tree risers",
+            "Risers",
+            "Subsea compressors",
+            "Subsea diving equipment",
+            "Subsea electrical power distribution",
+            "Subsea flowlines",
+            "Subsea heat exchangers",
+            "Subsea intervention",
+            "Subsea manifolds",
+            "Subsea pipelines",
+            "Submarine power cables",
+            "Subsea pressure vessels",
+            "Subsea production control",
+            "Subsea pumps",
+            "Subsea templates",
+            "Subsea wellhead and X-mas trees"
+        ]
+    },
+    {
+        "Equipment Category": "Utilities",
+        "Equipment Class": [
+            "Air-supply equipment",
+            "De-superheaters",
+            "Flare ignition equipment",
+            "Heating/cooling media",
+            "Hydraulic power units",
+            "Nitrogen-supply equipment",
+            "Open /Close drain equipment"
+        ]
+    },
+    {
+        "Equipment Category": "Well Completion",
+        "Equipment Class": [
+            "Downhole safety valves",
+            "Downhole well completion",
+            "Electrical submersible pumps",
+            "Surface wellhead and X-mas trees"
+        ]
+    },
+    {
+        "Equipment Category": "Well intervention",
+        "Equipment Class": [
+            "Coiled tubing, surface equipment",
+            "Coiled tubing, surface well control equipment",
+            "Coiled tubing, work strings",
+            "Coiled tubing, bottom-hole assemblies",
+            "Snubbing, surface equipment",
+            "Snubbing, work strings",
+            "Snubbing, surface well control equipment",
+            "Snubbing, pipes and bottom hole assemblies",
+            "Subsea well intervention",
+            "Wireline, surface equipment",
+            "Wireline, surface well control equipment",
+            "Wireline, slick lines, braided cables and electric cables",
+            "Wireline, bottom-hole assemblies"
+        ]
+    }
+]
