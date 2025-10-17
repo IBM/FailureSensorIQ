@@ -2,6 +2,7 @@
   "@context": {
     "@language": "en",
     "@vocab": "https://schema.org/",
+    "arrayShape": "cr:arrayShape",
     "citeAs": "cr:citeAs",
     "column": "cr:column",
     "conformsTo": "dct:conformsTo",
@@ -11,6 +12,8 @@
       "@id": "cr:data",
       "@type": "@json"
     },
+    "dataBiases": "cr:dataBiases",
+    "dataCollection": "cr:dataCollection",
     "dataType": {
       "@id": "cr:dataType",
       "@type": "@vocab"
@@ -20,6 +23,7 @@
       "@id": "cr:examples",
       "@type": "@json"
     },
+    "samplingRate": "cr:samplingRate",
     "extract": "cr:extract",
     "field": "cr:field",
     "fileProperty": "cr:fileProperty",
@@ -27,12 +31,14 @@
     "fileSet": "cr:fileSet",
     "format": "cr:format",
     "includes": "cr:includes",
+    "isArray": "cr:isArray",
     "isLiveDataset": "cr:isLiveDataset",
     "jsonPath": "cr:jsonPath",
     "key": "cr:key",
     "md5": "cr:md5",
     "parentField": "cr:parentField",
     "path": "cr:path",
+    "personalSensitiveInformation": "cr:personalSensitiveInformation",
     "recordSet": "cr:recordSet",
     "references": "cr:references",
     "regex": "cr:regex",
@@ -45,51 +51,91 @@
     "transform": "cr:transform"
   },
   "@type": "sc:Dataset",
-  "name": "FailureSensorIQ",
-  "description": "As industries increasingly adopt autonomous AI agents, the need for models that can not only recall facts but also demonstrate a deep understanding of operational contexts\u2014such as sensor relevance, fault prediction, and diagnostic reasoning\u2014is paramount. Unlike traditional QA datasets, our dataset focuses on multiple aspects of reasoning through failure modes, sensor data, and the relationships between them across various industrial assets. Failure modes, rooted in the theoretical framework of reliability engineering, represent potential points of failure within an asset or system. In contrast, sensors are physical manifestations that collect real-time data from operational systems. By combining these two concepts, our proposed dataset offers an opportunity to assess an LLM\u2019s ability to reason across both theoretical and real-world domains, providing insights into their capacity to understand complex industrial processes.",
-  "conformsTo": "http://mlcommons.org/croissant/1.0",
-  "url": "https://github.com/IBM/FailureSensorIQ",
   "distribution": [
     {
       "@type": "cr:FileObject",
-      "@id": "FailureSensorIQ",
-      "name": "FailureSensorIQ",
-      "description": "FailureSensorIQ datasets",
-      "contentUrl": "https://github.com/IBM/FailureSensorIQ",
+      "@id": "repo",
+      "name": "repo",
+      "description": "The Hugging Face git repository.",
+      "contentUrl": "https://huggingface.co/datasets/ibm-research/FailureSensorIQ/tree/refs%2Fconvert%2Fparquet",
       "encodingFormat": "git+https",
-      "sha256": "main"
+      "sha256": "https://github.com/mlcommons/croissant/issues/80"
     },
     {
       "@type": "cr:FileSet",
-      "@id": "FailureSensorIQ-jsonl-files",
-      "name": "FailureSensorIQ-jsonl-files",
-      "description": "Jsonlines-format FailureSensorIQ datasets.",
+      "@id": "parquet-files-for-config-multi_true_multi_choice_qa",
       "containedIn": {
-        "@id": "FailureSensorIQ"
+        "@id": "repo"
       },
-      "encodingFormat": "application/jsonlines",
-      "includes": [
-        "eval_data/industrial_mcp_original.jsonl",
-        "eval_data/fmsr_processed/filtered_data_all_Mar_30_2025.jsonl",
-        "eval_data/fmsr_processed/fmsr_filtered_mcmt_all.jsonl"
-      ]
+      "encodingFormat": "application/x-parquet",
+      "includes": "multi_true_multi_choice_qa/*/*.parquet"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "parquet-files-for-config-single_true_multi_choice_qa",
+      "containedIn": {
+        "@id": "repo"
+      },
+      "encodingFormat": "application/x-parquet",
+      "includes": "single_true_multi_choice_qa/*/*.parquet"
     }
   ],
   "recordSet": [
     {
       "@type": "cr:RecordSet",
-      "@id": "FailureSensorIQ_mcqa",
-      "name": "FailureSensorIQ_mcqa",
+      "dataType": "cr:Split",
+      "key": {
+        "@id": "multi_true_multi_choice_qa_splits/split_name"
+      },
+      "@id": "multi_true_multi_choice_qa_splits",
+      "name": "multi_true_multi_choice_qa_splits",
+      "description": "Splits for the multi_true_multi_choice_qa config.",
       "field": [
         {
           "@type": "cr:Field",
-          "@id": "jsonl/subject",
-          "name": "subject",
-          "description": "The subject of the record",
+          "@id": "multi_true_multi_choice_qa_splits/split_name",
+          "dataType": "sc:Text"
+        }
+      ],
+      "data": [
+        {
+          "multi_true_multi_choice_qa_splits/split_name": "train"
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "multi_true_multi_choice_qa",
+      "description": "ibm-research/FailureSensorIQ - 'multi_true_multi_choice_qa' subset",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "multi_true_multi_choice_qa/split",
           "dataType": "sc:Text",
           "source": {
             "fileSet": {
-              "@id": "FailureSensorIQ-jsonl-files"
+              "@id": "parquet-files-for-config-multi_true_multi_choice_qa"
+            },
+            "extract": {
+              "fileProperty": "fullpath"
+            },
+            "transform": {
+              "regex": "multi_true_multi_choice_qa/(?:partial-)?(train)/.+parquet$"
+            }
+          },
+          "references": {
+            "field": {
+              "@id": "multi_true_multi_choice_qa_splits/split_name"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "multi_true_multi_choice_qa/subject",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-multi_true_multi_choice_qa"
             },
             "extract": {
               "column": "subject"
@@ -98,13 +144,11 @@
         },
         {
           "@type": "cr:Field",
-          "@id": "jsonl/id",
-          "name": "id",
-          "description": "The identifier of the record",
-          "dataType": "sc:Integer",
+          "@id": "multi_true_multi_choice_qa/id",
+          "dataType": "cr:Int64",
           "source": {
             "fileSet": {
-              "@id": "FailureSensorIQ-jsonl-files"
+              "@id": "parquet-files-for-config-multi_true_multi_choice_qa"
             },
             "extract": {
               "column": "id"
@@ -113,13 +157,11 @@
         },
         {
           "@type": "cr:Field",
-          "@id": "jsonl/question",
-          "name": "question",
-          "description": "the question in the prompt",
+          "@id": "multi_true_multi_choice_qa/question",
           "dataType": "sc:Text",
           "source": {
             "fileSet": {
-              "@id": "FailureSensorIQ-jsonl-files"
+              "@id": "parquet-files-for-config-multi_true_multi_choice_qa"
             },
             "extract": {
               "column": "question"
@@ -128,43 +170,41 @@
         },
         {
           "@type": "cr:Field",
-          "@id": "jsonl/options",
-          "name": "options",
-          "description": "the options in the prompt",
+          "@id": "multi_true_multi_choice_qa/options",
           "dataType": "sc:Text",
           "source": {
             "fileSet": {
-              "@id": "FailureSensorIQ-jsonl-files"
+              "@id": "parquet-files-for-config-multi_true_multi_choice_qa"
             },
             "extract": {
               "column": "options"
             }
-          }
+          },
+          "isArray": true,
+          "arrayShape": "-1"
         },
         {
           "@type": "cr:Field",
-          "@id": "jsonl/option_ids",
-          "name": "option_ids",
-          "description": "the ids for options in the prompt",
+          "@id": "multi_true_multi_choice_qa/option_ids",
           "dataType": "sc:Text",
           "source": {
             "fileSet": {
-              "@id": "FailureSensorIQ-jsonl-files"
+              "@id": "parquet-files-for-config-multi_true_multi_choice_qa"
             },
             "extract": {
               "column": "option_ids"
             }
-          }
+          },
+          "isArray": true,
+          "arrayShape": "-1"
         },
         {
           "@type": "cr:Field",
-          "@id": "jsonl/question_first",
-          "name": "question_first",
-          "description": "is question or options first in the prompt?",
+          "@id": "multi_true_multi_choice_qa/question_first",
           "dataType": "sc:Boolean",
           "source": {
             "fileSet": {
-              "@id": "FailureSensorIQ-jsonl-files"
+              "@id": "parquet-files-for-config-multi_true_multi_choice_qa"
             },
             "extract": {
               "column": "question_first"
@@ -173,28 +213,11 @@
         },
         {
           "@type": "cr:Field",
-          "@id": "jsonl/correct",
-          "name": "correct",
-          "description": "the correctness of each options",
+          "@id": "multi_true_multi_choice_qa/text_type",
           "dataType": "sc:Text",
           "source": {
             "fileSet": {
-              "@id": "FailureSensorIQ-jsonl-files"
-            },
-            "extract": {
-              "column": "correct"
-            }
-          }
-        },
-        {
-          "@type": "cr:Field",
-          "@id": "jsonl/text_type",
-          "name": "text_type",
-          "description": "the type of expected text, e.g. choice",
-          "dataType": "sc:Text",
-          "source": {
-            "fileSet": {
-              "@id": "FailureSensorIQ-jsonl-files"
+              "@id": "parquet-files-for-config-multi_true_multi_choice_qa"
             },
             "extract": {
               "column": "text_type"
@@ -203,13 +226,186 @@
         },
         {
           "@type": "cr:Field",
-          "@id": "jsonl/asset_name",
-          "name": "asset_name",
-          "description": "asset in the question",
+          "@id": "multi_true_multi_choice_qa/correct",
+          "dataType": "sc:Boolean",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-multi_true_multi_choice_qa"
+            },
+            "extract": {
+              "column": "correct"
+            }
+          },
+          "isArray": true,
+          "arrayShape": "-1"
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "dataType": "cr:Split",
+      "key": {
+        "@id": "single_true_multi_choice_qa_splits/split_name"
+      },
+      "@id": "single_true_multi_choice_qa_splits",
+      "name": "single_true_multi_choice_qa_splits",
+      "description": "Splits for the single_true_multi_choice_qa config.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "single_true_multi_choice_qa_splits/split_name",
+          "dataType": "sc:Text"
+        }
+      ],
+      "data": [
+        {
+          "single_true_multi_choice_qa_splits/split_name": "train"
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "single_true_multi_choice_qa",
+      "description": "ibm-research/FailureSensorIQ - 'single_true_multi_choice_qa' subset",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "single_true_multi_choice_qa/split",
           "dataType": "sc:Text",
           "source": {
             "fileSet": {
-              "@id": "FailureSensorIQ-jsonl-files"
+              "@id": "parquet-files-for-config-single_true_multi_choice_qa"
+            },
+            "extract": {
+              "fileProperty": "fullpath"
+            },
+            "transform": {
+              "regex": "single_true_multi_choice_qa/(?:partial-)?(train)/.+parquet$"
+            }
+          },
+          "references": {
+            "field": {
+              "@id": "single_true_multi_choice_qa_splits/split_name"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "single_true_multi_choice_qa/subject",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-single_true_multi_choice_qa"
+            },
+            "extract": {
+              "column": "subject"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "single_true_multi_choice_qa/id",
+          "dataType": "cr:Int64",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-single_true_multi_choice_qa"
+            },
+            "extract": {
+              "column": "id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "single_true_multi_choice_qa/question",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-single_true_multi_choice_qa"
+            },
+            "extract": {
+              "column": "question"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "single_true_multi_choice_qa/options",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-single_true_multi_choice_qa"
+            },
+            "extract": {
+              "column": "options"
+            }
+          },
+          "isArray": true,
+          "arrayShape": "-1"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "single_true_multi_choice_qa/option_ids",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-single_true_multi_choice_qa"
+            },
+            "extract": {
+              "column": "option_ids"
+            }
+          },
+          "isArray": true,
+          "arrayShape": "-1"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "single_true_multi_choice_qa/question_first",
+          "dataType": "sc:Boolean",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-single_true_multi_choice_qa"
+            },
+            "extract": {
+              "column": "question_first"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "single_true_multi_choice_qa/correct",
+          "dataType": "sc:Boolean",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-single_true_multi_choice_qa"
+            },
+            "extract": {
+              "column": "correct"
+            }
+          },
+          "isArray": true,
+          "arrayShape": "-1"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "single_true_multi_choice_qa/text_type",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-single_true_multi_choice_qa"
+            },
+            "extract": {
+              "column": "text_type"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "single_true_multi_choice_qa/asset_name",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "parquet-files-for-config-single_true_multi_choice_qa"
             },
             "extract": {
               "column": "asset_name"
@@ -218,13 +414,11 @@
         },
         {
           "@type": "cr:Field",
-          "@id": "jsonl/relevancy",
-          "name": "relevancy",
-          "description": "relevancy type that the question is about, e.g. relevant_component_for_sensor",
+          "@id": "single_true_multi_choice_qa/relevancy",
           "dataType": "sc:Text",
           "source": {
             "fileSet": {
-              "@id": "FailureSensorIQ-jsonl-files"
+              "@id": "parquet-files-for-config-single_true_multi_choice_qa"
             },
             "extract": {
               "column": "relevancy"
@@ -233,13 +427,11 @@
         },
         {
           "@type": "cr:Field",
-          "@id": "jsonl/question_type",
-          "name": "question_type",
-          "description": "question type, e.g. mcp1_negative",
+          "@id": "single_true_multi_choice_qa/question_type",
           "dataType": "sc:Text",
           "source": {
             "fileSet": {
-              "@id": "FailureSensorIQ-jsonl-files"
+              "@id": "parquet-files-for-config-single_true_multi_choice_qa"
             },
             "extract": {
               "column": "question_type"
@@ -248,5 +440,37 @@
         }
       ]
     }
-  ]
+  ],
+  "conformsTo": "http://mlcommons.org/croissant/1.1",
+  "name": "FailureSensorIQ",
+  "description": "FailureSensorIQ is a Multi-Choice QA (MCQA) dataset that explores the relationships between sensors and failure modes for 10 industrial assets.\n\nAs industries increasingly adopt autonomous AI agents, the need for models that can not only recall facts but also demonstrate a deep understanding of operational contexts such as sensor relevance, fault prediction, and diagnostic reasoning is paramount. Unlike traditional QA datasets, FailureSensorIQ dataset focuses on multiple aspects of reasoning through failure modes, sensor data, and the relationships between them across various industrial assets. Failure modes, rooted in the theoretical framework of reliability engineering, represent potential points of failure within an asset or system. In contrast, sensors are physical manifestations that collect real-time data from operational systems. By combining these two concepts, our FailureSensorIQ offers an opportunity to assess the ability of a LLM to reason across both theoretical and real-world domains, providing insights into their capacity to understand complex industrial processes.",
+  "alternateName": [
+    "ibm-research/FailureSensorIQ",
+    "FailureSensorIQ"
+  ],
+  "creator": {
+    "@type": "Organization",
+    "name": "IBM Research",
+    "url": "https://huggingface.co/ibm-research"
+  },
+  "keywords": [
+    "question-answering",
+    "English",
+    "apache-2.0",
+    "1K - 10K",
+    "json",
+    "Text",
+    "Datasets",
+    "pandas",
+    "Croissant",
+    "Polars",
+    "arxiv:2506.03278",
+    "🇺🇸 Region: US",
+    "industry"
+  ],
+  "license": "https://choosealicense.com/licenses/apache-2.0/",
+  "url": "https://huggingface.co/datasets/ibm-research/FailureSensorIQ",
+  "datePublished": "2025-05-13",
+  "citeAs": "\n@misc{constantinides2025failuresensoriqmultichoiceqadataset,\n      title={FailureSensorIQ: A Multi-Choice QA Dataset for Understanding Sensor Relationships and Failure Modes}, \n      author={Christodoulos Constantinides and Dhaval Patel and Shuxin Lin and Claudio Guerrero and Sunil Dagajirao Patil and Jayant Kalagnanam},\n      year={2025},\n      eprint={2506.03278},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2506.03278}, \n}\n",
+  "version": "1.0.0"
 }
