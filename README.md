@@ -18,10 +18,29 @@
 
 </div>
 
+
+## 🚀 Highlights
+
+- **Dataset – FailureSensorIQ**  
+  A curated dataset of 8,296 multiple-choice QA on sensor-failure reasoning, hosted on [HuggingFace](https://huggingface.co/datasets/ibm-research/FailureSensorIQ).
+
+- **Leaderboard**  
+  Comparative results of 27 frontier and open-source LLMs evaluated on FailureSensorIQ, hosted on [HuggingFace](https://huggingface.co/spaces/cc4718/FailureSensorIQ).
+
+- **Extended Research I – Knowledge Distillation & Fine-Tuning**  
+  Distilling reasoning capabilities from LLMs into smaller SLMs and assessing performance on FailureSensorIQ. [[Code](https://github.com/IBM/FailureSensorIQ/tree/main/fine_tune)] [[Paper](https://arxiv.org/abs/2510.18817)] 
+
+- **Extended Research II – Embedding Models**  
+  Developing generalized embeddings for Industry 4.0 applications and benchmarking on FailureSensorIQ. [[Code](https://github.com/IBM/FailureSensorIQ/tree/main/LLM-Embeddings)] [[Paper](https://arxiv.org/abs/2506.12607)] 
+
+## 🆕 What's New?
+- [9/25/2025] Embedding paper has been accepted in EMNLP 2025 Industry Track!
+- [9/18/2025] FailureSensorIQ has been accepted in NeurIPS 2025 Datasets & Benchmarks Track!
+- [8/20/2025] Fine-Tuning paper has been accepted to EMNLP 2025 Findings!
+
 ## 1. Introduction
 As industries increasingly adopt autonomous AI agents, the need for models that can not only recall facts but also demonstrate a deep understanding of operational contexts—such as sensor relevance, fault prediction, and diagnostic reasoning—is paramount. Unlike traditional QA datasets, our dataset focuses on multiple aspects of reasoning through failure modes, sensor data, and the relationships between them across various industrial
 assets. Failure modes, rooted in the theoretical framework of reliability engineering, represent potential points of failure within an asset or system. In contrast, sensors are physical manifestations that collect real-time data from operational systems. By combining these two concepts, our proposed dataset offers an opportunity to assess an LLM’s ability to reason across both theoretical and real-world domains, providing insights into their capacity to understand complex industrial processes. 
-
 
 ## 2. Dataset
 We introduce FailureSensorIQ, a Multi-Choice QA (MCQA) dataset that explores the relationships between sensors and failure modes for 10 industrial assets. By only leveraging the information found in ISO documents, we developed a data generation pipeline that creates questions in two formats: (i) row-centric (FM2Sensor) and (ii) column-centric (Sensor2FM). Additionally, we designed questions
