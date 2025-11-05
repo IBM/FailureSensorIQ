@@ -48,7 +48,7 @@ The FailureSensorIQ dataset consists of 8,296
 questions across 10 assets, with 2,667 single-correct-answer questions and 5,629 multi-correct-answer questions.
 
 ## 2. Evaluation: Perturbation-Uncertainty-Complexity analysis
-We valuates 27 frontier and open-source LLMs through our Perturbation–Uncertainty-Complexity evaluation pipeline, which systematically measures model robustness to question reformulation, model confidence, and ability to handle increasing distractor options, respectively.
+We evaluate 27 frontier and open-source LLMs through our Perturbation–Uncertainty-Complexity evaluation pipeline, which systematically measures model robustness to question reformulation, model confidence, and ability to handle increasing distractor options, respectively.
 
 **Perturbation**. We adopted the [PertEval toolkit](https://github.com/aigc-apps/PertEval) enabled us to create a copy of the perturbed dataset. We developed two versions of the perturbed dataset: (i) _SimplePert_, which modifies the formatting of the questions by reordering the options, adding a right parenthesis to each option, and changing the option labels from A, B, C, etc., to P, Q, R, and so on. (ii) _ComplexPert_, apply all the question permutation as well as use LLM (llama-3-70b in this case) to change the questions also.
 
