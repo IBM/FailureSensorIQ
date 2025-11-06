@@ -111,13 +111,12 @@ nvidia-smi | grep 'python' | awk '{ print $5 }' | xargs -n1 kill -9
 ## 7. Citation
 If you use our dataset in your paper, please cite our dataset by
 ```
-@misc{constantinides2025failuresensoriqmultichoiceqadataset,
-      title={FailureSensorIQ: A Multi-Choice QA Dataset for Understanding Sensor Relationships and Failure Modes}, 
-      author={Christodoulos Constantinides and Dhaval Patel and Shuxin Lin and Claudio Guerrero and Sunil Dagajirao Patil and Jayant Kalagnanam},
-      year={2025},
-      eprint={2506.03278},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2506.03278}, 
+@inproceedings{
+constantinides2025failuresensoriq,
+title={FailureSensor{IQ}: A Multi-Choice {QA} Dataset for Understanding Sensor Relationships and Failure Modes},
+author={Christodoulos Constantinides and Dhaval C Patel and Shuxin Lin and Claudio Guerrero and SUNIL DAGAJIRAO PATIL and Jayant Kalagnanam},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+year={2025},
+url={https://openreview.net/forum?id=9KfkMAy2ut}
 }
 ```
