@@ -17,7 +17,6 @@
 
 ![EMNLP 2025](https://img.shields.io/badge/EMNLP--2025-Accepted-blueviolet)
 ![NeurIPS 2025](https://img.shields.io/badge/NeurIPS--2025-Accepted-blueviolet)
-![AAAI 2026 Demo](https://img.shields.io/badge/AAAI--2026-Demo--Accepted-9370DB)
 ![IBM Research](https://img.shields.io/badge/Org-IBM--Research-black)
 
 📰 [Paper](https://arxiv.org/abs/2506.03278), 🤗 [Leaderboard](https://huggingface.co/spaces/cc4718/FailureSensorIQ)
