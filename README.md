@@ -24,10 +24,10 @@
   Comparative results of 27 frontier and open-source LLMs evaluated on FailureSensorIQ, hosted on [HuggingFace](https://huggingface.co/spaces/cc4718/FailureSensorIQ).
 
 - **Extended Research I – Knowledge Distillation & Fine-Tuning**  
-  Distilling reasoning capabilities from LLMs into smaller SLMs and assessing performance on FailureSensorIQ. [[Code](https://github.com/IBM/FailureSensorIQ/tree/main/fine_tune)] [[Paper](https://arxiv.org/abs/2510.18817)] 
+  Distilling reasoning capabilities from LLMs into smaller SLMs and assessing performance on FailureSensorIQ. [[Code](https://github.com/IBM/FailureSensorIQ/tree/main/fine_tune)] [[Paper](https://arxiv.org/abs/2510.18817)] [[Poster](https://github.com/IBM/FailureSensorIQ/blob/main/resources/Fine-Tuned-Thoughts-poster.pdf)]
 
 - **Extended Research II – Embedding Models**  
-  Developing generalized embeddings for Industry 4.0 applications and benchmarking on FailureSensorIQ. [[Code](https://github.com/IBM/FailureSensorIQ/tree/main/LLM-Embeddings)] [[Paper](https://arxiv.org/abs/2506.12607)] 
+  Developing generalized embeddings for Industry 4.0 applications and benchmarking on FailureSensorIQ. [[Code](https://github.com/IBM/FailureSensorIQ/tree/main/LLM-Embeddings)] [[Paper](https://arxiv.org/abs/2506.12607)] [[Poster](https://github.com/IBM/FailureSensorIQ/blob/50c46106a50a83642ac1da453e5086afad15a214/resources/Embeddings-poster.pdf)]
 
 ## 🆕 What's New?
 - [9/25/2025] Embedding paper has been accepted in EMNLP 2025 Industry Track!
