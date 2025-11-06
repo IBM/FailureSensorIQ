@@ -10,7 +10,7 @@
 ![NeurIPS 2025](https://img.shields.io/badge/NeurIPS--2025-Accepted-blueviolet)
 ![IBM Research](https://img.shields.io/badge/Org-IBM--Research-black)
 
-📰 [Paper](https://arxiv.org/abs/2506.03278), 🤗 [Leaderboard](https://huggingface.co/spaces/cc4718/FailureSensorIQ)
+📰 [Paper](https://arxiv.org/abs/2506.03278), 🤗 [Dataset](https://huggingface.co/datasets/ibm-research/FailureSensorIQ), 🪧[Poster](https://neurips.cc/media/PosterPDFs/NeurIPS%202025/121805.png?t=1762411263.6030943), 📹 [Video](https://recorder-v3.slideslive.com/#/share?share=104505&s=d208150a-78d8-4139-94e4-f8b4c88d2456)
 
 </div>
 
