@@ -4,15 +4,21 @@
 
 ![Question Answering](https://img.shields.io/badge/Task-Question_Answering-red) 
 ![MCQA](https://img.shields.io/badge/Task-Multi--Choice--QA-red) 
-![Industrial](https://img.shields.io/badge/Domain-Industrial--Assets-red) 
+![Industrial](https://img.shields.io/badge/Domain-Industrial--Assets-red)
+
 ![OpenAI](https://img.shields.io/badge/Model-OpenAI-21C2A4)
 ![Llama](https://img.shields.io/badge/Model-Llama-21C2A4)
 ![Gemma](https://img.shields.io/badge/Model-Gemma-21C2A4)
 ![Phi](https://img.shields.io/badge/Model-Phi-21C2A4)
-![Mistral](https://img.shields.io/badge/Model-Mistral-21C2A4) 
+![Mistral](https://img.shields.io/badge/Model-Mistral-21C2A4)
 ![Granite](https://img.shields.io/badge/Model-Granite-21C2A4)
 ![Qwen](https://img.shields.io/badge/Model-Qwen-21C2A4)
 ![DeepSeek](https://img.shields.io/badge/Model-DeepSeek-21C2A4)
+
+![EMNLP 2025](https://img.shields.io/badge/EMNLP--2025-Accepted-blueviolet)
+![NeurIPS 2025](https://img.shields.io/badge/NeurIPS--2025-Accepted-blueviolet)
+![AAAI 2026 Demo](https://img.shields.io/badge/AAAI--2026-Demo--Accepted-9370DB)
+![IBM Research](https://img.shields.io/badge/Org-IBM--Research-black)
 
 📰 [Paper](https://arxiv.org/abs/2506.03278), 🤗 [Leaderboard](https://huggingface.co/spaces/cc4718/FailureSensorIQ)
 
