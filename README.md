@@ -1,6 +1,6 @@
 <div align="center">
 
-# FailureSensorIQ: A Multi-Choice QA Dataset for Understanding Sensor Relationships and Failure Modes
+# Industrial AI Benchmark: MCQA Dataset and Specialized LLMs for Domain-Aware Reasoning
 
 ![Question Answering](https://img.shields.io/badge/Task-Question_Answering-red) 
 ![MCQA](https://img.shields.io/badge/Task-Multi--Choice--QA-red) 
