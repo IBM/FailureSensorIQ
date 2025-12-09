@@ -10,7 +10,7 @@
 ![NeurIPS 2025](https://img.shields.io/badge/NeurIPS--2025-Accepted-blueviolet)
 ![IBM Research](https://img.shields.io/badge/Org-IBM--Research-black)
 
-📰 [Paper](https://arxiv.org/abs/2506.03278), 🤗 [Dataset](https://huggingface.co/datasets/ibm-research/FailureSensorIQ), 🪧[Poster](https://neurips.cc/media/PosterPDFs/NeurIPS%202025/121805.png?t=1762411263.6030943), 📹 [Video](https://recorder-v3.slideslive.com/#/share?share=104505&s=d208150a-78d8-4139-94e4-f8b4c88d2456)
+📰 [Paper](https://arxiv.org/abs/2506.03278), 🤗 [Dataset](https://huggingface.co/datasets/ibm-research/FailureSensorIQ), 🪧[Poster](https://neurips.cc/media/PosterPDFs/NeurIPS%202025/121805.png?t=1762411263.6030943), :trophy: [Leaderboard](https://www.kaggle.com/benchmarks/ibm-research/asset-ops-bench/) 📹 [Video](https://recorder-v3.slideslive.com/#/share?share=104505&s=d208150a-78d8-4139-94e4-f8b4c88d2456)
 
 </div>
 
@@ -21,7 +21,7 @@
   A curated dataset of 8,296 multiple-choice QA on sensor-failure reasoning, hosted on [HuggingFace](https://huggingface.co/datasets/ibm-research/FailureSensorIQ).
 
 - **Leaderboard**  
-  Comparative results of 27 frontier and open-source LLMs evaluated on FailureSensorIQ, hosted on [HuggingFace](https://huggingface.co/spaces/cc4718/FailureSensorIQ).
+  Comparative results of 27 frontier and open-source LLMs evaluated on FailureSensorIQ, hosted on [Kaggle](https://www.kaggle.com/benchmarks/ibm-research/asset-ops-bench/).
 
 - **Extended Research I – Knowledge Distillation & Fine-Tuning**  
   Distilling reasoning capabilities from LLMs into smaller SLMs and assessing performance on FailureSensorIQ. [[Code](https://github.com/IBM/FailureSensorIQ/tree/main/fine_tune)] [[Paper](https://arxiv.org/abs/2510.18817)] [[Poster](https://github.com/IBM/FailureSensorIQ/blob/main/resources/Fine-Tuned-Thoughts-poster.pdf)]
