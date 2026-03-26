@@ -14,7 +14,7 @@ fsspec==2025.5.1
 huggingface-hub==0.33.4
 idna==3.10
 Jinja2==3.1.6
-MarkupSafe==3.0.2
+MarkupSafe==3.0.3
 multidict==6.6.3
 multiprocess==0.70.18
 numpy==1.26.4
