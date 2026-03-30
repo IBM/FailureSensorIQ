@@ -8,7 +8,7 @@ charset-normalizer==3.4.2
 datasets==4.0.0
 dill==0.4.0
 einops==0.7.0
-filelock==3.18.0
+filelock==3.20.3
 frozenlist==1.7.0
 fsspec==2025.5.1
 huggingface-hub==0.33.4
