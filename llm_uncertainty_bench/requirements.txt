@@ -23,7 +23,7 @@ pandas==2.3.1
 Pillow==10.4.0
 protobuf==4.25.8
 psutil==5.9.8
-pyarrow==20.0.0
+pyarrow==23.0.1
 pyarrow-hotfix==0.7
 python-dateutil==2.9.0.post0
 pytz==2025.2
