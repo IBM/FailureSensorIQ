@@ -11,5 +11,5 @@ dotenv==0.9.9
 transformers==4.52.1
 sentence-transformers==5.0.0
 spacy==3.8.7
-Levenshtein==0.27.1
+Levenshtein==0.27.4
 
