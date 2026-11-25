@@ -31,7 +31,7 @@ PyYAML==6.0.2
 regex==2024.11.6
 requests==2.32.4
 safetensors==0.5.3
-sentencepiece==0.2.0
+sentencepiece==0.2.1
 six==1.17.0
 tiktoken==0.9.0
 tokenizers==0.21.2
